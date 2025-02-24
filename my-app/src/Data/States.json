@@ -1,0 +1,47 @@
+[
+    {
+        "_id": "670c206abe9c90d099f6f9e5",
+        "BjsStateName": "Maharashtra",
+        "mapImg": "https://bjscommunity.s3.ap-south-1.amazonaws.com/production/network/maharashtra.jpg"
+    },
+    {
+        "_id": "670c206abe9c90d099f6f9d9",
+        "BjsStateName": "Delhi",
+        "mapImg": "https://bjscommunity.s3.ap-south-1.amazonaws.com/production/network/Delhi.jpg"
+    },
+    {
+        "_id": "670c206abe9c90d099f6f9db",
+        "BjsStateName": "Gujarat",
+        "mapImg": "https://bjscommunity.s3.ap-south-1.amazonaws.com/production/network/Gujrat.jpg"
+    },
+    {
+        "_id": "670c206abe9c90d099f6f9de",
+        "BjsStateName": "Jammu & Kashmir",
+        "mapImg": "https://bjscommunity.s3.ap-south-1.amazonaws.com/production/network/Jammu+%26+Kashmir.jpg"
+    },
+    {
+        "_id": "670c206abe9c90d099f6f9e0",
+        "BjsStateName": "Karnataka",
+        "mapImg": "https://bjscommunity.s3.ap-south-1.amazonaws.com/production/network/Karnataka.jpg"
+    },
+    {
+        "_id": "6710f645089f4ac1695e1888",
+        "BjsStateName": "Madhya Pradesh - East",
+        "mapImg": "https://bjscommunity.s3.ap-south-1.amazonaws.com/production/network/MP+East.jpg"
+    },
+    {
+        "_id": "670c206abe9c90d099f6f9e4",
+        "BjsStateName": "Madhya Pradesh - West",
+        "mapImg": "https://bjscommunity.s3.ap-south-1.amazonaws.com/production/network/MP+West.jpg"
+    },
+    {
+        "_id": "670c206abe9c90d099f6f9ed",
+        "BjsStateName": "Rajasthan",
+        "mapImg": "https://bjscommunity.s3.ap-south-1.amazonaws.com/production/network/Rajasthan.jpg"
+    },
+    {
+        "_id": "670c206abe9c90d099f6f9ef",
+        "BjsStateName": "Tamil Nadu",
+        "mapImg": "https://bjscommunity.s3.ap-south-1.amazonaws.com/production/network/Tamil+Nadu.jpg"
+    }
+]

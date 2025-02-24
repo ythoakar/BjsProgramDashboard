@@ -6,11 +6,22 @@ import axios from "axios";
 import SEC_Div from "../../Components/DashBoard_Components/SEC_Div";
 import CommitteeCard from "../../CommonComponent/CommitteeCard/CommitteeCard";
 import { Button } from "@mui/material";
+import { Image } from "antd";
 import StatsCard from "../../CommonComponent/StatsCard/StatsCard";
+import states from "../../Data/States.json"
+
+import India from "../../../src/imgs/INDIA.jpg"
 
 const Dashboard = () => {
   const { selectedOption } = useDropdown(); // Get selected option
   const [allUserData, setAllUserData] = useState([]);
+  const [selectedStat, setSelectedStat] = useState("");
+  const [mapImgUrl, setMapImgUrl] = useState(India);
+
+  useEffect(() => {
+    const stateData = states.find(state => state.BjsStateName === selectedStat);
+    setMapImgUrl(stateData ? stateData.mapImg : India);
+  }, [selectedStat]);
 
   async function getAllData() {
     try {
@@ -30,6 +41,7 @@ const Dashboard = () => {
 
   }, []);
   console.log("iddd ", selectedOption)
+  const selectedState = states.find(state => state.BjsStateName === allUserData);
 
   return (
     <div className="dashboard-container">
@@ -99,7 +111,10 @@ const Dashboard = () => {
       </div> */}
 
       <div className="col col-3">
-        <div className="col-3-child child-40">First div (40%)</div>
+        <div className="col-3-child child-40">
+          {allUserData && (<Image src={mapImgUrl}alt="Map Image" style={{maxHeight: "250px"}}/>)}
+          {/* <Image src={states[0].mapImg} alt="Map Image" style={{ maxHeight: "250px" }} /> */}
+        </div>
 
         <div className="col-3-child child-50">
           <h3>Water Team</h3>
