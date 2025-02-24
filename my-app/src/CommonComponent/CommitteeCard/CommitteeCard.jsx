@@ -1,4 +1,5 @@
 import React from "react"
+import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Button } from "@mui/material";
 
 
 
@@ -9,34 +10,39 @@ import React from "react"
 
 
 
-const CommitteeCard = ({ heading, number }) => {
+const CommitteeCard = ({ data, heading }) => {
     return (
-      <div style={{ 
-        display: 'flex', 
-        flexDirection: 'column', 
-        alignItems: 'center', 
-        justifyContent: 'center', 
-        backgroundColor: 'white', 
-        boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)', 
-        borderRadius: '8px', 
-        padding: '16px', 
-        width: '100%' 
-      }}>
-        <span style={{ fontSize: '36px', fontWeight: 'bold' }}>{number}</span>
-        <button style={{ 
-          marginTop: '8px', 
-          width: '100%', 
-          backgroundColor: '#FFC107', 
-          color: 'black', 
-          fontWeight: '600', 
-          padding: '10px', 
-          borderRadius: '4px', 
-          border: 'none', 
-          cursor: 'pointer',
-          boxShadow: '0 2px 4px rgba(0, 0, 0, 0.2)'
-        }}>
-          {heading}
-        </button>
+        <div style={{ height: "90%", width: "100%", display: "flex", flexDirection: "column", }}>
+        {/* Table */}
+  
+  
+        <TableContainer component={Paper} sx={{ maxHeight: "100%", maxWidth: "100%", display:"flex",flexDirection:"column" }}>
+  
+        
+          <Table stickyHeader size="small">
+            <TableHead>
+            {/* <TableRow sx={{ backgroundColor: "black" }}>
+                <TableCell sx={{ color: "white", backgroundColor: "black" }}><b>Name</b></TableCell>
+                <TableCell sx={{ color: "white", backgroundColor: "black" }}><b>Designation</b></TableCell>
+              </TableRow> */}
+  
+  
+          
+            </TableHead>
+            <TableBody>
+                      {data.slice(0, 2).map((user, index) => (
+                        <TableRow key={index}>
+                          <TableCell>{`${user.fName} ${user.mName || ""} ${
+                            user.lName
+                          }`}</TableCell>
+                          <TableCell>{user.postion}</TableCell>
+                        </TableRow>
+                      ))}
+                    </TableBody>
+          </Table>
+        </TableContainer>
+  
+       
       </div>
     );
   };
