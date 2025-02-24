@@ -4,89 +4,52 @@ import "./Navbar.css";
 import { useDropdown } from "../../Service/DropdownProvider";
 import axios from "axios";
 
-const optionsList = ["Option 1", "Option 2", "Option 3", "Option 4"];
-
-
-
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
-  const [hierarchy, setHierarchy] = useState("");
-  const [selectedHierarchy, setSelectedHierarchy] = useState("");
-  const [states, setStates] = useState([])
-
+  const [states, setStates] = useState([]); // State to store fetched states
 
   const { selectedOption, setSelectedOption } = useDropdown(); // Using Context
 
-  // Check if all options are selected
-  const isAllSelected = selectedOption.length === optionsList.length;
-
-  // Handle individual checkbox change
-  const handleCheckboxChange = (option) => {
-    if (selectedOption.includes(option)) {
-      setSelectedOption(selectedOption.filter((item) => item !== option));
-    } else {
-      setSelectedOption([...selectedOption, option]);
+  // Fetch states from API
+  async function getStates() {
+    try {
+      let response = await axios.get(`${process.env.REACT_APP_BASE_URL}/misOfficeBearerStateList`);
+      console.log("States Data:", response.data);
+      setStates(response.data);
+    } catch (err) {
+      console.log("Error fetching states:", err);
     }
-  };
-
-  // Handle "Select All"
-  const handleSelectAll = () => {
-    if (isAllSelected) {
-      setSelectedOption([]); // Deselect all
-    } else {
-      setSelectedOption([...optionsList]); // Select all
-    }
-  };
-
-
-
-async function getStates(){
-  try{
-let response = await axios.get(`http://13.234.76.201:8080/api/states`);
-console.log("states ", response.data)
-setStates(response.data)
   }
-  catch(err){
-console.log("Error occured while fetching the states ", err)
-  }
-}
 
-useEffect(()=> {
-  getStates()
-}, [])
+  useEffect(() => {
+    getStates();
+  }, []);
+
+  // Handle dropdown selection
+  const handleStateSelection = (state) => {
+    console.log(" state state", state )
+    setSelectedOption(state); // Save selected object in Context
+    setDropdownOpen(false); // Close dropdown after selection
+  };
 
   return (
     <nav className="navbar">
       <div className="logo"></div>
       <div className="menu-icon" onClick={() => setIsOpen(!isOpen)}>☰</div>
       <ul className={isOpen ? "nav-links open" : "nav-links"}>
-       
-
-        {/* Multi-Select Dropdown */}
+        
+        {/* Dropdown for States */}
         <li className="dropdown">
           <div className="dropdown-label" onClick={() => setDropdownOpen(!dropdownOpen)}>
-            Select Options ▼
+            {selectedOption?.BjsStateName || "Select State"} ▼
           </div>
           {dropdownOpen && (
             <div className="dropdown-menu">
-              <label>
-                <input
-                  type="checkbox"
-                  checked={isAllSelected}
-                  onChange={handleSelectAll}
-                />
-                Select All
-              </label>
-              {optionsList.map((option) => (
-                <label key={option}>
-                  <input
-                    type="checkbox"
-                    checked={selectedOption.includes(option)}
-                    onChange={() => handleCheckboxChange(option)}
-                  />
-                  {option}
-                </label>
+              {states.map((state) => (
+                <div key={state._id} onClick={() => handleStateSelection(state)} className="dropdown-item">
+                  {state.BjsStateName}
+                </div>
               ))}
             </div>
           )}
