@@ -110,8 +110,8 @@ const Dashboard = () => {
         </div>
       </div> */}
 
-      <div className="col col-3">
-        <div className="col-3-child child-40">
+<div className="col col-3">
+    <div className="col-3-child child-40">
           {allUserData && (<Image src={mapImgUrl}alt="Map Image" style={{maxHeight: "250px"}}/>)}
           {/* <Image src={states[0].mapImg} alt="Map Image" style={{ maxHeight: "250px" }} /> */}
         </div>
