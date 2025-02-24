@@ -8,7 +8,7 @@ import CommitteeCard from "../../CommonComponent/CommitteeCard/CommitteeCard";
 import { Button } from "@mui/material";
 import { Image } from "antd";
 import StatsCard from "../../CommonComponent/StatsCard/StatsCard";
-import states from "../../Data/States.json"
+import states from "../../../src/Data/States.json"
 
 import India from "../../../src/imgs/INDIA.jpg"
 
