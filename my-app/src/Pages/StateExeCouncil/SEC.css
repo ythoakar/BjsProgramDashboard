@@ -1,0 +1,33 @@
+.cardsContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+
+@media (max-width: 350px) {
+    .cardsContainer {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .cardsContainer {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1024) {
+    .cardsContainer{
+        margin:8px; 
+        flex-direction: row;
+    }
+    /* .ant-table .ant-table-cell{
+        padding: 10px !important;
+    } */
+}
+
+
+
