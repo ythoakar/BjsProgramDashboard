@@ -1,0 +1,104 @@
+/* Container holding the three main divs */
+.dashboard-container {
+    display: flex;
+    gap: 10px;         /* Horizontal gap between the 3 columns */
+    height: 100vh;
+    width: 100%;
+    padding: 10px;     /* Optional: adds some spacing around the container */
+    box-sizing: border-box;
+  }
+  
+  /* Each column is a flex container in column direction */
+  .col {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;         /* Vertical gap between inner divs */
+    border: 1px solid #ccc; /* Optional: visual border for each column */
+  }
+  
+  /* Widths for the 3 columns */
+  .col-1 {
+    width: 25%;
+  }
+  
+  .col-2 {
+    width: 40%;
+  }
+  
+  .col-3 {
+    width: 35%;
+
+  }
+  
+  /* Height classes for inner divs */
+  /* For the first column */
+  .child-50 { 
+    height: 50%;
+  display: flex;
+  flex-direction: column;
+  }
+  .child-25 { height: 25%; }
+  
+  /* For the second column */
+  .child-20 { height: 20%; }
+  .child-30 {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center heading */
+    justify-content: flex-start; /* Keep heading at the top */
+}
+
+.child-30 h3 {
+    margin: 0; /* Remove extra margin */
+    font-size: 1.2vw; /* Responsive font size */
+    text-align: center;
+}
+
+  
+  /* For the third column */
+  .child-40 { height: 40%; }
+  .child-30 { height: 30%;
+
+  }
+  
+  /* Optional: styling for inner divs */
+  .col-1-child, .col-2-child, .col-3-child {
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+  }
+
+
+/* 
+  @media (max-width: 768px) {
+    .dashboard-container {
+      flex-direction: column;
+    }
+
+    .col {
+      width: 100%;
+      height: 100%;
+      background-color: aqua; 
+    }
+
+
+    .child-50 { height: 50%; }
+    .child-25 { height: 25%; }
+    
+    .child-20 { height: 20%; }
+    .child-30 { height: 30%; }
+    
+    .child-40 { height: 40%; }
+    .child-30 { height: 30%; }
+
+  }
+   */
+
+/* .col-3-child {
+  border: 1px solid black;
+} */
+   
