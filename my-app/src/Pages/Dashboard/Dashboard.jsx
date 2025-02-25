@@ -10,7 +10,7 @@ import { Image } from "antd";
 import StatsCard from "../../CommonComponent/StatsCard/StatsCard";
 import states from "../../../src/Data/States.json";
 
-import India from "../../../src/imgs/INDIA.jpg";
+import India from "../../imgs/INDIA.jpg";
 import JsonData from "../../../src/Data/volunteerMTestDb.dashboardData.json";
 import { BarChart } from "@mui/x-charts/BarChart";
 import BarChartComponent from "../../CommonComponent/BarChartComponent/BarChartComponent";
@@ -51,7 +51,7 @@ const Dashboard = () => {
       (state) => state.BjsStateName === selectedOption.BjsStateName
     );
 
-    if (selectedOption.BjsStateName === "India") {
+    if (selectedOption.BjsStateName == "India") {
       setMapImgUrl(India);
     } else if (stateData) {
       setMapImgUrl(stateData.mapImg);
@@ -80,18 +80,6 @@ const Dashboard = () => {
     getAllStates();
   }, []);
 
-  useEffect(() => {
-    if (selectedOption) {
-      const stateData = allStates.find(
-        (s) => s.BjsStateName === selectedOption
-      );
-      console.log("allStates", allStates);
-      console.log("stateData", stateData);
-      console.log("selectedOption", selectedOption);
-      setMapImgUrl(selectedOption.length === 0 ? India : selectedOption.mapImg);
-    }
-  }, [selectedOption, allStates]);
-
   async function getAllData() {
     try {
       let response = await axios.get(
@@ -106,8 +94,28 @@ const Dashboard = () => {
   }
 
   useEffect(() => {
-    getAllData();
-  }, []);
+
+    //  Combined logic for map image update
+    if (selectedOption) {
+      console.log("selectedOption.BjsStateName11 ", selectedOption.BjsStateName)
+
+
+      if (selectedOption.BjsStateName == "India") {
+        console.log("dsa ", India)
+        setMapImgUrl(India);
+      } else {
+        const stateData = states.find(
+          (state) => state.BjsStateName === selectedOption.BjsStateName
+        );
+        if (stateData) {
+          console.log("dsa ", stateData.mapImg)
+
+          setMapImgUrl(stateData.mapImg);
+        }
+      }
+    }
+  }, [selectedOption]);
+
   console.log("iddd ", selectedOption);
   const selectedState = states.find(
     (state) => state.BjsStateName === allUserData
