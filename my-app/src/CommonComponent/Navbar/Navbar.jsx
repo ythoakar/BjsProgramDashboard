@@ -64,7 +64,7 @@ function filterStates(){
       <ul className="nav-links">
         <li>
         <FormControl fullWidth>
-            <InputLabel id="demo-simple-select-label">Select State</InputLabel>
+            {/* <InputLabel id="demo-simple-select-label">Select State</InputLabel> */}
             <Select
               labelId="demo-simple-select-label"
               value={selectedOption?._id || ""}
