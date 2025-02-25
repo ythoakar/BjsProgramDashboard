@@ -8,8 +8,19 @@ import {
   Paper,
   Button,
 } from "@mui/material";
+import { useNavigate } from "react-router-dom";
 
-const SEC_Div = ({ data, heading }) => {
+const SEC_Div = ({ data, heading, navigateTo }) => {
+const navigate = useNavigate()
+
+
+function navigatePage(){
+if(heading == "State Executive Committee"){
+  navigate("/SEC")
+}
+}
+
+
   return (
     <div
       style={{
@@ -21,6 +32,7 @@ const SEC_Div = ({ data, heading }) => {
     >
       <Button
         variant="contained"
+        onClick={navigatePage}
         sx={{
           backgroundColor: "#FFC107",
           color: "black",

@@ -16,18 +16,19 @@ import { BarChart } from '@mui/x-charts/BarChart';
 import BarChartComponent from "../../CommonComponent/BarChartComponent/BarChartComponent";
 
 const Dashboard = () => {
+
   const { selectedOption } = useDropdown(); // Get selected option
   const [allUserData, setAllUserData] = useState([]);
   const [selectedStat, setSelectedStat] = useState("");
   const [mapImgUrl, setMapImgUrl] = useState(India);
-
+  const [chapterStatus, setChapterStatus] = useState({
+    Total:0, Active:0, inActive: 0
+  })
   useEffect(() => {
     const stateData = states.find(state => state.BjsStateName === selectedStat);
     setMapImgUrl(stateData ? stateData.mapImg : India);
   }, [selectedStat]);
-  const [chapterStatus, setChapterStatus] = useState({
-    Active:0, inActive: 0
-  })
+ 
 
   async function getAllData() {
     try {
@@ -45,28 +46,49 @@ const Dashboard = () => {
   useEffect(() => {
     getAllData();
 
-    countStatus();
+   
 
   }, []);
   console.log("iddd ", selectedOption)
   const selectedState = states.find(state => state.BjsStateName === allUserData);
 
 
-
+useEffect(()=> {
+  countStatus();
+},[selectedOption])
   
   function countStatus() {
-    let aspirationalChapters = { Active: 0, inActive: 0 };
+    let aspirationalChapters = {Total:0, Active: 0, inActive: 0 };
   
-    JsonData.forEach(item => {
-      if (item.activeInactiveStatus === "Active") {
-        aspirationalChapters.Active++;
-      } else if (item.activeInactiveStatus === "Inactive") {
-        aspirationalChapters.inActive++;
-      }
-    });
-  console.log("checkStatus  ", aspirationalChapters )
+    if (selectedOption?.BjsStateName === "India") {
+      // Count all active/inactive statuses in the entire dataset
+      
+      aspirationalChapters.Total=JsonData.length;
+      JsonData.forEach(item => {
+        if (item.activeInactiveStatus === "Active") {
+          aspirationalChapters.Active++;
+        } else if (item.activeInactiveStatus === "Inactive") {
+          aspirationalChapters.inActive++;
+        }
+      });
+    } else if (selectedOption?.BjsStateName) {
+      // Count active/inactive statuses for the selected state
+      JsonData.forEach(item => {
+        if (item.bjsState === selectedOption.BjsStateName) {
+          aspirationalChapters.Total++;
+          if (item.activeInactiveStatus === "Active") {
+            aspirationalChapters.Active++;
+          } else if (item.activeInactiveStatus === "Inactive") {
+            aspirationalChapters.inActive++;
+          }
+        }
+      });
+    }
+  
+    console.log("checkStatus", aspirationalChapters);
     setChapterStatus(aspirationalChapters); // Update state with the count
   }
+  
   
 
 
@@ -119,7 +141,7 @@ const Dashboard = () => {
       {/* Second column: 40% width */}
       <div className="col col-2">
         <div className="col-2-child child-20">
-          <StatsCard heading="Total Chapters" number={JsonData.length} />
+          <StatsCard heading="Total Chapters" number={chapterStatus.Total} />
           <StatsCard heading="Vibrant Chapters" number={chapterStatus.Active} />
           <StatsCard heading="Aspiratinal Chapters" number={chapterStatus.inActive} />
         </div>
