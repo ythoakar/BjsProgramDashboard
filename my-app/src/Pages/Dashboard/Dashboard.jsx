@@ -20,14 +20,47 @@ const Dashboard = () => {
   const [allUserData, setAllUserData] = useState([]);
   const [selectedStat, setSelectedStat] = useState("");
   const [mapImgUrl, setMapImgUrl] = useState(India);
+  const [allStates, setAllStates] = useState([]);
+  const [chapterStatus, setChapterStatus] = useState({
+    Active: 0, inActive: 0
+  })
+
+
+
+  // useEffect(() => {
+  //   const stateData = states.find(state => state.BjsStateName === selectedStat);
+  //   setMapImgUrl(stateData ? stateData.mapImg : India);
+  // }, [selectedStat]);
+
+
+
+  const getAllStates = async () => {
+    try {
+      const res = await axios.get(
+        `${process.env.REACT_APP_BASE_URL}/misOfficeBearerStateList`
+      );
+      setAllStates(res.data);
+    } catch (err) {
+      console.error("ERROR", err);
+    }
+  };
 
   useEffect(() => {
-    const stateData = states.find(state => state.BjsStateName === selectedStat);
-    setMapImgUrl(stateData ? stateData.mapImg : India);
-  }, [selectedStat]);
-  const [chapterStatus, setChapterStatus] = useState({
-    Active:0, inActive: 0
-  })
+    getAllStates();
+  }, []);
+
+  useEffect(() => {
+    if (selectedOption) {
+      const stateData = allStates.find(
+        (s) => s.BjsStateName === selectedOption
+      );
+      console.log("allStates", allStates);
+      console.log("stateData", stateData);
+      console.log("selectedOption", selectedOption);
+      setMapImgUrl(selectedOption.length === 0 ? India : selectedOption.mapImg);
+    }
+  }, [selectedOption, allStates]);
+
 
   async function getAllData() {
     try {
@@ -53,10 +86,10 @@ const Dashboard = () => {
 
 
 
-  
+
   function countStatus() {
     let aspirationalChapters = { Active: 0, inActive: 0 };
-  
+
     JsonData.forEach(item => {
       if (item.activeInactiveStatus === "Active") {
         aspirationalChapters.Active++;
@@ -64,10 +97,10 @@ const Dashboard = () => {
         aspirationalChapters.inActive++;
       }
     });
-  console.log("checkStatus  ", aspirationalChapters )
+    console.log("checkStatus  ", aspirationalChapters)
     setChapterStatus(aspirationalChapters); // Update state with the count
   }
-  
+
 
 
 
@@ -77,7 +110,7 @@ const Dashboard = () => {
     { data: [1, 6, 3], label: "Dataset 2" },
     { data: [2, 5, 6], label: "Dataset 3" }
   ];
-  
+
 
 
   return (
@@ -92,7 +125,7 @@ const Dashboard = () => {
             />
           )}
         </div>
-       
+
 
         <div className="col-1-child child-50">
           {allUserData && (
@@ -124,31 +157,31 @@ const Dashboard = () => {
           <StatsCard heading="Aspiratinal Chapters" number={chapterStatus.inActive} />
         </div>
         <div className="col-2-child child-30">
-        <BarChartComponent xAxisData={xAxisData} seriesData={seriesData} />
+          <BarChartComponent xAxisData={xAxisData} seriesData={seriesData} />
 
 
 
         </div>
         <div className="col-2-child child-30">
 
-        <BarChartComponent xAxisData={xAxisData} seriesData={seriesData} />
+          <BarChartComponent xAxisData={xAxisData} seriesData={seriesData} />
 
 
         </div>
         <div className="col-2-child child-10">Instructions</div>
       </div>
 
-   
 
-{/* <div className="col col-3">
+
+      {/* <div className="col col-3">
     <div className="col-3-child child-40">
           {allUserData && (<Image src={mapImgUrl}alt="Map Image" style={{maxHeight: "250px"}}/>)}
         </div>
       </div>  */}
 
-<div className="col col-3">
-    <div className="col-3-child child-40">
-          {allUserData && (<Image src={mapImgUrl}alt="Map Image" style={{maxHeight: "250px"}}/>)}
+      <div className="col col-3">
+        <div className="col-3-child child-40">
+          {allUserData && (<Image src={mapImgUrl} alt="Map Image" style={{ maxHeight: "250px" }} />)}
           {/* <Image src={states[0].mapImg} alt="Map Image" style={{ maxHeight: "250px" }} /> */}
         </div>
 
