@@ -41,8 +41,8 @@ if(heading == "State Executive Committee"){
           textTransform: "none",
           alignSelf: "center",
           padding: "4px 16px",
-          minHeight: "20px",
-          fontSize: "10px",
+          minHeight: "18px",
+          fontSize: "14px",
         }}
       >
         {heading}

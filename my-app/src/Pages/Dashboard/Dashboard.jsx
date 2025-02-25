@@ -28,20 +28,20 @@ const Dashboard = () => {
     cancerCrusedersCount: 0,
   });
 
-  // const xAxisData =["youWaahDay", "cancerCruseders"];
-  // const seriesData = [
-  //   { data: [chapterStatus.youWaahDayCount, chapterStatus.cancerCrusedersCount], label: selectedOption.BjsStateName },
-  // ];
-
-
-
-
-  const xAxisData = ["group A", "group B", "group C"];
+  const xAxisData =["youWaahDay", "cancerCruseders"];
   const seriesData = [
-    { data: [4, 3, 5], label: "Dataset 1" },
-    { data: [1, 6, 3], label: "Dataset 2" },
-    { data: [2, 5, 6], label: "Dataset 3" }
+    { data: [chapterStatus.youWaahDayCount, chapterStatus.cancerCrusedersCount]},
   ];
+
+
+
+
+  // const xAxisData = ["group A", "group B", "group C"];
+  // const seriesData = [
+  //   { data: [4, 3, 5], label: "Dataset 1" },
+  //   { data: [1, 6, 3], label: "Dataset 2" },
+  //   { data: [2, 5, 6], label: "Dataset 3" }
+  // ];
 
 
 
