@@ -18,7 +18,6 @@ import BarChartComponent from "../../CommonComponent/BarChartComponent/BarChartC
 const Dashboard = () => {
   const { selectedOption } = useDropdown(); // Get selected option
   const [allUserData, setAllUserData] = useState([]);
-  const [selectedStat, setSelectedStat] = useState("");
   const [mapImgUrl, setMapImgUrl] = useState(India);
   const [chapterStatus, setChapterStatus] = useState({
     Total: 0,
@@ -28,11 +27,12 @@ const Dashboard = () => {
     cancerCrusedersCount: 0,
   });
 
-  const xAxisData =["youWaahDay", "cancerCruseders"];
+  const xAxisData =["YouWaahDay", "Cancer Cruseders"];
   const seriesData = [
-    { data: [chapterStatus.youWaahDayCount, chapterStatus.cancerCrusedersCount]},
+    { 
+      data: [chapterStatus.youWaahDayCount, chapterStatus.cancerCrusedersCount], 
+    }
   ];
-
 
 
 
