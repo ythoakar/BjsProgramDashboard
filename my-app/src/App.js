@@ -4,12 +4,14 @@ import Dashboard from './Pages/Dashboard/Dashboard';
 import Navbar from './CommonComponent/Navbar/Navbar';
 import Layout from './Layout/Layout';
 import { DropdownProvider } from './Service/DropdownProvider';
+import SEC from './Pages/StateExeCouncil/SEC';
 function App() {
 
 
 
   const routes = [
-    { path: "/", element: <Dashboard /> },  
+    { path: "/", element: <Dashboard /> }, 
+    { path: "SEC", element: <SEC/> }
   ];
 
   return (
