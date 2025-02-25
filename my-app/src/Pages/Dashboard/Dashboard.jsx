@@ -7,10 +7,16 @@ import SEC_Div from "../../Components/DashBoard_Components/SEC_Div";
 import CommitteeCard from "../../CommonComponent/CommitteeCard/CommitteeCard";
 import { Button } from "@mui/material";
 import StatsCard from "../../CommonComponent/StatsCard/StatsCard";
+import JsonData from "../../../src/Data/volunteerMTestDb.dashboardData.json";
+import { BarChart } from '@mui/x-charts/BarChart';
+import BarChartComponent from "../../CommonComponent/BarChartComponent/BarChartComponent";
 
 const Dashboard = () => {
   const { selectedOption } = useDropdown(); // Get selected option
   const [allUserData, setAllUserData] = useState([]);
+  const [chapterStatus, setChapterStatus] = useState({
+    Active:0, inActive: 0
+  })
 
   async function getAllData() {
     try {
@@ -28,8 +34,39 @@ const Dashboard = () => {
   useEffect(() => {
     getAllData();
 
+    countStatus();
+
   }, []);
   console.log("iddd ", selectedOption)
+
+
+
+  
+  function countStatus() {
+    let aspirationalChapters = { Active: 0, inActive: 0 };
+  
+    JsonData.forEach(item => {
+      if (item.activeInactiveStatus === "Active") {
+        aspirationalChapters.Active++;
+      } else if (item.activeInactiveStatus === "Inactive") {
+        aspirationalChapters.inActive++;
+      }
+    });
+  console.log("checkStatus  ", aspirationalChapters )
+    setChapterStatus(aspirationalChapters); // Update state with the count
+  }
+  
+
+
+
+  const xAxisData = ["group A", "group B", "group C"];
+  const seriesData = [
+    { data: [4, 3, 5], label: "Dataset 1" },
+    { data: [1, 6, 3], label: "Dataset 2" },
+    { data: [2, 5, 6], label: "Dataset 3" }
+  ];
+  
+
 
   return (
     <div className="dashboard-container">
@@ -43,12 +80,7 @@ const Dashboard = () => {
             />
           )}
         </div>
-        {/* <div className="col-1-child child-25">
-          <CommitteeCard heading="Regional Executive Committee" number={28} />
-        </div>
-        <div className="col-1-child child-25">
-          <CommitteeCard heading="District Executive Committee" number={23} />
-        </div> */}
+       
 
         <div className="col-1-child child-50">
           {allUserData && (
@@ -75,28 +107,26 @@ const Dashboard = () => {
       {/* Second column: 40% width */}
       <div className="col col-2">
         <div className="col-2-child child-20">
-          <StatsCard heading="Total Chapters" number={878} />
-          <StatsCard heading="Vibrant Chapters" number={221} />
-          <StatsCard heading="Aspiratinal Chapters" number={878} />
+          <StatsCard heading="Total Chapters" number={JsonData.length} />
+          <StatsCard heading="Vibrant Chapters" number={chapterStatus.Active} />
+          <StatsCard heading="Aspiratinal Chapters" number={chapterStatus.inActive} />
         </div>
-        <div className="col-2-child child-30">Second div (30%)</div>
-        <div className="col-2-child child-30">Third div (30%)</div>
+        <div className="col-2-child child-30">
+        <BarChartComponent xAxisData={xAxisData} seriesData={seriesData} />
+
+
+
+        </div>
+        <div className="col-2-child child-30">
+
+        <BarChartComponent xAxisData={xAxisData} seriesData={seriesData} />
+
+
+        </div>
         <div className="col-2-child child-10">Instructions</div>
       </div>
 
-      {/* Third column: 35% width */}
-      {/* <div className="col col-3">
-        <div className="col-3-child child-40">First div (40%)</div>
-        <div className="col-3-child child-30">
-          <h3>Water Team</h3>  
-          {allUserData && <SEC_Div data={allUserData} />}
-        </div>
-        <div className="col-3-child child-30">
-          <h3>Mulyavardhan Team </h3>  
-
-          {allUserData && <SEC_Div data={allUserData} />}
-        </div>
-      </div> */}
+   
 
       <div className="col col-3">
         <div className="col-3-child child-40">First div (40%)</div>
