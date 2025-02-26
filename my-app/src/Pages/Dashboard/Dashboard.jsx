@@ -165,7 +165,7 @@ const Dashboard = () => {
       let stateWiseData = {};
 
       JsonData.forEach((item) => {
-        const state = item.bjsState;
+        const state = item.stateShortCode;
         if (!stateWiseData[state]) {
           stateWiseData[state] = {
             youWaahDayCount: 0,
