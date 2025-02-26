@@ -14,13 +14,16 @@ import India from "../../imgs/INDIA.jpg";
 import JsonData from "../../../src/Data/volunteerMTestDb.dashboardData.json";
 import { BarChart } from "@mui/x-charts/BarChart";
 import BarChartComponent from "../../CommonComponent/BarChartComponent/BarChartComponent";
+import FullscreenIcon from "@mui/icons-material/OpenInFull";
+import { Modal, IconButton } from "@mui/material";
+import CloseIcon from "@mui/icons-material/Close";
 
 const Dashboard = () => {
   const { selectedOption } = useDropdown(); // Get selected option
   const [allUserData, setAllUserData] = useState([]);
   const [mapImgUrl, setMapImgUrl] = useState(India);
   const [xAxisData, setXAxisData] = useState([]);
-const [seriesData, setSeriesData] = useState([]);
+  const [seriesData, setSeriesData] = useState([]);
   const [chapterStatus, setChapterStatus] = useState({
     Total: 0,
     Active: 0,
@@ -29,9 +32,7 @@ const [seriesData, setSeriesData] = useState([]);
     cancerCrusedersCount: 0,
   });
 
-
-
-
+  const [open, setOpen] = useState(false);
 
   // const xAxisData = ["group A", "group B", "group C"];
   // const seriesData = [
@@ -39,9 +40,6 @@ const [seriesData, setSeriesData] = useState([]);
   //   { data: [1, 6, 3], label: "Dataset 2" },
   //   { data: [2, 5, 6], label: "Dataset 3" }
   // ];
-
-
-
 
   useEffect(() => {
     const stateData = states.find(
@@ -74,7 +72,7 @@ const [seriesData, setSeriesData] = useState([]);
   };
 
   useEffect(() => {
-    getAllData()
+    getAllData();
     getAllStates();
   }, []);
 
@@ -92,27 +90,27 @@ const [seriesData, setSeriesData] = useState([]);
   }
 
   useEffect(() => {
-
     //  Combined logic for map image update
     if (selectedOption) {
-      console.log("selectedOption.BjsStateName11 ", selectedOption.BjsStateName)
-
+      console.log(
+        "selectedOption.BjsStateName11 ",
+        selectedOption.BjsStateName
+      );
 
       if (selectedOption.BjsStateName == "India") {
-        console.log("dsa ", India)
+        console.log("dsa ", India);
         setMapImgUrl(India);
       } else {
         const stateData = states.find(
           (state) => state.BjsStateName === selectedOption.BjsStateName
         );
         if (stateData) {
-          console.log("dsa ", stateData.mapImg)
+          console.log("dsa ", stateData.mapImg);
 
           setMapImgUrl(stateData.mapImg);
         }
       }
     }
-    
   }, [selectedOption]);
 
   console.log("iddd ", selectedOption);
@@ -122,7 +120,7 @@ const [seriesData, setSeriesData] = useState([]);
 
   useEffect(() => {
     countStatus();
-    barChartCount()
+    barChartCount();
   }, [selectedOption]);
 
   function countStatus() {
@@ -130,9 +128,7 @@ const [seriesData, setSeriesData] = useState([]);
       Total: 0,
       Active: 0,
       inActive: 0,
-    
     };
-   
 
     if (selectedOption?.BjsStateName === "India") {
       // Count all active/inactive statuses in the entire dataset
@@ -144,15 +140,12 @@ const [seriesData, setSeriesData] = useState([]);
         } else if (item.activeInactiveStatus === "Inactive") {
           aspirationalChapters.inActive++;
         }
-     
       });
     } else if (selectedOption?.BjsStateName) {
       // Count active/inactive statuses for the selected state
       JsonData.forEach((item) => {
         if (item.bjsState === selectedOption.BjsStateName) {
           aspirationalChapters.Total++;
-
-     
 
           if (item.activeInactiveStatus === "Active") {
             aspirationalChapters.Active++;
@@ -167,41 +160,45 @@ const [seriesData, setSeriesData] = useState([]);
     setChapterStatus(aspirationalChapters); // Update state with the count
   }
 
-
   function barChartCount() {
     if (selectedOption?.BjsStateName === "India") {
       let stateWiseData = {};
-  
+
       JsonData.forEach((item) => {
         const state = item.bjsState;
         if (!stateWiseData[state]) {
-          stateWiseData[state] = { youWaahDayCount: 0, cancerCrusedersCount: 0 };
+          stateWiseData[state] = {
+            youWaahDayCount: 0,
+            cancerCrusedersCount: 0,
+          };
         }
         if (item.youWaahDay === "Yes") stateWiseData[state].youWaahDayCount++;
-        if (item.cancerCruseders === "Yes") stateWiseData[state].cancerCrusedersCount++;
+        if (item.cancerCruseders === "Yes")
+          stateWiseData[state].cancerCrusedersCount++;
       });
-  
+
       setXAxisData(Object.keys(stateWiseData));
       setSeriesData([
-        { label: "YouWaahDay", data: Object.values(stateWiseData).map((d) => d.youWaahDayCount) },
-        { label: "Cancer Cruseders", data: Object.values(stateWiseData).map((d) => d.cancerCrusedersCount) },
+        { data: Object.values(stateWiseData).map((d) => d.youWaahDayCount) },
+        {
+          data: Object.values(stateWiseData).map((d) => d.cancerCrusedersCount),
+        },
       ]);
     } else if (selectedOption?.BjsStateName) {
-      let youWaahDayCount = 0, cancerCrusedersCount = 0;
-  
+      let youWaahDayCount = 0,
+        cancerCrusedersCount = 0;
+
       JsonData.forEach((item) => {
         if (item.bjsState === selectedOption.BjsStateName) {
           if (item.youWaahDay === "Yes") youWaahDayCount++;
           if (item.cancerCruseders === "Yes") cancerCrusedersCount++;
         }
       });
-  
+
       setXAxisData(["YouWaahDay", "Cancer Cruseders"]);
       setSeriesData([{ data: [youWaahDayCount, cancerCrusedersCount] }]);
     }
   }
-  
-  
 
   return (
     <div className="dashboard-container">
@@ -248,11 +245,56 @@ const [seriesData, setSeriesData] = useState([]);
             number={chapterStatus.inActive}
           />
         </div>
-        <div className="col-2-child child-30">
+        <div
+          className="col-2-child child-30"
+          style={{ overflowX: "auto", whiteSpace: "nowrap" }}
+        >
+          <IconButton
+            onClick={() => setOpen(true)}
+            style={{ marginLeft: "auto" }} // ✅ Pushes the button to the right
+          >
+            <FullscreenIcon fontSize="small" />
+          </IconButton>
+          <BarChartComponent xAxisData={xAxisData} seriesData={seriesData} />
+
+          <Modal open={open} onClose={() => setOpen(false)}>
+        <div
+          style={{
+            width: "90%",
+            height: "80vh",
+            background: "#fff",
+            margin: "5% auto",
+            padding: 20,
+            borderRadius: 8,
+            outline: "none",
+            boxShadow: "0 4px 10px rgba(0,0,0,0.3)",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            position: "relative", // Required for absolute close button
+          }}
+        >
+          {/* 🔴 Close Button at Top-Right */}
+          <IconButton
+            onClick={() => setOpen(false)}
+            style={{
+              position: "absolute",
+              top: 10,
+              right: 10,
+              color: "red",
+            }}
+          >
+            <CloseIcon fontSize="medium" />
+          </IconButton>
+
+          {/* Bar Chart Inside Modal */}
           <BarChartComponent xAxisData={xAxisData} seriesData={seriesData} />
         </div>
+      </Modal>
+        </div>
+
         <div className="col-2-child child-30">
-          <BarChartComponent xAxisData={xAxisData} seriesData={seriesData} />
+          {/* <BarChartComponent xAxisData={xAxisData} seriesData={seriesData} /> */}
         </div>
         <div className="col-2-child child-10">Instructions</div>
       </div>

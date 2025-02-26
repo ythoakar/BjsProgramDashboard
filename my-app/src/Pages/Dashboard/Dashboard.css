@@ -25,6 +25,7 @@
 .col-2 {
   /* width: 40%; */
   width: 41%;
+ /* Enable horizontal scroll */
 }
 
 .col-3 {
@@ -55,8 +56,7 @@
   flex-direction: column;
   align-items: center; /* Center heading */
   justify-content: flex-start; /* Keep heading at the top */
-  overflow-x: auto; /* Enable horizontal scroll */
-  width: 100%;
+ 
 }
 
 

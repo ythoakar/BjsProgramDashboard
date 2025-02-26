@@ -1,13 +1,35 @@
 import React from "react";
 import { BarChart } from "@mui/x-charts/BarChart";
 
-const BarChartComponent = ({ xAxisData, seriesData, width = "100%", height = "100%" }) => {
+const BarChartComponent = ({ xAxisData, seriesData }) => {
+  console.log("bar data ", xAxisData, seriesData);
+
   return (
     <BarChart
-      xAxis={[{ scaleType: "band", data: xAxisData }]}
+      xAxis={[
+        {
+          scaleType: "band",
+          data: xAxisData,
+          tickLabelStyle: {
+            fontSize: 10, // Increase X-axis label font size
+            fontWeight: "bold",
+            fill: "#333", // Optional: Adjust color
+          },
+        },
+      ]}
+      yAxis={[
+        {
+          max: 50,
+          min: 0,
+          tickLabelStyle: {
+            fontSize: 10, // Increase Y-axis label font size
+            fontWeight: "bold",
+            fill: "#333", // Optional: Adjust color
+          },
+        },
+      ]}
       series={seriesData}
-      sx={{ width, height }}
-      yAxis={[{ max: 50, min: 0 }]}
+    
     />
   );
 };
