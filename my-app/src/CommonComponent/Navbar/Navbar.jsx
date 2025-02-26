@@ -62,7 +62,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="back-button">
-      <Link to="/">
+        <Link to="/">
           <img src={logo} alt="Bjs Logo" style={{ maxWidth: 70 }} />
         </Link>
       </div>
