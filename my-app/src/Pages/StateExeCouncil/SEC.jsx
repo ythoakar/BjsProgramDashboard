@@ -16,6 +16,7 @@
 
 import React, { useState, useEffect } from 'react';
 import SECCard from '../../CommonComponent/Navbar/StateExeCommitteeCard';
+import { Spinner } from 'antd';
 import './SEC.css';
 
 function SEC() {
