@@ -10,12 +10,14 @@ const NECCard = ({ title, data, loading, error }) => {
     {
       title: 'Name',
       key: 'name',
-      render: (_, record) => `${record.fName || ''} ${record.mName || ''} ${record.lName || ''}`.trim(),
+      render: (_, record) => `${record.name || ''}`.trim(),
     },
     {
-      title: 'Occupation',
+      title: 'Position',
       dataIndex: 'occupation',
       key: 'occupation',
+      render: (_, record) => `${record.position || ''}`.trim(),
+
     },
   ];
 

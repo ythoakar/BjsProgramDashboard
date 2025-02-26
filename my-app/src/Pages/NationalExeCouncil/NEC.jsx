@@ -1,60 +1,113 @@
 
-import React, { useState, useEffect } from 'react';
-import NECCard from '../../CommonComponent/ExeCommitteeCard/NationalExeCommitteeCard';
-import { Spinner } from 'antd';
-import './NEC.css';
+// import React, { useState, useEffect } from 'react';
+// import NECCard from '../../CommonComponent/ExeCommitteeCard/NationalExeCommitteeCard';
+// import { Spinner } from 'antd';
+// import './NEC.css';
+// import NECCommitteeData from "../../Data/NECCommitteeData.json"
+
+// function NEC() {
+//   const [data, setData] = useState([]);
+//   const [loading, setLoading] = useState(false);
+//   const [error, setError] = useState(null);
+
+//   // useEffect(() => {
+//   //   const fetchData = async () => {
+//   //     try {
+//   //       setLoading(true);
+//   //       const response = await fetch(`${process.env.REACT_APP_BASE_URL}/misOfficeBearerUserList`);
+//   //       const data = await response.json();
+
+//   //       // Log the data to verify the response structure
+//   //       console.log(data);
+
+//   //       setData(data);  // Set the fetched data to state
+
+//   //       setLoading(false);
+//   //     } catch (error) {
+//   //       setError(error);
+//   //       console.error('Error fetching data:', error);
+//   //       setLoading(false);
+//   //     }
+//   //   };
+
+//   //   fetchData();
+//   // }, []);
+
+//   return (
+//     <div className="cardsContainer">
+//       <NECCard
+//         title="Governing Body"
+//         data={NECCommitteeData}
+//         loading={loading}
+//         error={error}
+//       />
+//       <NECCard
+//         title="Operations Committee"
+//         data={NECCommitteeData}
+//         loading={loading}
+//         error={error}
+//       />
+//       <NECCard
+//         title="National Program Heads"
+//         data={NECCommitteeData}
+//         loading={loading}
+//         error={error}
+//       />
+//       <NECCard
+//         title="Ex-Officio Members"
+//         data={NECCommitteeData}
+//         loading={loading}
+//         error={error}
+//       />
+//     </div>
+//   );
+// }
+
+// export default NEC;
+
+
+
+
+import React, { useState, useEffect } from "react";
+import NECCard from "../../CommonComponent/ExeCommitteeCard/NationalExeCommitteeCard";
+import { Spinner } from "antd";
+import "./NEC.css";
+import NECCommitteeData from "../../Data/NECCommitteeData.json";
 
 function NEC() {
-  const [data, setData] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        setLoading(true);
-        const response = await fetch(`${process.env.REACT_APP_BASE_URL}/misOfficeBearerUserList`);
-        const data = await response.json();
-
-        // Log the data to verify the response structure
-        console.log(data);
-
-        setData(data);  // Set the fetched data to state
-
-        setLoading(false);
-      } catch (error) {
-        setError(error);
-        console.error('Error fetching data:', error);
-        setLoading(false);
-      }
-    };
-
-    fetchData();
-  }, []);
+  // Function to filter data based on committeeName
+  const filterCommitteeData = (committeeName) => {
+    return NECCommitteeData.filter(
+      (item) => item.committeeName === committeeName
+    );
+  };
 
   return (
     <div className="cardsContainer">
       <NECCard
         title="Governing Body"
-        data={data}
+        data={filterCommitteeData("Governing Committee")}
         loading={loading}
         error={error}
       />
       <NECCard
         title="Operations Committee"
-        data={data}
+        data={filterCommitteeData("Executive, Operation & Development (EOD) Committee")}
         loading={loading}
         error={error}
       />
       <NECCard
         title="National Program Heads"
-        data={data}
+        data={filterCommitteeData("National Program Head")}
         loading={loading}
         error={error}
       />
       <NECCard
         title="Ex-Officio Members"
-        data={data}
+        data={filterCommitteeData("EX-Officio Members State President - Secretaries")}
         loading={loading}
         error={error}
       />
@@ -63,3 +116,4 @@ function NEC() {
 }
 
 export default NEC;
+
