@@ -81,9 +81,9 @@ const SECCard = ({ title, data, loading, error }) => {
   ];
 
   const titleColors = {
-    "Governing Body": "#f0faff",
-    "Operations Committee": "#fdf0ff",
-    "National Program Heads": "#f1fff0"
+    "Governing Body": "#c9f9bd",
+    "Operations Committee": "#ff96bc",
+    "National Program Heads": "#839af7"
     // Add more titles and colors as needed
   };
 
