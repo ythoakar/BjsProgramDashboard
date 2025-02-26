@@ -18,7 +18,7 @@
   font-size: 1.5rem;
   font-weight: bold;
   position: relative;
-  left: 50%;
+  left: 45%;
   transform: translateX(-50%);
 }
 
@@ -31,7 +31,7 @@
 
 .nav-links li {
   list-style: none;
-  padding: 5px 10px;
+  padding: 10px;
 }
 /* Nav links styling */
 

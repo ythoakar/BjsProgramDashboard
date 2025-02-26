@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Select, MenuItem } from "@mui/material";
 import "./Navbar.css";
+import logo from "../../../src/imgs/bjsLogoWhiteBG.png"
 import { useDropdown } from "../../Service/DropdownProvider";
 import axios from "axios";
 import InputLabel from '@mui/material/InputLabel';
@@ -27,7 +28,7 @@ const Navbar = () => {
 
         // Step 2: Filter allStates based on bjsStateNames
         const filteredStates = response.data.filter(state => bjsStateNames.has(state.BjsStateName));
-        
+
         console.log(filteredStates);
         setStates(filteredStates)
 
@@ -53,17 +54,22 @@ const Navbar = () => {
 
 
 
-function filterStates(){
+  function filterStates() {
 
-}
+  }
 
 
   return (
     <nav className="navbar">
+      <div className="back-button">
+        <Link to="/">
+          <img src={logo} alt="Bjs Logo" style={{ maxWidth: 70 }} />
+        </Link>
+      </div>
       <div className="nav-heading">{selectedOption.BjsStateName}</div>
       <ul className="nav-links">
         <li>
-        <FormControl fullWidth>
+          <FormControl fullWidth>
             {/* <InputLabel id="demo-simple-select-label">Select State</InputLabel> */}
             <Select
               labelId="demo-simple-select-label"

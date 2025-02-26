@@ -1,25 +1,10 @@
-// import React from 'react'
-// import SECCard from '../../CommonComponent/Navbar/StateExeCommitteeCard'
-// import "./SEC.css"
-
-// function SEC() {
-//   return (
-//     <div className= "cardsContainer">
-//         <SECCard title="Governing Body" />
-//         <SECCard title="Operations Committee"/>
-//         <SECCard title="National Program Heads"/>
-//     </div>
-//   )
-// }
-
-// export default SEC
 
 import React, { useState, useEffect } from 'react';
-import SECCard from '../../CommonComponent/ExeCommitteeCard/StateExeCommitteeCard';
+import NECCard from '../../CommonComponent/ExeCommitteeCard/NationalExeCommitteeCard';
 import { Spinner } from 'antd';
-import './SEC.css';
+import './NEC.css';
 
-function SEC() {
+function NEC() {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
@@ -49,20 +34,26 @@ function SEC() {
 
   return (
     <div className="cardsContainer">
-      <SECCard
+      <NECCard
         title="Governing Body"
         data={data}
         loading={loading}
         error={error}
       />
-      <SECCard
+      <NECCard
         title="Operations Committee"
         data={data}
         loading={loading}
         error={error}
       />
-      <SECCard
+      <NECCard
         title="National Program Heads"
+        data={data}
+        loading={loading}
+        error={error}
+      />
+      <NECCard
+        title="Ex-Officio Members"
         data={data}
         loading={loading}
         error={error}
@@ -71,4 +62,4 @@ function SEC() {
   );
 }
 
-export default SEC;
+export default NEC;

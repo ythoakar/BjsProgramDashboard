@@ -5,13 +5,15 @@ import Navbar from './CommonComponent/Navbar/Navbar';
 import Layout from './Layout/Layout';
 import { DropdownProvider } from './Service/DropdownProvider';
 import SEC from './Pages/StateExeCouncil/SEC';
+import NEC from './Pages/NationalExeCouncil/NEC';
 function App() {
 
 
 
   const routes = [
     { path: "/", element: <Dashboard /> }, 
-    { path: "SEC", element: <SEC/> }
+    { path: "SEC", element: <SEC/> },
+    { path: "NEC", element: <NEC/> }
   ];
 
   return (
