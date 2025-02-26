@@ -19,6 +19,8 @@ const Dashboard = () => {
   const { selectedOption } = useDropdown(); // Get selected option
   const [allUserData, setAllUserData] = useState([]);
   const [mapImgUrl, setMapImgUrl] = useState(India);
+  const [xAxisData, setXAxisData] = useState([]);
+const [seriesData, setSeriesData] = useState([]);
   const [chapterStatus, setChapterStatus] = useState({
     Total: 0,
     Active: 0,
@@ -27,12 +29,7 @@ const Dashboard = () => {
     cancerCrusedersCount: 0,
   });
 
-  const xAxisData =["YouWaahDay", "Cancer Cruseders"];
-  const seriesData = [
-    { 
-      data: [chapterStatus.youWaahDayCount, chapterStatus.cancerCrusedersCount], 
-    }
-  ];
+
 
 
 
@@ -77,6 +74,7 @@ const Dashboard = () => {
   };
 
   useEffect(() => {
+    getAllData()
     getAllStates();
   }, []);
 
@@ -114,6 +112,7 @@ const Dashboard = () => {
         }
       }
     }
+    
   }, [selectedOption]);
 
   console.log("iddd ", selectedOption);
@@ -123,6 +122,7 @@ const Dashboard = () => {
 
   useEffect(() => {
     countStatus();
+    barChartCount()
   }, [selectedOption]);
 
   function countStatus() {
@@ -130,8 +130,7 @@ const Dashboard = () => {
       Total: 0,
       Active: 0,
       inActive: 0,
-      youWaahDayCount: 0,
-      cancerCrusedersCount: 0,
+    
     };
    
 
@@ -145,12 +144,7 @@ const Dashboard = () => {
         } else if (item.activeInactiveStatus === "Inactive") {
           aspirationalChapters.inActive++;
         }
-        if (item.youWaahDay === "Yes") {
-          aspirationalChapters.youWaahDayCount++;
-        }
-        if (item.cancerCruseders === "Yes") {
-          aspirationalChapters.cancerCrusedersCount++;
-        }
+     
       });
     } else if (selectedOption?.BjsStateName) {
       // Count active/inactive statuses for the selected state
@@ -158,12 +152,7 @@ const Dashboard = () => {
         if (item.bjsState === selectedOption.BjsStateName) {
           aspirationalChapters.Total++;
 
-          if (item.youWaahDay === "Yes") {
-            aspirationalChapters.youWaahDayCount++;
-          }
-          if (item.cancerCruseders === "Yes") {
-            aspirationalChapters.cancerCrusedersCount++;
-          }
+     
 
           if (item.activeInactiveStatus === "Active") {
             aspirationalChapters.Active++;
@@ -179,6 +168,40 @@ const Dashboard = () => {
   }
 
 
+  function barChartCount() {
+    if (selectedOption?.BjsStateName === "India") {
+      let stateWiseData = {};
+  
+      JsonData.forEach((item) => {
+        const state = item.bjsState;
+        if (!stateWiseData[state]) {
+          stateWiseData[state] = { youWaahDayCount: 0, cancerCrusedersCount: 0 };
+        }
+        if (item.youWaahDay === "Yes") stateWiseData[state].youWaahDayCount++;
+        if (item.cancerCruseders === "Yes") stateWiseData[state].cancerCrusedersCount++;
+      });
+  
+      setXAxisData(Object.keys(stateWiseData));
+      setSeriesData([
+        { label: "YouWaahDay", data: Object.values(stateWiseData).map((d) => d.youWaahDayCount) },
+        { label: "Cancer Cruseders", data: Object.values(stateWiseData).map((d) => d.cancerCrusedersCount) },
+      ]);
+    } else if (selectedOption?.BjsStateName) {
+      let youWaahDayCount = 0, cancerCrusedersCount = 0;
+  
+      JsonData.forEach((item) => {
+        if (item.bjsState === selectedOption.BjsStateName) {
+          if (item.youWaahDay === "Yes") youWaahDayCount++;
+          if (item.cancerCruseders === "Yes") cancerCrusedersCount++;
+        }
+      });
+  
+      setXAxisData(["YouWaahDay", "Cancer Cruseders"]);
+      setSeriesData([{ data: [youWaahDayCount, cancerCrusedersCount] }]);
+    }
+  }
+  
+  
 
   return (
     <div className="dashboard-container">
