@@ -7,6 +7,7 @@ const BarChartComponent = ({ xAxisData, seriesData, width = "100%", height = "10
       xAxis={[{ scaleType: "band", data: xAxisData }]}
       series={seriesData}
       sx={{ width, height }}
+      yAxis={[{ max: 50, min: 0 }]}
     />
   );
 };
