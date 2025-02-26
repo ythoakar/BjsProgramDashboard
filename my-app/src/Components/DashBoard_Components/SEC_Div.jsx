@@ -9,17 +9,26 @@ import {
   Button,
 } from "@mui/material";
 import { useNavigate } from "react-router-dom";
+import { useDropdown } from "../../Service/DropdownProvider";
 
+import { message } from "antd";
 const SEC_Div = ({ data, heading, navigateTo }) => {
-const navigate = useNavigate()
+  const { selectedOption } = useDropdown();
 
+  const navigate = useNavigate();
 
-function navigatePage(){
-if(heading == "State Executive Committee"){
-  navigate("/SEC")
-}
-}
-
+  function navigatePage() {
+    if (selectedOption.BjsStateName == "India") {
+      message.warning("Please select a state.");
+      return;
+    }
+    if (heading == "State Executive Committee") {
+      navigate("/SEC");
+    }
+    if (heading == "National Executive Committee") {
+      navigate("/NEC");
+    }
+  }
 
   return (
     <div

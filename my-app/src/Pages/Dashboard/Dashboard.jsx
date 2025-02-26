@@ -209,13 +209,15 @@ const Dashboard = () => {
             <SEC_Div
               data={allUserData}
               heading="National Executive Committee"
+              navigateTo="/NEC"
             />
           )}
         </div>
 
         <div className="col-1-child child-50">
           {allUserData && (
-            <SEC_Div data={allUserData} heading="State Executive Committee" />
+            <SEC_Div data={allUserData} heading="State Executive Committee"  navigateTo="/SEC"
+            />
           )}
         </div>
 
