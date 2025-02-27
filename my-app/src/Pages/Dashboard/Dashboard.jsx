@@ -5,6 +5,7 @@ import { useDropdown } from "../../Service/DropdownProvider";
 import axios from "axios";
 import SEC_Div from "../../Components/DashBoard_Components/SEC_Div";
 import CommitteeCard from "../../CommonComponent/CommitteeCard/CommitteeCard";
+import NECCommitteeData from "../../Data/NECCommitteeData.json"
 import { Button } from "@mui/material";
 import { Image } from "antd";
 import StatsCard from "../../CommonComponent/StatsCard/StatsCard";
@@ -17,7 +18,7 @@ import BarChartComponent from "../../CommonComponent/BarChartComponent/BarChartC
 import FullscreenIcon from "@mui/icons-material/OpenInFull";
 import { Modal, IconButton } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
-
+import SECCommitteeData from "../../Data/SECCommitteeData.json"
 const Dashboard = () => {
   const { selectedOption } = useDropdown(); // Get selected option
   const [allUserData, setAllUserData] = useState([]);
@@ -72,22 +73,22 @@ const Dashboard = () => {
   };
 
   useEffect(() => {
-    getAllData();
+    // getAllData();
     getAllStates();
   }, []);
 
-  async function getAllData() {
-    try {
-      let response = await axios.get(
-        `${process.env.REACT_APP_BASE_URL}/misOfficeBearerUserList`
-      );
+  // async function getAllData() {
+  //   try {
+  //     let response = await axios.get(
+  //       `${process.env.REACT_APP_BASE_URL}/misOfficeBearerUserList`
+  //     );
 
-      console.log("response ", response);
-      setAllUserData(response.data);
-    } catch (err) {
-      console.log("Error occured in All Data ", err);
-    }
-  }
+  //     console.log("response ", response);
+  //     setAllUserData(response.data);
+  //   } catch (err) {
+  //     console.log("Error occured in All Data ", err);
+  //   }
+  // }
 
   useEffect(() => {
     //  Combined logic for map image update
@@ -114,9 +115,7 @@ const Dashboard = () => {
   }, [selectedOption]);
 
   console.log("iddd ", selectedOption);
-  const selectedState = states.find(
-    (state) => state.BjsStateName === allUserData
-  );
+
 
   useEffect(() => {
     countStatus();
@@ -205,9 +204,9 @@ const Dashboard = () => {
       {/* First column: 25% width */}
       <div className="col col-1">
         <div className="col-1-child child-50">
-          {allUserData && (
+          {NECCommitteeData && (
             <SEC_Div
-              data={allUserData}
+              data={NECCommitteeData}
               heading="National Executive Committee"
               navigateTo="/NEC"
             />
@@ -215,22 +214,22 @@ const Dashboard = () => {
         </div>
 
         <div className="col-1-child child-50">
-          {allUserData && (
-            <SEC_Div data={allUserData} heading="State Executive Committee"  navigateTo="/SEC"
+          {NECCommitteeData && (
+            <SEC_Div data={NECCommitteeData} heading="State Executive Committee"  navigateTo="/SEC"
             />
           )}
         </div>
 
         <div className="col-1-child child-50">
-          {allUserData && (
-            <SEC_Div data={allUserData} heading="Region Executive Committee" />
+          {NECCommitteeData && (
+            <SEC_Div data={NECCommitteeData} heading="Region Executive Committee" />
           )}
         </div>
 
         <div className="col-1-child child-50">
-          {allUserData && (
+          {NECCommitteeData && (
             <SEC_Div
-              data={allUserData}
+              data={NECCommitteeData}
               heading="District Executive Committee"
             />
           )}
@@ -249,16 +248,26 @@ const Dashboard = () => {
         </div>
         <div
           className="col-2-child child-30"
-          style={{ overflowX: "auto", whiteSpace: "nowrap" }}
-        >
-          <IconButton
-            onClick={() => setOpen(true)}
+          style={{
+            width: "100%",
+            height: "auto", // Allow it to expand naturally
+            overflowX: "auto", // Enable scrolling if needed
+            display: "flex",
+            flexDirection: "column",
+          }}        >
+          {/* <IconButton
             style={{ marginLeft: "auto" }} // ✅ Pushes the button to the right
           >
-            <FullscreenIcon fontSize="small" />
-          </IconButton>
-          <BarChartComponent xAxisData={xAxisData} seriesData={seriesData} />
+          </IconButton> */}
+          <div style={{zIndex:"10", width:"100%",height:"10%", display:"flex", justifyContent:"space-between", flexDirection:"row", alignItems:"center", cursor: "pointer"}}>
+            <h5>Foundation Program status</h5>
+          <FullscreenIcon fontSize="small" onClick={() => setOpen(true)}   />
 
+          </div>
+
+          <div style={{ width: "100%", height: "500px" }}> 
+    <BarChartComponent xAxisData={xAxisData} seriesData={seriesData} />
+  </div>
           <Modal open={open} onClose={() => setOpen(false)}>
         <div
           style={{
@@ -276,18 +285,28 @@ const Dashboard = () => {
             position: "relative", // Required for absolute close button
           }}
         >
+          <div >
+<div><h2>Foundation Program Status</h2></div>
+
+            
+          <div
+  style={{
+    position: "absolute",
+    top: 15,
+    right: 20,
+    color: "red",
+    cursor: "pointer",  
+    zIndex: 10,       
+  }}
+  onClick={() => setOpen(false)}
+>
+  <CloseIcon fontSize="medium" />
+</div>
+
+
+          </div>
           {/* 🔴 Close Button at Top-Right */}
-          <IconButton
-            onClick={() => setOpen(false)}
-            style={{
-              position: "absolute",
-              top: 10,
-              right: 10,
-              color: "red",
-            }}
-          >
-            <CloseIcon fontSize="medium" />
-          </IconButton>
+       
 
           {/* Bar Chart Inside Modal */}
           <BarChartComponent xAxisData={xAxisData} seriesData={seriesData} />
@@ -321,9 +340,9 @@ const Dashboard = () => {
 
         <div className="col-3-child child-50">
           <h3>Water Team</h3>
-          {allUserData && (
+          {NECCommitteeData && (
             <CommitteeCard
-              data={allUserData}
+              data={NECCommitteeData}
               heading="District Executive Committee"
             />
           )}
@@ -331,9 +350,9 @@ const Dashboard = () => {
 
         <div className="col-3-child child-50">
           <h3>Mulyavardhan Team</h3>
-          {allUserData && (
+          {NECCommitteeData && (
             <CommitteeCard
-              data={allUserData}
+              data={NECCommitteeData}
               heading="District Executive Committee"
             />
           )}

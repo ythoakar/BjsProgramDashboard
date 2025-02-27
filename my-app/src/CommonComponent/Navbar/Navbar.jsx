@@ -8,13 +8,17 @@ import axios from "axios";
 import InputLabel from '@mui/material/InputLabel';
 import FormControl from '@mui/material/FormControl';
 import bjsData from "../../../src/Data/volunteerMTestDb.dashboardData.json";
-
+import {useLocation} from "react-router-dom"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [states, setStates] = useState([]);
   const { selectedOption, setSelectedOption } = useDropdown();
+  const [headingName, setHeadingName] = useState("")
+  
+  const location = useLocation(); // Hook to get current URL path
 
+  
   useEffect(() => {
     async function getStates() {
       try {
@@ -54,9 +58,32 @@ const Navbar = () => {
 
 
 
-  function filterStates() {
+  useEffect(() => {
+    const path = location.pathname;
+    const lastSegment = path.split("/").pop(); // Get last part of the URL
 
-  }
+    switch (lastSegment) {
+      case "SEC":
+        setHeadingName("State Executive Committee");
+        break;
+      case "NEC":
+        setHeadingName("National Executive Committee");
+        break;
+      case "REC":
+        setHeadingName("Regional Executive Committee");
+        break;
+      case "DEC":
+        setHeadingName("District Executive Committee");
+        break;
+      default:
+        setHeadingName(selectedOption.BjsStateName || "");
+        break;
+    }
+  }, [location.pathname]);
+
+
+
+  
 
 
   return (
@@ -66,7 +93,7 @@ const Navbar = () => {
           <img src={logo} alt="Bjs Logo" style={{ maxWidth: 70 }} />
         </Link>
       </div>
-      <div className="nav-heading">{selectedOption.BjsStateName}</div>
+      <div className="nav-heading">{headingName}</div>
       <ul className="nav-links">
         <li>
           <FormControl fullWidth>

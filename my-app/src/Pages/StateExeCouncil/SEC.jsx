@@ -3,6 +3,7 @@ import SECCard from "../../CommonComponent/ExeCommitteeCard/StateExeCommitteeCar
 import { Spinner } from "antd";
 import "./SEC.css";
 import NECCommitteeData from "../../Data/NECCommitteeData.json";
+import SECCommitteeData from "../../Data/SECCommitteeData.json"
 import {useDropdown} from "../../Service/DropdownProvider";
 
 
@@ -11,11 +12,13 @@ function SEC() {
   const [error, setError] = useState(null);
     const { selectedOption } = useDropdown();
     console.log("selectedOption11  ", selectedOption)
+    console.log("dataaaa12 ", SECCommitteeData)
 
   // Function to filter data based on stateName
     const filterCommitteeData = (stateName, committeeName) => {
-      return NECCommitteeData.filter(
-        (item) => item.stateName === stateName && item.committeeName === committeeName
+      console.log("stateName", stateName, committeeName)
+      return SECCommitteeData.filter(
+        (item) => item.statename == stateName && item.Committee == committeeName
       );
     };
 
@@ -23,7 +26,7 @@ function SEC() {
     <div className="cardsContainer">
     <SECCard
       title="Governing Body"
-      data={filterCommitteeData(selectedOption.BjsStateName, "Governing Committee")}
+      data={filterCommitteeData(selectedOption?.BjsStateName, "Governing Committee")}
       loading={loading}
       error={error}
     />

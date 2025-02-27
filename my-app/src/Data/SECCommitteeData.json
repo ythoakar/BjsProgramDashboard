@@ -1,0 +1,3679 @@
+[{
+    "_id": {
+      "$oid": "67bec07e01f643192dac4dc0"
+    },
+    "statename": "Chhattisgarh",
+    "Committee": "Governing Committee",
+    "name ": "Vijay Gangwal",
+    "Designation ": "statename President ",
+    "statename-Designation": "statename President  Chhattisgarh",
+    "Mobile No": {
+      "$numberLong": "9425208809"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4dc1"
+    },
+    "statename": "Chhattisgarh",
+    "Committee": "Governing Committee",
+    "name ": "Manoj Lunkad",
+    "Designation ": "Immediate Past statename President ",
+    "statename-Designation": "Immediate Past statename President  Chhattisgarh",
+    "Mobile No": {
+      "$numberLong": "9826163399"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4dc2"
+    },
+    "statename": "Chhattisgarh",
+    "Committee": "Governing Committee",
+    "name ": "Paras Tatiya ",
+    "Designation ": "statename Vice President - Initiative and Growth ",
+    "statename-Designation": "statename Vice President - Initiative and Growth  Chhattisgarh",
+    "Mobile No": {
+      "$numberLong": "9827997262"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4dc3"
+    },
+    "statename": "Chhattisgarh",
+    "Committee": "Governing Committee",
+    "name ": "Sushil Jain",
+    "Designation ": "statename Vice President - Public relations & Outreach ",
+    "statename-Designation": "statename Vice President - Public relations & Outreach  Chhattisgarh"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4dc4"
+    },
+    "statename": "Chhattisgarh",
+    "Committee": "Governing Committee",
+    "Designation ": "statename Vice President- Women & Youth ",
+    "statename-Designation": "statename Vice President- Women & Youth  Chhattisgarh"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4dc5"
+    },
+    "statename": "Chhattisgarh",
+    "Committee": "Governing Committee",
+    "name ": "G.C. Jain",
+    "Designation ": "Former statename President ",
+    "statename-Designation": "Former statename President  Chhattisgarh"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4dc6"
+    },
+    "statename": "Chhattisgarh",
+    "Committee": "Governing Committee",
+    "name ": "Sampat Jhabak ",
+    "Designation ": "Former statename President",
+    "statename-Designation": "Former statename President Chhattisgarh",
+    "Mobile No": {
+      "$numberLong": "9425213355"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4dc7"
+    },
+    "statename": "Chhattisgarh",
+    "Committee": "Governing Committee",
+    "name ": "Lokesh Kawadia",
+    "Designation ": "Former statename President",
+    "statename-Designation": "Former statename President Chhattisgarh",
+    "Mobile No": {
+      "$numberLong": "9425206699"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4dc8"
+    },
+    "statename": "Chhattisgarh",
+    "Committee": "Governing Committee",
+    "name ": "M.C. Jain",
+    "Designation ": "Former statename President",
+    "statename-Designation": "Former statename President Chhattisgarh",
+    "Mobile No": {
+      "$numberLong": "9893008136"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4dc9"
+    },
+    "statename": "Chhattisgarh",
+    "Committee": "Governing Committee",
+    "name ": "Shobha Shrishrimal",
+    "Designation ": "Former statename President",
+    "statename-Designation": "Former statename President Chhattisgarh",
+    "Mobile No": {
+      "$numberLong": "9669893000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4dca"
+    },
+    "statename": "Chhattisgarh",
+    "Committee": "Governing Committee",
+    "name ": "Nirmal Bardia ",
+    "Designation ": "Former statename President",
+    "statename-Designation": "Former statename President Chhattisgarh",
+    "Mobile No": {
+      "$numberLong": "9424277778"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4dcb"
+    },
+    "statename": "Chhattisgarh",
+    "Committee": "Governing Committee",
+    "name ": "Pramod Lunawat",
+    "Designation ": "Former statename President",
+    "statename-Designation": "Former statename President Chhattisgarh",
+    "Mobile No": {
+      "$numberLong": "9425503806"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4dcc"
+    },
+    "statename": "Chhattisgarh",
+    "Committee": "Governing Committee",
+    "name ": "Santosh Sawa",
+    "Designation ": "Former statename President",
+    "statename-Designation": "Former statename President Chhattisgarh",
+    "Mobile No": {
+      "$numberLong": "9425554244"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4dcd"
+    },
+    "statename": "Chhattisgarh",
+    "Committee": "Governing Committee",
+    "name ": "Pankaj Chopda",
+    "Designation ": "Former statename President",
+    "statename-Designation": "Former statename President Chhattisgarh",
+    "Mobile No": {
+      "$numberLong": "8964899999"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4dce"
+    },
+    "statename": "Chhattisgarh",
+    "Committee": "Operations Committee",
+    "name ": "CA Vikas Golechha ",
+    "Designation ": "statename General Secretary ",
+    "statename-Designation": "statename General Secretary  Chhattisgarh",
+    "Mobile No": {
+      "$numberLong": "9827977252"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4dcf"
+    },
+    "statename": "Chhattisgarh",
+    "Committee": "Operations Committee",
+    "name ": "Amresh Jain",
+    "Designation ": "statename Secretary - Monitoring & Implementation ",
+    "statename-Designation": "statename Secretary - Monitoring & Implementation  Chhattisgarh"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4dd0"
+    },
+    "statename": "Chhattisgarh",
+    "Committee": "Operations Committee",
+    "name ": "Anita Saklecha",
+    "Designation ": "statename Secretary - Operations & Coordination  ",
+    "statename-Designation": "statename Secretary - Operations & Coordination   Chhattisgarh"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4dd1"
+    },
+    "statename": "Chhattisgarh",
+    "Committee": "Operations Committee",
+    "Designation ": "statename Secretary - Technology and Group formation",
+    "statename-Designation": "statename Secretary - Technology and Group formation Chhattisgarh"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4dd2"
+    },
+    "statename": "Chhattisgarh",
+    "Committee": "Operations Committee",
+    "name ": "Devanand Baradia",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday Chhattisgarh"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4dd3"
+    },
+    "statename": "Chhattisgarh",
+    "Committee": "Operations Committee",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday Chhattisgarh"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4dd4"
+    },
+    "statename": "Chhattisgarh",
+    "Committee": "Operations Committee",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday Chhattisgarh"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4dd5"
+    },
+    "statename": "Chhattisgarh",
+    "Committee": "Operations Committee",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday Chhattisgarh"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4dd6"
+    },
+    "statename": "Chhattisgarh",
+    "Committee": "Operations Committee",
+    "name ": "Manvendra Daftari",
+    "Designation ": "statename Head Expansion ",
+    "statename-Designation": "statename Head Expansion  Chhattisgarh"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4dd7"
+    },
+    "statename": "Chhattisgarh",
+    "Committee": "Operations Committee",
+    "name ": "Priyesh Jain",
+    "Designation ": "statename Head Media, Social Media & Publishing ",
+    "statename-Designation": "statename Head Media, Social Media & Publishing  Chhattisgarh"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4dd8"
+    },
+    "statename": "Chhattisgarh",
+    "Committee": "statename Program Heads",
+    "name ": "Shanta Kotadia",
+    "Designation ": "statename Head - Foundation Program",
+    "statename-Designation": "statename Head - Foundation Program Chhattisgarh",
+    "Mobile No": {
+      "$numberLong": "9098821022"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4dd9"
+    },
+    "statename": "Chhattisgarh",
+    "Committee": "statename Program Heads",
+    "Designation ": "statename Head - Inception Program",
+    "statename-Designation": "statename Head - Inception Program Chhattisgarh"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4dda"
+    },
+    "statename": "Chhattisgarh",
+    "Committee": "statename Program Heads",
+    "name ": "Chiranjeev Jain ",
+    "Designation ": "statename Head - Infusion Program - Student Assessment Program (SAP) + Career",
+    "statename-Designation": "statename Head - Infusion Program - Student Assessment Program (SAP) + Career Chhattisgarh",
+    "Mobile No": {
+      "$numberLong": "9039940867"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ddb"
+    },
+    "statename": "Chhattisgarh",
+    "Committee": "statename Program Heads",
+    "name ": "Vinita Parekh ",
+    "Designation ": "statename Head - Infusion Programmes - Empowerment of  Couple (EOC)",
+    "statename-Designation": "statename Head - Infusion Programmes - Empowerment of  Couple (EOC) Chhattisgarh",
+    "Mobile No": {
+      "$numberLong": "8827837684"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ddc"
+    },
+    "statename": "Chhattisgarh",
+    "Committee": "statename Program Heads",
+    "name ": "Abhishek Ostwal ",
+    "Designation ": "statename Head - Infusion Programmes - Smart Girl",
+    "statename-Designation": "statename Head - Infusion Programmes - Smart Girl Chhattisgarh",
+    "Mobile No": {
+      "$numberLong": "7587413396"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ddd"
+    },
+    "statename": "Chhattisgarh",
+    "Committee": "statename Program Heads",
+    "Designation ": "statename Head - Infusion Programmes - Matrimony ",
+    "statename-Designation": "statename Head - Infusion Programmes - Matrimony  Chhattisgarh"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4dde"
+    },
+    "statename": "Chhattisgarh",
+    "Committee": "statename Program Heads",
+    "name ": "CA Dhawal Shah ",
+    "Designation ": "statename Head - Infusion Program - Student Scholarship, MSME, Minority ",
+    "statename-Designation": "statename Head - Infusion Program - Student Scholarship, MSME, Minority  Chhattisgarh"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ddf"
+    },
+    "statename": "Chhattisgarh",
+    "Committee": "statename Program Heads",
+    "Designation ": "statename Head - Infusion Programmes - Business Development + Ibud",
+    "statename-Designation": "statename Head - Infusion Programmes - Business Development + Ibud Chhattisgarh"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4de0"
+    },
+    "statename": "Chhattisgarh",
+    "Committee": "statename Program Heads",
+    "name ": "Manjari Jain",
+    "Designation ": "statename Head - Infusion Programmes - Marriage Counselling",
+    "statename-Designation": "statename Head - Infusion Programmes - Marriage Counselling Chhattisgarh"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4de1"
+    },
+    "statename": "Delhi",
+    "Committee": "Governing Committee",
+    "name ": "Kamal Sethiya",
+    "Designation ": "statename President ",
+    "statename-Designation": "statename President  Delhi",
+    "Mobile No": {
+      "$numberLong": "8377001473"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4de2"
+    },
+    "statename": "Delhi",
+    "Committee": "Governing Committee",
+    "name ": "Vijay Jain",
+    "Designation ": "Immediate Past statename President ",
+    "statename-Designation": "Immediate Past statename President  Delhi",
+    "Mobile No": {
+      "$numberLong": "9871829910"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4de3"
+    },
+    "statename": "Delhi",
+    "Committee": "Governing Committee",
+    "Designation ": "statename Vice President - Initiative and Growth ",
+    "statename-Designation": "statename Vice President - Initiative and Growth  Delhi"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4de4"
+    },
+    "statename": "Delhi",
+    "Committee": "Governing Committee",
+    "Designation ": "statename Vice President - Public relations & Outreach ",
+    "statename-Designation": "statename Vice President - Public relations & Outreach  Delhi"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4de5"
+    },
+    "statename": "Delhi",
+    "Committee": "Governing Committee",
+    "Designation ": "statename Vice President- Women & Youth ",
+    "statename-Designation": "statename Vice President- Women & Youth  Delhi"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4de6"
+    },
+    "statename": "Delhi",
+    "Committee": "Governing Committee",
+    "name ": "Pradeep Sacheti",
+    "Designation ": "Former statename President ",
+    "statename-Designation": "Former statename President  Delhi",
+    "Mobile No": {
+      "$numberLong": "8800090960"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4de7"
+    },
+    "statename": "Delhi",
+    "Committee": "Governing Committee",
+    "name ": "Rajesh Khinvasara",
+    "Designation ": "Former statename President",
+    "statename-Designation": "Former statename President Delhi",
+    "Mobile No": {
+      "$numberLong": "9350041466"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4de8"
+    },
+    "statename": "Delhi",
+    "Committee": "Governing Committee",
+    "name ": "Kishore Kochar",
+    "Designation ": "Former statename President",
+    "statename-Designation": "Former statename President Delhi",
+    "Mobile No": {
+      "$numberLong": "9250074000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4de9"
+    },
+    "statename": "Delhi",
+    "Committee": "Operations Committee",
+    "name ": "Narendra Kumar Jain",
+    "Designation ": "statename General Secretary ",
+    "statename-Designation": "statename General Secretary  Delhi",
+    "Mobile No": {
+      "$numberLong": "9810163165"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4dea"
+    },
+    "statename": "Delhi",
+    "Committee": "Operations Committee",
+    "name ": "Sachin Begani",
+    "Designation ": "statename Secretary - Monitoring & Implementation ",
+    "statename-Designation": "statename Secretary - Monitoring & Implementation  Delhi",
+    "Mobile No": {
+      "$numberLong": "9873822242"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4deb"
+    },
+    "statename": "Delhi",
+    "Committee": "Operations Committee",
+    "name ": "Sachin Begani",
+    "Designation ": "statename Secretary - Operations & Coordination  ",
+    "statename-Designation": "statename Secretary - Operations & Coordination   Delhi",
+    "Mobile No": {
+      "$numberLong": "9873822242"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4dec"
+    },
+    "statename": "Delhi",
+    "Committee": "Operations Committee",
+    "name ": "Kamal Jain Sethia",
+    "Designation ": "statename Secretary - Technology and Group formation",
+    "statename-Designation": "statename Secretary - Technology and Group formation Delhi",
+    "Mobile No": {
+      "$numberLong": "8377001473"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ded"
+    },
+    "statename": "Delhi",
+    "Committee": "Operations Committee",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday Delhi"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4dee"
+    },
+    "statename": "Delhi",
+    "Committee": "Operations Committee",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday Delhi"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4def"
+    },
+    "statename": "Delhi",
+    "Committee": "Operations Committee",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday Delhi"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4df0"
+    },
+    "statename": "Delhi",
+    "Committee": "Operations Committee",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday Delhi"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4df1"
+    },
+    "statename": "Delhi",
+    "Committee": "Operations Committee",
+    "Designation ": "statename Head Expansion (position as per statename requirement) ",
+    "statename-Designation": "statename Head Expansion (position as per statename requirement)  Delhi"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4df2"
+    },
+    "statename": "Delhi",
+    "Committee": "Operations Committee",
+    "name ": "Sidhant Sagar",
+    "Designation ": "statename Head Media, Social Media & Publishing ",
+    "statename-Designation": "statename Head Media, Social Media & Publishing  Delhi",
+    "Mobile No": {
+      "$numberLong": "7289049905"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4df3"
+    },
+    "statename": "Delhi",
+    "Committee": "statename Program Heads",
+    "Designation ": "statename Head - Foundation Program",
+    "statename-Designation": "statename Head - Foundation Program Delhi"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4df4"
+    },
+    "statename": "Delhi",
+    "Committee": "statename Program Heads",
+    "Designation ": "statename Head - Inception Program",
+    "statename-Designation": "statename Head - Inception Program Delhi"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4df5"
+    },
+    "statename": "Delhi",
+    "Committee": "statename Program Heads",
+    "Designation ": "statename Head - Infusion Program - Student Assessment Program (SAP) + Career",
+    "statename-Designation": "statename Head - Infusion Program - Student Assessment Program (SAP) + Career Delhi"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4df6"
+    },
+    "statename": "Delhi",
+    "Committee": "statename Program Heads",
+    "Designation ": "statename Head - Infusion Programmes - Empowerment of  Couple (EOC)",
+    "statename-Designation": "statename Head - Infusion Programmes - Empowerment of  Couple (EOC) Delhi"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4df7"
+    },
+    "statename": "Delhi",
+    "Committee": "statename Program Heads",
+    "name ": "Jayshree Rakhecha",
+    "Designation ": "statename Head - Infusion Programmes - Smart Girl",
+    "statename-Designation": "statename Head - Infusion Programmes - Smart Girl Delhi",
+    "Mobile No": {
+      "$numberLong": "9868483589"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4df8"
+    },
+    "statename": "Delhi",
+    "Committee": "statename Program Heads",
+    "Designation ": "statename Head - Infusion Programmes - Matrimony ",
+    "statename-Designation": "statename Head - Infusion Programmes - Matrimony  Delhi"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4df9"
+    },
+    "statename": "Delhi",
+    "Committee": "statename Program Heads",
+    "Designation ": "statename Head - Infusion Program - Student Scholarship, MSME, Minority ",
+    "statename-Designation": "statename Head - Infusion Program - Student Scholarship, MSME, Minority  Delhi"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4dfa"
+    },
+    "statename": "Delhi",
+    "Committee": "statename Program Heads",
+    "Designation ": "statename Head - Infusion Programmes - Business Development + Ibud",
+    "statename-Designation": "statename Head - Infusion Programmes - Business Development + Ibud Delhi"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4dfb"
+    },
+    "statename": "Delhi",
+    "Committee": "statename Program Heads",
+    "Designation ": "statename Head - Infusion Programmes - Marriage Counselling",
+    "statename-Designation": "statename Head - Infusion Programmes - Marriage Counselling Delhi"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4dfc"
+    },
+    "statename": "Goa",
+    "Committee": "Governing Committee",
+    "name ": "Bharat Patil",
+    "Designation ": "statename President ",
+    "statename-Designation": "statename President  Goa",
+    "Mobile No": {
+      "$numberLong": "9049935216"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4dfd"
+    },
+    "statename": "Goa",
+    "Committee": "Governing Committee",
+    "name ": "Kalpana shah",
+    "Designation ": "statename Vice President - Initiative and Growth ",
+    "statename-Designation": "statename Vice President - Initiative and Growth  Goa",
+    "Mobile No": {
+      "$numberLong": "9823442000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4dfe"
+    },
+    "statename": "Goa",
+    "Committee": "Governing Committee",
+    "name ": "Kalpana shah",
+    "Designation ": "statename Vice President - Public relations & Outreach ",
+    "statename-Designation": "statename Vice President - Public relations & Outreach  Goa",
+    "Mobile No": {
+      "$numberLong": "9823442000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4dff"
+    },
+    "statename": "Goa",
+    "Committee": "Governing Committee",
+    "name ": "Kalpana shah",
+    "Designation ": "statename Vice President- Women & Youth ",
+    "statename-Designation": "statename Vice President- Women & Youth  Goa",
+    "Mobile No": {
+      "$numberLong": "9823442000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e00"
+    },
+    "statename": "Goa",
+    "Committee": "Operations Committee",
+    "name ": "Raju Devarmani",
+    "Designation ": "statename General Secretary ",
+    "statename-Designation": "statename General Secretary  Goa",
+    "Mobile No": {
+      "$numberLong": "9923527349"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e01"
+    },
+    "statename": "Goa",
+    "Committee": "Operations Committee",
+    "name ": "Raju Devarmani",
+    "Designation ": "statename Secretary - Monitoring & Implementation ",
+    "statename-Designation": "statename Secretary - Monitoring & Implementation  Goa",
+    "Mobile No": {
+      "$numberLong": "9923527349"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e02"
+    },
+    "statename": "Goa",
+    "Committee": "Operations Committee",
+    "name ": "Raju Devarmani",
+    "Designation ": "statename Secretary - Operations & Coordination  ",
+    "statename-Designation": "statename Secretary - Operations & Coordination   Goa",
+    "Mobile No": {
+      "$numberLong": "9923527349"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e03"
+    },
+    "statename": "Goa",
+    "Committee": "Operations Committee",
+    "name ": "Raju Devarmani",
+    "Designation ": "statename Secretary - Technology and Group formation",
+    "statename-Designation": "statename Secretary - Technology and Group formation Goa",
+    "Mobile No": {
+      "$numberLong": "9923527349"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e04"
+    },
+    "statename": "Goa",
+    "Committee": "Operations Committee",
+    "name ": "Hirabhai Bafana",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday Goa",
+    "Mobile No": {
+      "$numberLong": "9822485594"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e05"
+    },
+    "statename": "Goa",
+    "Committee": "Operations Committee",
+    "name ": "Arvind patil",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday Goa",
+    "Mobile No": {
+      "$numberLong": "9673666618"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e06"
+    },
+    "statename": "Goa",
+    "Committee": "Operations Committee",
+    "name ": "Dilip Dugar",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday Goa",
+    "Mobile No": {
+      "$numberLong": "9822062424"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e07"
+    },
+    "statename": "Goa",
+    "Committee": "Operations Committee",
+    "name ": "HasmukhRaj vardhan",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday Goa",
+    "Mobile No": {
+      "$numberLong": "9823306519"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e08"
+    },
+    "statename": "Goa",
+    "Committee": "Operations Committee",
+    "name ": "Chirag Mehta ",
+    "Designation ": "statename Head Expansion (position as per statename requirement) ",
+    "statename-Designation": "statename Head Expansion (position as per statename requirement)  Goa",
+    "Mobile No": {
+      "$numberLong": "9049561282"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e09"
+    },
+    "statename": "Goa",
+    "Committee": "Operations Committee",
+    "name ": "Arvind Patil",
+    "Designation ": "statename Head Media, Social Media & Publishing ",
+    "statename-Designation": "statename Head Media, Social Media & Publishing  Goa",
+    "Mobile No": {
+      "$numberLong": "9673666618"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e0a"
+    },
+    "statename": "Goa",
+    "Committee": "statename Program Heads",
+    "name ": "Neeshu Jain",
+    "Designation ": "statename Head - Foundation Program",
+    "statename-Designation": "statename Head - Foundation Program Goa",
+    "Mobile No": {
+      "$numberLong": "9822124214"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e0b"
+    },
+    "statename": "Goa",
+    "Committee": "statename Program Heads",
+    "name ": "Chirag Mehta ",
+    "Designation ": "statename Head - Inception Program",
+    "statename-Designation": "statename Head - Inception Program Goa",
+    "Mobile No": {
+      "$numberLong": "9049561282"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e0c"
+    },
+    "statename": "Goa",
+    "Committee": "statename Program Heads",
+    "name ": "Shantiskar Havale",
+    "Designation ": "statename Head - Infusion Program - Student Assessment Program (SAP) + Career",
+    "statename-Designation": "statename Head - Infusion Program - Student Assessment Program (SAP) + Career Goa",
+    "Mobile No": {
+      "$numberLong": "9850388918"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e0d"
+    },
+    "statename": "Goa",
+    "Committee": "statename Program Heads",
+    "name ": "Swati Patil",
+    "Designation ": "statename Head - Infusion Programmes - Empowerment of  Couple (EOC)",
+    "statename-Designation": "statename Head - Infusion Programmes - Empowerment of  Couple (EOC) Goa",
+    "Mobile No": {
+      "$numberLong": "9673168549"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e0e"
+    },
+    "statename": "Goa",
+    "Committee": "statename Program Heads",
+    "name ": "Vaishali Devarmani",
+    "Designation ": "statename Head - Infusion Programmes - Smart Girl",
+    "statename-Designation": "statename Head - Infusion Programmes - Smart Girl Goa",
+    "Mobile No": {
+      "$numberLong": "9503381449"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e0f"
+    },
+    "statename": "Goa",
+    "Committee": "statename Program Heads",
+    "name ": "Sunitha Surana",
+    "Designation ": "statename Head - Infusion Programmes - Matrimony ",
+    "statename-Designation": "statename Head - Infusion Programmes - Matrimony  Goa",
+    "Mobile No": {
+      "$numberLong": "7972921776"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e10"
+    },
+    "statename": "Goa",
+    "Committee": "statename Program Heads",
+    "name ": "Kiran Mehta",
+    "Designation ": "statename Head - Infusion Program - Student Scholarship, MSME, Minority ",
+    "statename-Designation": "statename Head - Infusion Program - Student Scholarship, MSME, Minority  Goa",
+    "Mobile No": {
+      "$numberLong": "7350713700"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e11"
+    },
+    "statename": "Goa",
+    "Committee": "statename Program Heads",
+    "name ": "ShreniK Jain",
+    "Designation ": "statename Head - Infusion Programmes - Business Development + Ibud",
+    "statename-Designation": "statename Head - Infusion Programmes - Business Development + Ibud Goa",
+    "Mobile No": {
+      "$numberLong": "9822122854"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e12"
+    },
+    "statename": "Goa",
+    "Committee": "statename Program Heads",
+    "name ": "Sarika patil",
+    "Designation ": "statename Head - Infusion Programmes - Marriage Counselling",
+    "statename-Designation": "statename Head - Infusion Programmes - Marriage Counselling Goa",
+    "Mobile No": {
+      "$numberLong": "7588523990"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e13"
+    },
+    "statename": "Jammu & Kashmir",
+    "Committee": "Governing Committee",
+    "name ": "Sandeep Jain (Sunny)",
+    "Designation ": "statename President ",
+    "statename-Designation": "statename President  Jammu & Kashmir",
+    "Mobile No": {
+      "$numberLong": "9419190527"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e14"
+    },
+    "statename": "Jammu & Kashmir",
+    "Committee": "Governing Committee",
+    "name ": "Pardeep Jain",
+    "Designation ": "statename Vice President - Initiative and Growth ",
+    "statename-Designation": "statename Vice President - Initiative and Growth  Jammu & Kashmir",
+    "Mobile No": {
+      "$numberLong": "9419185350"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e15"
+    },
+    "statename": "Jammu & Kashmir",
+    "Committee": "Governing Committee",
+    "name ": "Shaifali Jain",
+    "Designation ": "statename Vice President - Public relations & Outreach ",
+    "statename-Designation": "statename Vice President - Public relations & Outreach  Jammu & Kashmir",
+    "Mobile No": {
+      "$numberLong": "9419115257"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e16"
+    },
+    "statename": "Jammu & Kashmir",
+    "Committee": "Governing Committee",
+    "name ": "Neelu Jain",
+    "Designation ": "statename Vice President- Women & Youth ",
+    "statename-Designation": "statename Vice President- Women & Youth  Jammu & Kashmir",
+    "Mobile No": {
+      "$numberLong": "9596743901"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e17"
+    },
+    "statename": "Jammu & Kashmir",
+    "Committee": "Operations Committee",
+    "name ": "Monika Jain",
+    "Designation ": "statename General Secretary ",
+    "statename-Designation": "statename General Secretary  Jammu & Kashmir",
+    "Mobile No": {
+      "$numberLong": "9469002700"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e18"
+    },
+    "statename": "Jammu & Kashmir",
+    "Committee": "Operations Committee",
+    "name ": "Shelly Jain",
+    "Designation ": "statename Secretary - Monitoring & Implementation ",
+    "statename-Designation": "statename Secretary - Monitoring & Implementation  Jammu & Kashmir",
+    "Mobile No": {
+      "$numberLong": "9469213614"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e19"
+    },
+    "statename": "Jammu & Kashmir",
+    "Committee": "Operations Committee",
+    "name ": "Neerav Jain",
+    "Designation ": "statename Secretary - Operations & Coordination  ",
+    "statename-Designation": "statename Secretary - Operations & Coordination   Jammu & Kashmir",
+    "Mobile No": {
+      "$numberLong": "9419184478"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e1a"
+    },
+    "statename": "Jammu & Kashmir",
+    "Committee": "Operations Committee",
+    "name ": "Anu Jain",
+    "Designation ": "statename Secretary - Technology and Group formation",
+    "statename-Designation": "statename Secretary - Technology and Group formation Jammu & Kashmir",
+    "Mobile No": {
+      "$numberLong": "9469214777"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e1b"
+    },
+    "statename": "Jammu & Kashmir",
+    "Committee": "Operations Committee",
+    "name ": "Ridhima Jain",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday Jammu & Kashmir",
+    "Mobile No": {
+      "$numberLong": "9419161718"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e1c"
+    },
+    "statename": "Jammu & Kashmir",
+    "Committee": "Operations Committee",
+    "name ": "Permod Jain",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday Jammu & Kashmir",
+    "Mobile No": {
+      "$numberLong": "9797597388"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e1d"
+    },
+    "statename": "Jammu & Kashmir",
+    "Committee": "Operations Committee",
+    "name ": "Gunender Jain (Litti)",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday Jammu & Kashmir",
+    "Mobile No": {
+      "$numberLong": "9419184652"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e1e"
+    },
+    "statename": "Jammu & Kashmir",
+    "Committee": "Operations Committee",
+    "name ": "Sandeep jain (Rompy)",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday Jammu & Kashmir",
+    "Mobile No": {
+      "$numberLong": "9419194134"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e1f"
+    },
+    "statename": "Jammu & Kashmir",
+    "Committee": "Operations Committee",
+    "name ": "Sudhir Jain",
+    "Designation ": "statename Head Expansion (position as per statename requirement) ",
+    "statename-Designation": "statename Head Expansion (position as per statename requirement)  Jammu & Kashmir",
+    "Mobile No": {
+      "$numberLong": "9419198552"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e20"
+    },
+    "statename": "Jammu & Kashmir",
+    "Committee": "Operations Committee",
+    "name ": "Radhika Jain",
+    "Designation ": "statename Head Media, Social Media & Publishing ",
+    "statename-Designation": "statename Head Media, Social Media & Publishing  Jammu & Kashmir",
+    "Mobile No": {
+      "$numberLong": "9419142776"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e21"
+    },
+    "statename": "Jammu & Kashmir",
+    "Committee": "statename Program Heads",
+    "name ": "Priyanka Jain",
+    "Designation ": "statename Head - Foundation Program",
+    "statename-Designation": "statename Head - Foundation Program Jammu & Kashmir",
+    "Mobile No": {
+      "$numberLong": "9086577677"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e22"
+    },
+    "statename": "Jammu & Kashmir",
+    "Committee": "statename Program Heads",
+    "name ": "Jogesh (Happy) Jain",
+    "Designation ": "statename Head - Inception Program",
+    "statename-Designation": "statename Head - Inception Program Jammu & Kashmir",
+    "Mobile No": {
+      "$numberLong": "9906904481"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e23"
+    },
+    "statename": "Jammu & Kashmir",
+    "Committee": "statename Program Heads",
+    "name ": "Payal Jain",
+    "Designation ": "statename Head - Infusion Program - Student Assessment Program (SAP) + Career",
+    "statename-Designation": "statename Head - Infusion Program - Student Assessment Program (SAP) + Career Jammu & Kashmir",
+    "Mobile No": {
+      "$numberLong": "9622072666"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e24"
+    },
+    "statename": "Jammu & Kashmir",
+    "Committee": "statename Program Heads",
+    "name ": "Parakh Jain",
+    "Designation ": "statename Head - Infusion Programmes - Empowerment of  Couple (EOC)",
+    "statename-Designation": "statename Head - Infusion Programmes - Empowerment of  Couple (EOC) Jammu & Kashmir",
+    "Mobile No": {
+      "$numberLong": "9796624000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e25"
+    },
+    "statename": "Jammu & Kashmir",
+    "Committee": "statename Program Heads",
+    "name ": "Kokil Jain",
+    "Designation ": "statename Head - Infusion Programmes - Smart Girl",
+    "statename-Designation": "statename Head - Infusion Programmes - Smart Girl Jammu & Kashmir",
+    "Mobile No": {
+      "$numberLong": "8307299999"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e26"
+    },
+    "statename": "Jammu & Kashmir",
+    "Committee": "statename Program Heads",
+    "name ": "Ruchi Jain",
+    "Designation ": "statename Head - Infusion Programmes - Matrimony ",
+    "statename-Designation": "statename Head - Infusion Programmes - Matrimony  Jammu & Kashmir",
+    "Mobile No": {
+      "$numberLong": "9787388088"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e27"
+    },
+    "statename": "Jammu & Kashmir",
+    "Committee": "statename Program Heads",
+    "name ": "Amit Jain (Kaka)",
+    "Designation ": "statename Head - Infusion Program - Student Scholarship, MSME, Minority ",
+    "statename-Designation": "statename Head - Infusion Program - Student Scholarship, MSME, Minority  Jammu & Kashmir",
+    "Mobile No": {
+      "$numberLong": "9419103883"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e28"
+    },
+    "statename": "Jammu & Kashmir",
+    "Committee": "statename Program Heads",
+    "name ": "Aashish Jain",
+    "Designation ": "statename Head - Infusion Programmes - Business Development + Ibud",
+    "statename-Designation": "statename Head - Infusion Programmes - Business Development + Ibud Jammu & Kashmir",
+    "Mobile No": {
+      "$numberLong": "9086028975"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e29"
+    },
+    "statename": "Jammu & Kashmir",
+    "Committee": "statename Program Heads",
+    "name ": "Preiksha Jain",
+    "Designation ": "statename Head - Infusion Programmes - Marriage Counselling",
+    "statename-Designation": "statename Head - Infusion Programmes - Marriage Counselling Jammu & Kashmir",
+    "Mobile No": {
+      "$numberLong": "7051021000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e2a"
+    },
+    "statename": "Gujarat",
+    "Committee": "Governing Committee",
+    "name ": "Deepak Nahar",
+    "Designation ": "statename President ",
+    "statename-Designation": "statename President  Gujarat",
+    "Mobile No": {
+      "$numberLong": "9426813468"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e2b"
+    },
+    "statename": "Gujarat",
+    "Committee": "Governing Committee",
+    "name ": "Dr. Sanjay Jain ",
+    "Designation ": "Immediate Past statename President ",
+    "statename-Designation": "Immediate Past statename President  Gujarat",
+    "Mobile No": {
+      "$numberLong": "7575805671"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e2c"
+    },
+    "statename": "Gujarat",
+    "Committee": "Governing Committee",
+    "Designation ": "statename Vice President - Initiative and Growth ",
+    "statename-Designation": "statename Vice President - Initiative and Growth  Gujarat"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e2d"
+    },
+    "statename": "Gujarat",
+    "Committee": "Governing Committee",
+    "Designation ": "statename Vice President - Public relations & Outreach ",
+    "statename-Designation": "statename Vice President - Public relations & Outreach  Gujarat"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e2e"
+    },
+    "statename": "Gujarat",
+    "Committee": "Governing Committee",
+    "Designation ": "statename Vice President- Women & Youth ",
+    "statename-Designation": "statename Vice President- Women & Youth  Gujarat"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e2f"
+    },
+    "statename": "Gujarat",
+    "Committee": "Governing Committee",
+    "name ": "Suresh Kothari",
+    "Designation ": "Former statename President ",
+    "statename-Designation": "Former statename President  Gujarat",
+    "Mobile No": {
+      "$numberLong": "9825022777"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e30"
+    },
+    "statename": "Gujarat",
+    "Committee": "Governing Committee",
+    "name ": "Rajesh Surana",
+    "Designation ": "Former statename President",
+    "statename-Designation": "Former statename President Gujarat",
+    "Mobile No": {
+      "$numberLong": "9376513000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e31"
+    },
+    "statename": "Gujarat",
+    "Committee": "Governing Committee",
+    "name ": "Ketan Mehta",
+    "Designation ": "Former statename President",
+    "statename-Designation": "Former statename President Gujarat",
+    "Mobile No": {
+      "$numberLong": "9099988028"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e32"
+    },
+    "statename": "Gujarat",
+    "Committee": "Governing Committee",
+    "name ": "Bhairavi Jain",
+    "Designation ": "Former statename President",
+    "statename-Designation": "Former statename President Gujarat",
+    "Mobile No": {
+      "$numberLong": "9426215459"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e33"
+    },
+    "statename": "Gujarat",
+    "Committee": "Governing Committee",
+    "name ": "Maltiben Mehta",
+    "Designation ": "Former statename President",
+    "statename-Designation": "Former statename President Gujarat",
+    "Mobile No": {
+      "$numberLong": "9825317187"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e34"
+    },
+    "statename": "Gujarat",
+    "Committee": "Governing Committee",
+    "name ": "Babubhai Mehta ",
+    "Designation ": "Former statename President",
+    "statename-Designation": "Former statename President Gujarat",
+    "Mobile No": {
+      "$numberLong": "9825147701"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e35"
+    },
+    "statename": "Gujarat",
+    "Committee": "Operations Committee",
+    "name ": "Sharad Seth",
+    "Designation ": "statename General Secretary ",
+    "statename-Designation": "statename General Secretary  Gujarat",
+    "Mobile No": {
+      "$numberLong": "9979969595"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e36"
+    },
+    "statename": "Gujarat",
+    "Committee": "Operations Committee",
+    "Designation ": "statename Secretary - Monitoring & Implementation ",
+    "statename-Designation": "statename Secretary - Monitoring & Implementation  Gujarat"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e37"
+    },
+    "statename": "Gujarat",
+    "Committee": "Operations Committee",
+    "Designation ": "statename Secretary - Operations & Coordination  ",
+    "statename-Designation": "statename Secretary - Operations & Coordination   Gujarat"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e38"
+    },
+    "statename": "Gujarat",
+    "Committee": "Operations Committee",
+    "Designation ": "statename Secretary - Technology and Group formation",
+    "statename-Designation": "statename Secretary - Technology and Group formation Gujarat"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e39"
+    },
+    "statename": "Gujarat",
+    "Committee": "Operations Committee",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday Gujarat"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e3a"
+    },
+    "statename": "Gujarat",
+    "Committee": "Operations Committee",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday Gujarat"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e3b"
+    },
+    "statename": "Gujarat",
+    "Committee": "Operations Committee",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday Gujarat"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e3c"
+    },
+    "statename": "Gujarat",
+    "Committee": "Operations Committee",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday Gujarat"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e3d"
+    },
+    "statename": "Gujarat",
+    "Committee": "Operations Committee",
+    "Designation ": "statename Head Expansion (position as per statename requirement) ",
+    "statename-Designation": "statename Head Expansion (position as per statename requirement)  Gujarat"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e3e"
+    },
+    "statename": "Gujarat",
+    "Committee": "Operations Committee",
+    "Designation ": "statename Head Media, Social Media & Publishing ",
+    "statename-Designation": "statename Head Media, Social Media & Publishing  Gujarat"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e3f"
+    },
+    "statename": "Gujarat",
+    "Committee": "statename Program Heads",
+    "Designation ": "statename Head - Foundation Program",
+    "statename-Designation": "statename Head - Foundation Program Gujarat"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e40"
+    },
+    "statename": "Gujarat",
+    "Committee": "statename Program Heads",
+    "Designation ": "statename Head - Inception Program",
+    "statename-Designation": "statename Head - Inception Program Gujarat"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e41"
+    },
+    "statename": "Gujarat",
+    "Committee": "statename Program Heads",
+    "Designation ": "statename Head - Infusion Program - Student Assessment Program (SAP) + Career",
+    "statename-Designation": "statename Head - Infusion Program - Student Assessment Program (SAP) + Career Gujarat"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e42"
+    },
+    "statename": "Gujarat",
+    "Committee": "statename Program Heads",
+    "Designation ": "statename Head - Infusion Programmes - Empowerment of  Couple (EOC)",
+    "statename-Designation": "statename Head - Infusion Programmes - Empowerment of  Couple (EOC) Gujarat"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e43"
+    },
+    "statename": "Gujarat",
+    "Committee": "statename Program Heads",
+    "Designation ": "statename Head - Infusion Programmes - Smart Girl",
+    "statename-Designation": "statename Head - Infusion Programmes - Smart Girl Gujarat"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e44"
+    },
+    "statename": "Gujarat",
+    "Committee": "statename Program Heads",
+    "Designation ": "statename Head - Infusion Programmes - Matrimony ",
+    "statename-Designation": "statename Head - Infusion Programmes - Matrimony  Gujarat"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e45"
+    },
+    "statename": "Gujarat",
+    "Committee": "statename Program Heads",
+    "Designation ": "statename Head - Infusion Program - Student Scholarship, MSME, Minority ",
+    "statename-Designation": "statename Head - Infusion Program - Student Scholarship, MSME, Minority  Gujarat"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e46"
+    },
+    "statename": "Gujarat",
+    "Committee": "statename Program Heads",
+    "Designation ": "statename Head - Infusion Programmes - Business Development + Ibud",
+    "statename-Designation": "statename Head - Infusion Programmes - Business Development + Ibud Gujarat"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e47"
+    },
+    "statename": "Gujarat",
+    "Committee": "statename Program Heads",
+    "Designation ": "statename Head - Infusion Programmes - Marriage Counselling",
+    "statename-Designation": "statename Head - Infusion Programmes - Marriage Counselling Gujarat"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e48"
+    },
+    "statename": "Karnataka",
+    "Committee": "Governing Committee",
+    "name ": "Kishore  Roonwal",
+    "Designation ": "statename President ",
+    "statename-Designation": "statename President  Karnataka",
+    "Mobile No": {
+      "$numberLong": "9845356694"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e49"
+    },
+    "statename": "Karnataka",
+    "Committee": "Governing Committee",
+    "name ": "Uttamchand  Bantia",
+    "Designation ": "Immediate Past statename President ",
+    "statename-Designation": "Immediate Past statename President  Karnataka",
+    "Mobile No": {
+      "$numberLong": "9844092690"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e4a"
+    },
+    "statename": "Karnataka",
+    "Committee": "Governing Committee",
+    "name ": "Hirachand Kalmani",
+    "Designation ": "statename Vice President - Initiative and Growth ",
+    "statename-Designation": "statename Vice President - Initiative and Growth  Karnataka",
+    "Mobile No": {
+      "$numberLong": "9448187214"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e4b"
+    },
+    "statename": "Karnataka",
+    "Committee": "Governing Committee",
+    "name ": "Kamal Kumar Anchalia",
+    "Designation ": "statename Vice President - Public relations & Outreach ",
+    "statename-Designation": "statename Vice President - Public relations & Outreach  Karnataka",
+    "Mobile No": {
+      "$numberLong": "9448193838"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e4c"
+    },
+    "statename": "Karnataka",
+    "Committee": "Governing Committee",
+    "name ": "Jayantilal Dhanesha",
+    "Designation ": "statename Vice President- Women & Youth ",
+    "statename-Designation": "statename Vice President- Women & Youth  Karnataka",
+    "Mobile No": {
+      "$numberLong": "9880122778"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e4d"
+    },
+    "statename": "Karnataka",
+    "Committee": "Governing Committee",
+    "name ": "Mahaveer Parekh",
+    "Designation ": "Former statename President ",
+    "statename-Designation": "Former statename President  Karnataka",
+    "Mobile No": {
+      "$numberLong": "9448127885"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e4e"
+    },
+    "statename": "Karnataka",
+    "Committee": "Governing Committee",
+    "name ": "Dinesh Palrecha",
+    "Designation ": "Former statename President",
+    "statename-Designation": "Former statename President Karnataka",
+    "Mobile No": {
+      "$numberLong": "9448126217"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e4f"
+    },
+    "statename": "Karnataka",
+    "Committee": "Governing Committee",
+    "name ": "Goutam Bafna",
+    "Designation ": "Former statename President",
+    "statename-Designation": "Former statename President Karnataka",
+    "Mobile No": {
+      "$numberLong": "9844054592"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e50"
+    },
+    "statename": "Karnataka",
+    "Committee": "Governing Committee",
+    "name ": "Omprakash Lunawat",
+    "Designation ": "Former statename President",
+    "statename-Designation": "Former statename President Karnataka",
+    "Mobile No": {
+      "$numberLong": "9845350863"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e51"
+    },
+    "statename": "Karnataka",
+    "Committee": "Operations Committee",
+    "name ": "Prakash Gulecha Jain",
+    "Designation ": "statename General Secretary ",
+    "statename-Designation": "statename General Secretary  Karnataka",
+    "Mobile No": {
+      "$numberLong": "9342100100"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e52"
+    },
+    "statename": "Karnataka",
+    "Committee": "Operations Committee",
+    "name ": "Anita Kothari",
+    "Designation ": "statename Secretary - Monitoring & Implementation ",
+    "statename-Designation": "statename Secretary - Monitoring & Implementation  Karnataka",
+    "Mobile No": {
+      "$numberLong": "9945632076"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e53"
+    },
+    "statename": "Karnataka",
+    "Committee": "Operations Committee",
+    "name ": "Sunil Lodha",
+    "Designation ": "statename Secretary - Operations & Coordination",
+    "statename-Designation": "statename Secretary - Operations & Coordination Karnataka",
+    "Mobile No": {
+      "$numberLong": "9844111420"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e54"
+    },
+    "statename": "Karnataka",
+    "Committee": "Operations Committee",
+    "name ": "Jitendra Kawad",
+    "Designation ": "statename Secretary - Technology and Group formation",
+    "statename-Designation": "statename Secretary - Technology and Group formation Karnataka",
+    "Mobile No": {
+      "$numberLong": "7014160770"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e55"
+    },
+    "statename": "Karnataka",
+    "Committee": "Operations Committee",
+    "name ": "Mahaveer Parekh",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & All Sampradays",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & All Sampradays Karnataka",
+    "Mobile No": {
+      "$numberLong": "9448127885"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e56"
+    },
+    "statename": "Karnataka",
+    "Committee": "Operations Committee",
+    "name ": "Madhu Tated",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday Karnataka",
+    "Mobile No": {
+      "$numberLong": "9845940963"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e57"
+    },
+    "statename": "Karnataka",
+    "Committee": "Operations Committee",
+    "name ": "Arun Yalagudri",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday Karnataka",
+    "Mobile No": {
+      "$numberLong": "9448114746"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e58"
+    },
+    "statename": "Karnataka",
+    "Committee": "Operations Committee",
+    "name ": "Goutam Vinayakiya",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday Karnataka",
+    "Mobile No": {
+      "$numberLong": "9844008570"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e59"
+    },
+    "statename": "Karnataka",
+    "Committee": "Operations Committee",
+    "name ": "Sharmila Mehta",
+    "Designation ": "statename Head Expansion (position as per statename requirement)",
+    "statename-Designation": "statename Head Expansion (position as per statename requirement) Karnataka",
+    "Mobile No": {
+      "$numberLong": "9448588467"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e5a"
+    },
+    "statename": "Karnataka",
+    "Committee": "Operations Committee",
+    "name ": "Siddarth Bohra",
+    "Designation ": "statename Head Media, Social Media & Publishing",
+    "statename-Designation": "statename Head Media, Social Media & Publishing Karnataka",
+    "Mobile No": {
+      "$numberLong": "9008900002"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e5b"
+    },
+    "statename": "Karnataka",
+    "Committee": "statename Program Heads",
+    "name ": "Mukesh Hinger",
+    "Designation ": "statename Head - Foundation Program",
+    "statename-Designation": "statename Head - Foundation Program Karnataka",
+    "Mobile No": {
+      "$numberLong": "9448363431"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e5c"
+    },
+    "statename": "Karnataka",
+    "Committee": "statename Program Heads",
+    "name ": "Kailash Jain",
+    "Designation ": "statename Head - Inception Program",
+    "statename-Designation": "statename Head - Inception Program Karnataka",
+    "Mobile No": {
+      "$numberLong": "9448052157"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e5d"
+    },
+    "statename": "Karnataka",
+    "Committee": "statename Program Heads",
+    "name ": "Rajendar Dudhedia Jain",
+    "Designation ": "statename Head - Infusion Program - Student Assessment Program (SAP) + Career",
+    "statename-Designation": "statename Head - Infusion Program - Student Assessment Program (SAP) + Career Karnataka",
+    "Mobile No": {
+      "$numberLong": "9886671221"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e5e"
+    },
+    "statename": "Karnataka",
+    "Committee": "statename Program Heads",
+    "name ": "Anuradha Tigadi",
+    "Designation ": "statename Head - Infusion Programmes - Empowerment of Couple (EOC)",
+    "statename-Designation": "statename Head - Infusion Programmes - Empowerment of Couple (EOC) Karnataka",
+    "Mobile No": {
+      "$numberLong": "7090942984"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e5f"
+    },
+    "statename": "Karnataka",
+    "Committee": "statename Program Heads",
+    "name ": "S P Malini",
+    "Designation ": "statename Head - Infusion Program - Smart Girl",
+    "statename-Designation": "statename Head - Infusion Program - Smart Girl Karnataka",
+    "Mobile No": {
+      "$numberLong": "9845377186"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e60"
+    },
+    "statename": "Karnataka",
+    "Committee": "statename Program Heads",
+    "name ": "Pushpa Lunkad",
+    "Designation ": "statename Head - Infusion Program - Matrimony",
+    "statename-Designation": "statename Head - Infusion Program - Matrimony Karnataka",
+    "Mobile No": {
+      "$numberLong": "8660777412"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e61"
+    },
+    "statename": "Karnataka",
+    "Committee": "statename Program Heads",
+    "name ": "Ashok Srisrimal",
+    "Designation ": "statename Head - Infusion Program - Student Scholarship, MSME, Minority",
+    "statename-Designation": "statename Head - Infusion Program - Student Scholarship, MSME, Minority Karnataka",
+    "Mobile No": {
+      "$numberLong": "7019501737"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e62"
+    },
+    "statename": "Karnataka",
+    "Committee": "statename Program Heads",
+    "name ": "Devendra Sanghvi",
+    "Designation ": "statename Head - Infusion Programs - Business Development + Ibud",
+    "statename-Designation": "statename Head - Infusion Programs - Business Development + Ibud Karnataka",
+    "Mobile No": {
+      "$numberLong": "9845137670"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e63"
+    },
+    "statename": "Karnataka",
+    "Committee": "statename Program Heads",
+    "name ": "Dr Renu Ranka",
+    "Designation ": "statename Head - Infusion Programmes - Marriage Counselling",
+    "statename-Designation": "statename Head - Infusion Programmes - Marriage Counselling Karnataka",
+    "Mobile No": {
+      "$numberLong": "9449695708"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e64"
+    },
+    "statename": "Madhya Pradesh - East",
+    "Committee": "Governing Committee",
+    "name ": "Dr. Rajneet Jain",
+    "Designation ": "statename President ",
+    "statename-Designation": "statename President  Madhya Pradesh - East",
+    "Mobile No": {
+      "$numberLong": "9826137243"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e65"
+    },
+    "statename": "Madhya Pradesh - East",
+    "Committee": "Governing Committee",
+    "name ": "Rajesh Mehta ",
+    "Designation ": "Immediate Past statename President ",
+    "statename-Designation": "Immediate Past statename President  Madhya Pradesh - East",
+    "Mobile No": {
+      "$numberLong": "9425319450"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e66"
+    },
+    "statename": "Madhya Pradesh - East",
+    "Committee": "Governing Committee",
+    "name ": "Mangal Chand Tatia",
+    "Designation ": "statename Vice President - Initiative and Growth ",
+    "statename-Designation": "statename Vice President - Initiative and Growth  Madhya Pradesh - East",
+    "Mobile No": {
+      "$numberLong": "9425516106"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e67"
+    },
+    "statename": "Madhya Pradesh - East",
+    "Committee": "Governing Committee",
+    "name ": "Rakesh Singhai Jain",
+    "Designation ": "statename Vice President - Public relations & Outreach ",
+    "statename-Designation": "statename Vice President - Public relations & Outreach  Madhya Pradesh - East",
+    "Mobile No": {
+      "$numberLong": "9827063995"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e68"
+    },
+    "statename": "Madhya Pradesh - East",
+    "Committee": "Governing Committee",
+    "name ": "Er. Sunil Kothari",
+    "Designation ": "statename Vice President- Women & Youth ",
+    "statename-Designation": "statename Vice President- Women & Youth  Madhya Pradesh - East",
+    "Mobile No": {
+      "$numberLong": "9425169040"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e69"
+    },
+    "statename": "Madhya Pradesh - East",
+    "Committee": "Governing Committee",
+    "name ": "Dr. Vimal Kumar Jain ",
+    "Designation ": "Former statename President ",
+    "statename-Designation": "Former statename President  Madhya Pradesh - East",
+    "Mobile No": {
+      "$numberLong": "9425866231"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e6a"
+    },
+    "statename": "Madhya Pradesh - East",
+    "Committee": "Governing Committee",
+    "name ": "Rakesh Jain ",
+    "Designation ": "Former statename President",
+    "statename-Designation": "Former statename President Madhya Pradesh - East",
+    "Mobile No": {
+      "$numberLong": "9826035523"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e6b"
+    },
+    "statename": "Madhya Pradesh - East",
+    "Committee": "Governing Committee",
+    "name ": "Kamlesh Humad",
+    "Designation ": "Former statename President",
+    "statename-Designation": "Former statename President Madhya Pradesh - East",
+    "Mobile No": {
+      "$numberLong": "9425085960"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e6c"
+    },
+    "statename": "Madhya Pradesh - East",
+    "Committee": "Operations Committee",
+    "name ": "Dr. Vimal Kumar Jain",
+    "Designation ": "statename General Secretary ",
+    "statename-Designation": "statename General Secretary  Madhya Pradesh - East",
+    "Mobile No": {
+      "$numberLong": "9425866231"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e6d"
+    },
+    "statename": "Madhya Pradesh - East",
+    "Committee": "Operations Committee",
+    "name ": "Dr. Yatish Jain",
+    "Designation ": "statename Secretary - Monitoring & Implementation ",
+    "statename-Designation": "statename Secretary - Monitoring & Implementation  Madhya Pradesh - East",
+    "Mobile No": {
+      "$numberLong": "9424679131"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e6e"
+    },
+    "statename": "Madhya Pradesh - East",
+    "Committee": "Operations Committee",
+    "name ": "Mayur Ramniklal Sanghavi",
+    "Designation ": "statename Secretary - Operations & Coordination  ",
+    "statename-Designation": "statename Secretary - Operations & Coordination   Madhya Pradesh - East",
+    "Mobile No": {
+      "$numberLong": "9424365265"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e6f"
+    },
+    "statename": "Madhya Pradesh - East",
+    "Committee": "Operations Committee",
+    "name ": "Pankaj Jain (CSE) ",
+    "Designation ": "statename Secretary - Technology and Group formation",
+    "statename-Designation": "statename Secretary - Technology and Group formation Madhya Pradesh - East",
+    "Mobile No": {
+      "$numberLong": "9301020307"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e70"
+    },
+    "statename": "Madhya Pradesh - East",
+    "Committee": "Operations Committee",
+    "name ": "Jitesh  Chrodiya ",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday Madhya Pradesh - East",
+    "Mobile No": {
+      "$numberLong": "9893077433"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e71"
+    },
+    "statename": "Madhya Pradesh - East",
+    "Committee": "Operations Committee",
+    "name ": "Er. Rajesh Jain ",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday Madhya Pradesh - East",
+    "Mobile No": {
+      "$numberLong": "7999231125"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e72"
+    },
+    "statename": "Madhya Pradesh - East",
+    "Committee": "Operations Committee",
+    "name ": "Sandeep  Bhura",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday Madhya Pradesh - East",
+    "Mobile No": {
+      "$numberLong": "9301217500"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e73"
+    },
+    "statename": "Madhya Pradesh - East",
+    "Committee": "Operations Committee",
+    "name ": "Nikhil Baghmar",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday Madhya Pradesh - East",
+    "Mobile No": {
+      "$numberLong": "9893863535"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e74"
+    },
+    "statename": "Madhya Pradesh - East",
+    "Committee": "Operations Committee",
+    "name ": "Er. Prakash Chand Jain",
+    "Designation ": "statename Head Expansion (position as per statename requirement) ",
+    "statename-Designation": "statename Head Expansion (position as per statename requirement)  Madhya Pradesh - East",
+    "Mobile No": {
+      "$numberLong": "8989894057"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e75"
+    },
+    "statename": "Madhya Pradesh - East",
+    "Committee": "Operations Committee",
+    "name ": "Dr. Vinamra Nayak ",
+    "Designation ": "statename Head Media, Social Media & Publishing ",
+    "statename-Designation": "statename Head Media, Social Media & Publishing  Madhya Pradesh - East",
+    "Mobile No": {
+      "$numberLong": "9926408188"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e76"
+    },
+    "statename": "Madhya Pradesh - East",
+    "Committee": "statename Program Heads",
+    "name ": "Pragyan Jain",
+    "Designation ": "statename Head - Foundation Program",
+    "statename-Designation": "statename Head - Foundation Program Madhya Pradesh - East",
+    "Mobile No": {
+      "$numberLong": "7000982946"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e77"
+    },
+    "statename": "Madhya Pradesh - East",
+    "Committee": "statename Program Heads",
+    "name ": "Saurabh Jain ",
+    "Designation ": "statename Head - Inception Program",
+    "statename-Designation": "statename Head - Inception Program Madhya Pradesh - East",
+    "Mobile No": {
+      "$numberLong": "8839629718"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e78"
+    },
+    "statename": "Madhya Pradesh - East",
+    "Committee": "statename Program Heads",
+    "name ": "Er. Saras Jain",
+    "Designation ": "statename Head - Infusion Program - Student Assessment Program (SAP) + Career",
+    "statename-Designation": "statename Head - Infusion Program - Student Assessment Program (SAP) + Career Madhya Pradesh - East",
+    "Mobile No": {
+      "$numberLong": "9826315311"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e79"
+    },
+    "statename": "Madhya Pradesh - East",
+    "Committee": "statename Program Heads",
+    "name ": "Dr. Sandhya Jain Shruti",
+    "Designation ": "statename Head - Infusion Programmes - Empowerment of  Couple (EOC)",
+    "statename-Designation": "statename Head - Infusion Programmes - Empowerment of  Couple (EOC) Madhya Pradesh - East",
+    "Mobile No": {
+      "$numberLong": "8319662316"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e7a"
+    },
+    "statename": "Madhya Pradesh - East",
+    "Committee": "statename Program Heads",
+    "name ": "Er. Sapan Kumar Jain",
+    "Designation ": "statename Head - Infusion Programmes - Smart Girl",
+    "statename-Designation": "statename Head - Infusion Programmes - Smart Girl Madhya Pradesh - East",
+    "Mobile No": {
+      "$numberLong": "9303390689"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e7b"
+    },
+    "statename": "Madhya Pradesh - East",
+    "Committee": "statename Program Heads",
+    "name ": "Vikram  Parwar",
+    "Designation ": "statename Head - Infusion Programmes - Matrimony ",
+    "statename-Designation": "statename Head - Infusion Programmes - Matrimony  Madhya Pradesh - East",
+    "Mobile No": {
+      "$numberLong": "7000768563"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e7c"
+    },
+    "statename": "Madhya Pradesh - East",
+    "Committee": "statename Program Heads",
+    "name ": "Subhash Jain ",
+    "Designation ": "statename Head - Infusion Program - Student Scholarship, MSME, Minority ",
+    "statename-Designation": "statename Head - Infusion Program - Student Scholarship, MSME, Minority  Madhya Pradesh - East",
+    "Mobile No": {
+      "$numberLong": "9329050559"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e7d"
+    },
+    "statename": "Madhya Pradesh - East",
+    "Committee": "statename Program Heads",
+    "name ": "Pankaj Goel ",
+    "Designation ": "statename Head - Infusion Programmes - Business Development + Ibud",
+    "statename-Designation": "statename Head - Infusion Programmes - Business Development + Ibud Madhya Pradesh - East",
+    "Mobile No": {
+      "$numberLong": "9425323089"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e7e"
+    },
+    "statename": "Madhya Pradesh - East",
+    "Committee": "statename Program Heads",
+    "name ": "Dr. Bhartesh Bharill ",
+    "Designation ": "statename Head - Infusion Programmes - Marriage Counselling",
+    "statename-Designation": "statename Head - Infusion Programmes - Marriage Counselling Madhya Pradesh - East",
+    "Mobile No": {
+      "$numberLong": "9300790634"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e7f"
+    },
+    "statename": "Madhya Pradesh - West",
+    "Committee": "Governing Committee",
+    "name ": "Sasha Jain",
+    "Designation ": "statename President ",
+    "statename-Designation": "statename President  Madhya Pradesh - West",
+    "Mobile No": {
+      "$numberLong": "9425092016"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e80"
+    },
+    "statename": "Madhya Pradesh - West",
+    "Committee": "Governing Committee",
+    "name ": "Rajesh Mehta ",
+    "Designation ": "Immediate Past statename President ",
+    "statename-Designation": "Immediate Past statename President  Madhya Pradesh - West",
+    "Mobile No": {
+      "$numberLong": "9425319450"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e81"
+    },
+    "statename": "Madhya Pradesh - West",
+    "Committee": "Governing Committee",
+    "name ": "Sunil Patel",
+    "Designation ": "statename Vice President - Initiative and Growth ",
+    "statename-Designation": "statename Vice President - Initiative and Growth  Madhya Pradesh - West",
+    "Mobile No": {
+      "$numberLong": "9425031909"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e82"
+    },
+    "statename": "Madhya Pradesh - West",
+    "Committee": "Governing Committee",
+    "name ": "Omprakash Jain",
+    "Designation ": "statename Vice President - Public relations & Outreach ",
+    "statename-Designation": "statename Vice President - Public relations & Outreach  Madhya Pradesh - West",
+    "Mobile No": {
+      "$numberLong": "9425091103"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e83"
+    },
+    "statename": "Madhya Pradesh - West",
+    "Committee": "Governing Committee",
+    "name ": "Deepak Jain Bhatewara",
+    "Designation ": "statename Vice President- Women & Youth ",
+    "statename-Designation": "statename Vice President- Women & Youth  Madhya Pradesh - West",
+    "Mobile No": {
+      "$numberLong": "9827060558"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e84"
+    },
+    "statename": "Madhya Pradesh - West",
+    "Committee": "Governing Committee",
+    "name ": "Dilip Doshi",
+    "Designation ": "Former statename President ",
+    "statename-Designation": "Former statename President  Madhya Pradesh - West",
+    "Mobile No": {
+      "$numberLong": "9406609998"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e85"
+    },
+    "statename": "Madhya Pradesh - West",
+    "Committee": "Governing Committee",
+    "name ": "Dr. Sharad Doshi",
+    "Designation ": "Former statename President",
+    "statename-Designation": "Former statename President Madhya Pradesh - West",
+    "Mobile No": {
+      "$numberLong": "9893242466"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e86"
+    },
+    "statename": "Madhya Pradesh - West",
+    "Committee": "Governing Committee",
+    "name ": "Rakesh Jain ",
+    "Designation ": "Former statename President",
+    "statename-Designation": "Former statename President Madhya Pradesh - West",
+    "Mobile No": {
+      "$numberLong": "9826035523"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e87"
+    },
+    "statename": "Madhya Pradesh - West",
+    "Committee": "Governing Committee",
+    "name ": "Kamlesh Humar",
+    "Designation ": "Former statename President",
+    "statename-Designation": "Former statename President Madhya Pradesh - West",
+    "Mobile No": {
+      "$numberLong": "9425085960"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e88"
+    },
+    "statename": "Madhya Pradesh - West",
+    "Committee": "Governing Committee",
+    "name ": "Jeevraj Singhi",
+    "Designation ": "Former statename President",
+    "statename-Designation": "Former statename President Madhya Pradesh - West",
+    "Mobile No": {
+      "$numberLong": "9303276846"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e89"
+    },
+    "statename": "Madhya Pradesh - West",
+    "Committee": "Governing Committee",
+    "name ": "Babulal Jain",
+    "Designation ": "Former statename President",
+    "statename-Designation": "Former statename President Madhya Pradesh - West",
+    "Mobile No": {
+      "$numberLong": "9825147701"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e8a"
+    },
+    "statename": "Madhya Pradesh - West",
+    "Committee": "Operations Committee",
+    "name ": "Sandeep  Jatale",
+    "Designation ": "statename General Secretary ",
+    "statename-Designation": "statename General Secretary  Madhya Pradesh - West",
+    "Mobile No": {
+      "$numberLong": "9826420110"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e8b"
+    },
+    "statename": "Madhya Pradesh - West",
+    "Committee": "Operations Committee",
+    "name ": "Kamlesh  Jain",
+    "Designation ": "statename Secretary - Monitoring & Implementation ",
+    "statename-Designation": "statename Secretary - Monitoring & Implementation  Madhya Pradesh - West",
+    "Mobile No": {
+      "$numberLong": "8989122489"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e8c"
+    },
+    "statename": "Madhya Pradesh - West",
+    "Committee": "Operations Committee",
+    "name ": "Rahul Jain, Bhopal",
+    "Designation ": "statename Secretary - Operations & Coordination  ",
+    "statename-Designation": "statename Secretary - Operations & Coordination   Madhya Pradesh - West",
+    "Mobile No": {
+      "$numberLong": "9827041483"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e8d"
+    },
+    "statename": "Madhya Pradesh - West",
+    "Committee": "Operations Committee",
+    "name ": "Sunil Samota, Indore",
+    "Designation ": "statename Secretary - Technology and Group formation",
+    "statename-Designation": "statename Secretary - Technology and Group formation Madhya Pradesh - West",
+    "Mobile No": {
+      "$numberLong": "9407406120"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e8e"
+    },
+    "statename": "Madhya Pradesh - West",
+    "Committee": "Operations Committee",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday Madhya Pradesh - West",
+    "Mobile No": {
+      "$numberLong": "9425191341"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e8f"
+    },
+    "statename": "Madhya Pradesh - West",
+    "Committee": "Operations Committee",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday Madhya Pradesh - West"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e90"
+    },
+    "statename": "Madhya Pradesh - West",
+    "Committee": "Operations Committee",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday Madhya Pradesh - West"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e91"
+    },
+    "statename": "Madhya Pradesh - West",
+    "Committee": "Operations Committee",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday Madhya Pradesh - West"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e92"
+    },
+    "statename": "Madhya Pradesh - West",
+    "Committee": "Operations Committee",
+    "name ": "Ajeet Chordia ",
+    "Designation ": "statename Head Expansion (position as per statename requirement) ",
+    "statename-Designation": "statename Head Expansion (position as per statename requirement)  Madhya Pradesh - West"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e93"
+    },
+    "statename": "Madhya Pradesh - West",
+    "Committee": "Operations Committee",
+    "name ": "Vinay Data",
+    "Designation ": "statename Head Media, Social Media & Publishing ",
+    "statename-Designation": "statename Head Media, Social Media & Publishing  Madhya Pradesh - West"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e94"
+    },
+    "statename": "Madhya Pradesh - West",
+    "Committee": "statename Program Heads",
+    "name ": "Meeta Jain",
+    "Designation ": "statename Head - Foundation Program",
+    "statename-Designation": "statename Head - Foundation Program Madhya Pradesh - West"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e95"
+    },
+    "statename": "Madhya Pradesh - West",
+    "Committee": "statename Program Heads",
+    "Designation ": "statename Head - Inception Program",
+    "statename-Designation": "statename Head - Inception Program Madhya Pradesh - West"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e96"
+    },
+    "statename": "Madhya Pradesh - West",
+    "Committee": "statename Program Heads",
+    "name ": "Ruchi Sogani",
+    "Designation ": "statename Head - Infusion Program - Student Assessment Program (SAP) + Career",
+    "statename-Designation": "statename Head - Infusion Program - Student Assessment Program (SAP) + Career Madhya Pradesh - West",
+    "Mobile No": {
+      "$numberLong": "9406653505"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e97"
+    },
+    "statename": "Madhya Pradesh - West",
+    "Committee": "statename Program Heads",
+    "Designation ": "statename Head - Infusion Programmes - Empowerment of  Couple (EOC)",
+    "statename-Designation": "statename Head - Infusion Programmes - Empowerment of  Couple (EOC) Madhya Pradesh - West"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e98"
+    },
+    "statename": "Madhya Pradesh - West",
+    "Committee": "statename Program Heads",
+    "name ": "Priti Mutha",
+    "Designation ": "statename Head - Infusion Programmes - Smart Girl",
+    "statename-Designation": "statename Head - Infusion Programmes - Smart Girl Madhya Pradesh - West",
+    "Mobile No": {
+      "$numberLong": "9425919331"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e99"
+    },
+    "statename": "Madhya Pradesh - West",
+    "Committee": "statename Program Heads",
+    "name ": "Piyush Jain",
+    "Designation ": "statename Head - Infusion Programmes - Matrimony ",
+    "statename-Designation": "statename Head - Infusion Programmes - Matrimony  Madhya Pradesh - West",
+    "Mobile No": {
+      "$numberLong": "9407447733"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e9a"
+    },
+    "statename": "Madhya Pradesh - West",
+    "Committee": "statename Program Heads",
+    "name ": "Sonal  Mehta",
+    "Designation ": "statename Head - Infusion Program - Student Scholarship, MSME, Minority ",
+    "statename-Designation": "statename Head - Infusion Program - Student Scholarship, MSME, Minority  Madhya Pradesh - West",
+    "Mobile No": {
+      "$numberLong": "7869254517"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e9b"
+    },
+    "statename": "Madhya Pradesh - West",
+    "Committee": "statename Program Heads",
+    "name ": "Sharad Panot",
+    "Designation ": "statename Head - Infusion Programmes - Business Development + Ibud",
+    "statename-Designation": "statename Head - Infusion Programmes - Business Development + Ibud Madhya Pradesh - West"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e9c"
+    },
+    "statename": "Madhya Pradesh - West",
+    "Committee": "statename Program Heads",
+    "Designation ": "statename Head - Infusion Programmes - Marriage Counselling",
+    "statename-Designation": "statename Head - Infusion Programmes - Marriage Counselling Madhya Pradesh - West"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e9d"
+    },
+    "statename": "Maharashtra",
+    "Committee": "Governing Committee",
+    "name ": "Ketan Shah",
+    "Designation ": "statename President ",
+    "statename-Designation": "statename President  Maharashtra",
+    "Mobile No": {
+      "$numberLong": "9370420033"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e9e"
+    },
+    "statename": "Maharashtra",
+    "Committee": "Governing Committee",
+    "name ": "Nanandkishor Sakhla",
+    "Designation ": "Immediate Past statename President ",
+    "statename-Designation": "Immediate Past statename President  Maharashtra",
+    "Mobile No": {
+      "$numberLong": "9822056148"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4e9f"
+    },
+    "statename": "Maharashtra",
+    "Committee": "Governing Committee",
+    "name ": "Vinay Parakh",
+    "Designation ": "statename Vice President - Initiative and Growth ",
+    "statename-Designation": "statename Vice President - Initiative and Growth  Maharashtra",
+    "Mobile No": {
+      "$numberLong": "9822009371"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ea0"
+    },
+    "statename": "Maharashtra",
+    "Committee": "Governing Committee",
+    "name ": "Vinay Kothari",
+    "Designation ": "statename Vice President - Public relations & Outreach ",
+    "statename-Designation": "statename Vice President - Public relations & Outreach  Maharashtra",
+    "Mobile No": {
+      "$numberLong": "9673200007"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ea1"
+    },
+    "statename": "Maharashtra",
+    "Committee": "Governing Committee",
+    "name ": "Sunil Kocheta",
+    "Designation ": "statename Vice President- Women & Youth ",
+    "statename-Designation": "statename Vice President- Women & Youth  Maharashtra",
+    "Mobile No": {
+      "$numberLong": "9890045503"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ea2"
+    },
+    "statename": "Maharashtra",
+    "Committee": "Governing Committee",
+    "name ": "Sudarshan Jain",
+    "Designation ": "Former statename President ",
+    "statename-Designation": "Former statename President  Maharashtra",
+    "Mobile No": {
+      "$numberLong": "9422156523"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ea3"
+    },
+    "statename": "Maharashtra",
+    "Committee": "Governing Committee",
+    "name ": "Gautamchand Sancheti",
+    "Designation ": "Former statename President",
+    "statename-Designation": "Former statename President Maharashtra",
+    "Mobile No": {
+      "$numberLong": "9422205566"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ea4"
+    },
+    "statename": "Maharashtra",
+    "Committee": "Governing Committee",
+    "name ": "Amar Gandhi",
+    "Designation ": "Former statename President",
+    "statename-Designation": "Former statename President Maharashtra",
+    "Mobile No": {
+      "$numberLong": "9822362837"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ea5"
+    },
+    "statename": "Maharashtra",
+    "Committee": "Governing Committee",
+    "name ": "Paras Oswal",
+    "Designation ": "Former statename President",
+    "statename-Designation": "Former statename President Maharashtra",
+    "Mobile No": {
+      "$numberLong": "9823095745"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ea6"
+    },
+    "statename": "Maharashtra",
+    "Committee": "Operations Committee",
+    "name ": "Pravin Parakh",
+    "Designation ": "statename General Secretary ",
+    "statename-Designation": "statename General Secretary  Maharashtra",
+    "Mobile No": {
+      "$numberLong": "9422565911"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ea7"
+    },
+    "statename": "Maharashtra",
+    "Committee": "Operations Committee",
+    "name ": "Anand Oswal",
+    "Designation ": "statename Secretary - Monitoring & Implementation ",
+    "statename-Designation": "statename Secretary - Monitoring & Implementation  Maharashtra",
+    "Mobile No": {
+      "$numberLong": "9890944590"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ea8"
+    },
+    "statename": "Maharashtra",
+    "Committee": "Operations Committee",
+    "name ": "Lalit Surana",
+    "Designation ": "statename Secretary - Operations & Coordination  ",
+    "statename-Designation": "statename Secretary - Operations & Coordination   Maharashtra",
+    "Mobile No": {
+      "$numberLong": "9370262643"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ea9"
+    },
+    "statename": "Maharashtra",
+    "Committee": "Operations Committee",
+    "name ": "Mrs. Santosh Bamb",
+    "Designation ": "statename Secretary - Technology and Group formation",
+    "statename-Designation": "statename Secretary - Technology and Group formation Maharashtra",
+    "Mobile No": {
+      "$numberLong": "9420702647"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4eaa"
+    },
+    "statename": "Maharashtra",
+    "Committee": "Operations Committee",
+    "name ": "Mahendra Mandlecha",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday Maharashtra",
+    "Mobile No": {
+      "$numberLong": "9822366601"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4eab"
+    },
+    "statename": "Maharashtra",
+    "Committee": "Operations Committee",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday Maharashtra"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4eac"
+    },
+    "statename": "Maharashtra",
+    "Committee": "Operations Committee",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday Maharashtra"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ead"
+    },
+    "statename": "Maharashtra",
+    "Committee": "Operations Committee",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday Maharashtra"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4eae"
+    },
+    "statename": "Maharashtra",
+    "Committee": "Operations Committee",
+    "name ": "Vijay Dugad",
+    "Designation ": "statename Head Expansion (position as per statename requirement) ",
+    "statename-Designation": "statename Head Expansion (position as per statename requirement)  Maharashtra",
+    "Mobile No": {
+      "$numberLong": "9823163447"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4eaf"
+    },
+    "statename": "Maharashtra",
+    "Committee": "Operations Committee",
+    "name ": "Harshad Shah",
+    "Designation ": "statename Head Media, Social Media & Publishing ",
+    "statename-Designation": "statename Head Media, Social Media & Publishing  Maharashtra",
+    "Mobile No": {
+      "$numberLong": "9422171245"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4eb0"
+    },
+    "statename": "Maharashtra",
+    "Committee": "statename Program Heads",
+    "name ": "Nilesh Lalwani",
+    "Designation ": "statename Head - Foundation Program",
+    "statename-Designation": "statename Head - Foundation Program Maharashtra",
+    "Mobile No": {
+      "$numberLong": "9552774774"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4eb1"
+    },
+    "statename": "Maharashtra",
+    "Committee": "statename Program Heads",
+    "name ": "Paras Chordiya",
+    "Designation ": "statename Head - Inception Program",
+    "statename-Designation": "statename Head - Inception Program Maharashtra",
+    "Mobile No": {
+      "$numberLong": "9422202181"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4eb2"
+    },
+    "statename": "Maharashtra",
+    "Committee": "statename Program Heads",
+    "name ": "Sham Patil",
+    "Designation ": "statename Head - Infusion Program - Student Assessment Program (SAP) + Career",
+    "statename-Designation": "statename Head - Infusion Program - Student Assessment Program (SAP) + Career Maharashtra",
+    "Mobile No": {
+      "$numberLong": "8999908660"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4eb3"
+    },
+    "statename": "Maharashtra",
+    "Committee": "statename Program Heads",
+    "name ": "Chandrashekhar Chordiya",
+    "Designation ": "statename Head - Infusion Programmes - Empowerment of  Couple (EOC)",
+    "statename-Designation": "statename Head - Infusion Programmes - Empowerment of  Couple (EOC) Maharashtra",
+    "Mobile No": {
+      "$numberLong": "7972475308"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4eb4"
+    },
+    "statename": "Maharashtra",
+    "Committee": "statename Program Heads",
+    "name ": "Nitin Pohare",
+    "Designation ": "statename Head - Infusion Programmes - Smart Girl",
+    "statename-Designation": "statename Head - Infusion Programmes - Smart Girl Maharashtra",
+    "Mobile No": {
+      "$numberLong": "9049655929"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4eb5"
+    },
+    "statename": "Maharashtra",
+    "Committee": "statename Program Heads",
+    "name ": "Rushabh Bardiya",
+    "Designation ": "statename Head - Infusion Programmes - Matrimony ",
+    "statename-Designation": "statename Head - Infusion Programmes - Matrimony  Maharashtra",
+    "Mobile No": {
+      "$numberLong": "8600013336"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4eb6"
+    },
+    "statename": "Maharashtra",
+    "Committee": "statename Program Heads",
+    "name ": "Uttam Jain",
+    "Designation ": "statename Head - Infusion Program - Student Scholarship, MSME, Minority ",
+    "statename-Designation": "statename Head - Infusion Program - Student Scholarship, MSME, Minority  Maharashtra",
+    "Mobile No": {
+      "$numberLong": "9422344851"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4eb7"
+    },
+    "statename": "Maharashtra",
+    "Committee": "statename Program Heads",
+    "name ": "Sachin Kothari",
+    "Designation ": "statename Head - Infusion Programmes - Business Development + Ibud",
+    "statename-Designation": "statename Head - Infusion Programmes - Business Development + Ibud Maharashtra",
+    "Mobile No": {
+      "$numberLong": "9422101718"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4eb8"
+    },
+    "statename": "Maharashtra",
+    "Committee": "statename Program Heads",
+    "name ": "Rushabh Chajjer",
+    "Designation ": "statename Head - Infusion Programmes - Marriage Counselling",
+    "statename-Designation": "statename Head - Infusion Programmes - Marriage Counselling Maharashtra",
+    "Mobile No": {
+      "$numberLong": "9422046067"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4eb9"
+    },
+    "statename": "Rajasthan",
+    "Committee": "Governing Committee",
+    "name ": "Shravan H Dugar",
+    "Designation ": "statename President ",
+    "statename-Designation": "statename President  Rajasthan",
+    "Mobile No": {
+      "$numberLong": "9829059810"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4eba"
+    },
+    "statename": "Rajasthan",
+    "Committee": "Governing Committee",
+    "name ": "Raj  Golechha",
+    "Designation ": "Immediate Past statename President ",
+    "statename-Designation": "Immediate Past statename President  Rajasthan",
+    "Mobile No": {
+      "$numberLong": "9414153909"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ebb"
+    },
+    "statename": "Rajasthan",
+    "Committee": "Governing Committee",
+    "name ": "Virendra Kumar Mahatma",
+    "Designation ": "statename Vice President - Initiative and Growth ",
+    "statename-Designation": "statename Vice President - Initiative and Growth  Rajasthan",
+    "Mobile No": {
+      "$numberLong": "9414163899"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ebc"
+    },
+    "statename": "Rajasthan",
+    "Committee": "Governing Committee",
+    "name ": "Bhupendra  Chordia",
+    "Designation ": "statename Vice President - Public relations & Outreach ",
+    "statename-Designation": "statename Vice President - Public relations & Outreach  Rajasthan",
+    "Mobile No": {
+      "$numberLong": "9414174500"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ebd"
+    },
+    "statename": "Rajasthan",
+    "Committee": "Governing Committee",
+    "name ": "Anita  Jain",
+    "Designation ": "statename Vice President- Women & Youth ",
+    "statename-Designation": "statename Vice President- Women & Youth  Rajasthan",
+    "Mobile No": {
+      "$numberLong": "7976340378"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ebe"
+    },
+    "statename": "Rajasthan",
+    "Committee": "Governing Committee",
+    "name ": "Samprati  Singhvi",
+    "Designation ": "Former statename President ",
+    "statename-Designation": "Former statename President  Rajasthan",
+    "Mobile No": {
+      "$numberLong": "9414011112"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ebf"
+    },
+    "statename": "Rajasthan",
+    "Committee": "Governing Committee",
+    "name ": "Rajkumar  Fattawat",
+    "Designation ": "Former statename President",
+    "statename-Designation": "Former statename President Rajasthan",
+    "Mobile No": {
+      "$numberLong": "9414161279"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ec0"
+    },
+    "statename": "Rajasthan",
+    "Committee": "Operations Committee",
+    "name ": "Aatish  Lodha",
+    "Designation ": "statename General Secretary ",
+    "statename-Designation": "statename General Secretary  Rajasthan",
+    "Mobile No": {
+      "$numberLong": "9309295750"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ec1"
+    },
+    "statename": "Rajasthan",
+    "Committee": "Operations Committee",
+    "name ": "Manish  Jain",
+    "Designation ": "statename Secretary - Monitoring & Implementation ",
+    "statename-Designation": "statename Secretary - Monitoring & Implementation  Rajasthan",
+    "Mobile No": {
+      "$numberLong": "9783457550"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ec2"
+    },
+    "statename": "Rajasthan",
+    "Committee": "Operations Committee",
+    "name ": "Ashish  Mehta",
+    "Designation ": "statename Secretary - Operations & Coordination  ",
+    "statename-Designation": "statename Secretary - Operations & Coordination   Rajasthan",
+    "Mobile No": {
+      "$numberLong": "9024381140"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ec3"
+    },
+    "statename": "Rajasthan",
+    "Committee": "Operations Committee",
+    "name ": "Sandeep  Golechha",
+    "Designation ": "statename Secretary - Technology and Group formation",
+    "statename-Designation": "statename Secretary - Technology and Group formation Rajasthan",
+    "Mobile No": {
+      "$numberLong": "9251601753"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ec4"
+    },
+    "statename": "Rajasthan",
+    "Committee": "Operations Committee",
+    "name ": "Pushpa Gokhru",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday - Sthanakwasi",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday - Sthanakwasi Rajasthan",
+    "Mobile No": {
+      "$numberLong": "9414184005"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ec5"
+    },
+    "statename": "Rajasthan",
+    "Committee": "Operations Committee",
+    "name ": "Rajkumar Bafna",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday - Terapanti",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday - Terapanti Rajasthan",
+    "Mobile No": {
+      "$numberLong": "9261165555"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ec6"
+    },
+    "statename": "Rajasthan",
+    "Committee": "Operations Committee",
+    "name ": "Shravan Dugar",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday - Murti Pujak",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday - Murti Pujak Rajasthan",
+    "Mobile No": {
+      "$numberLong": "9829059810"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ec7"
+    },
+    "statename": "Rajasthan",
+    "Committee": "Operations Committee",
+    "name ": "P. C Godha",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday - Digambar",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday - Digambar Rajasthan",
+    "Mobile No": {
+      "$numberLong": "9799914019"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ec8"
+    },
+    "statename": "Rajasthan",
+    "Committee": "Operations Committee",
+    "name ": "Sharav Dugar & Aatish Lodha",
+    "Designation ": "statename Head Expansion (position as per statename requirement) ",
+    "statename-Designation": "statename Head Expansion (position as per statename requirement)  Rajasthan",
+    "Mobile No": {
+      "$numberLong": "9829059810"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ec9"
+    },
+    "statename": "Rajasthan",
+    "Committee": "Operations Committee",
+    "name ": "Basant Jain",
+    "Designation ": "statename Head Media, Social Media & Publishing ",
+    "statename-Designation": "statename Head Media, Social Media & Publishing  Rajasthan",
+    "Mobile No": {
+      "$numberLong": "8114417253"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4eca"
+    },
+    "statename": "Rajasthan",
+    "Committee": "statename Program Heads",
+    "name ": "Anuradha Choudhary",
+    "Designation ": "statename Head - Foundation Program",
+    "statename-Designation": "statename Head - Foundation Program Rajasthan",
+    "Mobile No": {
+      "$numberLong": "9251933688"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ecb"
+    },
+    "statename": "Rajasthan",
+    "Committee": "statename Program Heads",
+    "name ": "Jay Bohra",
+    "Designation ": "statename Head - Inception Program",
+    "statename-Designation": "statename Head - Inception Program Rajasthan",
+    "Mobile No": {
+      "$numberLong": "9829216435"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ecc"
+    },
+    "statename": "Rajasthan",
+    "Committee": "statename Program Heads",
+    "name ": "Rahul  Jain",
+    "Designation ": "statename Head - Infusion Program - Student Assessment Program (SAP) + Career",
+    "statename-Designation": "statename Head - Infusion Program - Student Assessment Program (SAP) + Career Rajasthan",
+    "Mobile No": {
+      "$numberLong": "9352404000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ecd"
+    },
+    "statename": "Rajasthan",
+    "Committee": "statename Program Heads",
+    "name ": "Rajeev  Musal",
+    "Designation ": "statename Head - Infusion Programmes - Empowerment of  Couple (EOC)",
+    "statename-Designation": "statename Head - Infusion Programmes - Empowerment of  Couple (EOC) Rajasthan",
+    "Mobile No": {
+      "$numberLong": "9414055306"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ece"
+    },
+    "statename": "Rajasthan",
+    "Committee": "statename Program Heads",
+    "name ": "Dhirendra  Mehta",
+    "Designation ": "statename Head - Infusion Programmes - Smart Girl",
+    "statename-Designation": "statename Head - Infusion Programmes - Smart Girl Rajasthan",
+    "Mobile No": {
+      "$numberLong": "9413319639"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ecf"
+    },
+    "statename": "Rajasthan",
+    "Committee": "statename Program Heads",
+    "name ": "Vikas Bubikya",
+    "Designation ": "statename Head - Infusion Programmes - Matrimony ",
+    "statename-Designation": "statename Head - Infusion Programmes - Matrimony  Rajasthan",
+    "Mobile No": {
+      "$numberLong": "9414122353"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ed0"
+    },
+    "statename": "Rajasthan",
+    "Committee": "statename Program Heads",
+    "name ": "Dilip Kumar Talesara",
+    "Designation ": "statename Head - Infusion Program - Student Scholarship, MSME, Minority ",
+    "statename-Designation": "statename Head - Infusion Program - Student Scholarship, MSME, Minority  Rajasthan",
+    "Mobile No": {
+      "$numberLong": "9214861339"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ed1"
+    },
+    "statename": "Rajasthan",
+    "Committee": "statename Program Heads",
+    "name ": "Amrish  Singhvi",
+    "Designation ": "statename Head - Infusion Programmes - Business Development + Ibud",
+    "statename-Designation": "statename Head - Infusion Programmes - Business Development + Ibud Rajasthan",
+    "Mobile No": {
+      "$numberLong": "8003084444"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ed2"
+    },
+    "statename": "Rajasthan",
+    "Committee": "statename Program Heads",
+    "Designation ": "statename Head - Infusion Programmes - Marriage Counselling",
+    "statename-Designation": "statename Head - Infusion Programmes - Marriage Counselling Rajasthan"
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ed3"
+    },
+    "statename": "Tamil Nadu",
+    "Committee": "Governing Committee",
+    "name ": "M. Kamal Kishore Tater",
+    "Designation ": "statename President ",
+    "statename-Designation": "statename President  Tamil Nadu",
+    "Mobile No": {
+      "$numberLong": "9443785763"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ed4"
+    },
+    "statename": "Tamil Nadu",
+    "Committee": "Governing Committee",
+    "name ": "Ramesh Kumar Patawari",
+    "Designation ": "Immediate Past statename President ",
+    "statename-Designation": "Immediate Past statename President  Tamil Nadu",
+    "Mobile No": {
+      "$numberLong": "9442600853"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ed5"
+    },
+    "statename": "Tamil Nadu",
+    "Committee": "Governing Committee",
+    "name ": "Deepak Sancheti",
+    "Designation ": "statename Vice President - Initiative and Growth ",
+    "statename-Designation": "statename Vice President - Initiative and Growth  Tamil Nadu",
+    "Mobile No": {
+      "$numberLong": "9600850077"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ed6"
+    },
+    "statename": "Tamil Nadu",
+    "Committee": "Governing Committee",
+    "name ": "Kamlesh Kataria",
+    "Designation ": "statename Vice President - Public relations & Outreach ",
+    "statename-Designation": "statename Vice President - Public relations & Outreach  Tamil Nadu",
+    "Mobile No": {
+      "$numberLong": "9894668183"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ed7"
+    },
+    "statename": "Tamil Nadu",
+    "Committee": "Governing Committee",
+    "name ": "Monika Radhesani",
+    "Designation ": "statename Vice President- Women & Youth ",
+    "statename-Designation": "statename Vice President- Women & Youth  Tamil Nadu",
+    "Mobile No": {
+      "$numberLong": "9994698291"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ed8"
+    },
+    "statename": "Tamil Nadu",
+    "Committee": "Governing Committee",
+    "name ": "Rajendra Lunker",
+    "Designation ": "Former statename President ",
+    "statename-Designation": "Former statename President  Tamil Nadu",
+    "Mobile No": {
+      "$numberLong": "9360025001"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ed9"
+    },
+    "statename": "Tamil Nadu",
+    "Committee": "Governing Committee",
+    "name ": "Gyanchand Anchaliya",
+    "Designation ": "Former statename President",
+    "statename-Designation": "Former statename President Tamil Nadu",
+    "Mobile No": {
+      "$numberLong": "9443153387"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4eda"
+    },
+    "statename": "Tamil Nadu",
+    "Committee": "Governing Committee",
+    "name ": "Rajendra Dugad",
+    "Designation ": "Former statename President",
+    "statename-Designation": "Former statename President Tamil Nadu",
+    "Mobile No": {
+      "$numberLong": "9444040679"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4edb"
+    },
+    "statename": "Tamil Nadu",
+    "Committee": "Governing Committee",
+    "name ": "Dhanraj Tatiya",
+    "Designation ": "Former statename President",
+    "statename-Designation": "Former statename President Tamil Nadu",
+    "Mobile No": {
+      "$numberLong": "9443044136"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4edc"
+    },
+    "statename": "Tamil Nadu",
+    "Committee": "Operations Committee",
+    "name ": "Rajesh Sureshchand Pokarna",
+    "Designation ": "statename General Secretary ",
+    "statename-Designation": "statename General Secretary  Tamil Nadu",
+    "Mobile No": {
+      "$numberLong": "9443268617"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4edd"
+    },
+    "statename": "Tamil Nadu",
+    "Committee": "Operations Committee",
+    "name ": "Ramesh Kumar Patawari",
+    "Designation ": "statename Secretary - Monitoring & Implementation ",
+    "statename-Designation": "statename Secretary - Monitoring & Implementation  Tamil Nadu",
+    "Mobile No": {
+      "$numberLong": "9442600853"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ede"
+    },
+    "statename": "Tamil Nadu",
+    "Committee": "Operations Committee",
+    "name ": "Dharmendra Srisrimal",
+    "Designation ": "statename Secretary - Operations & Coordination  ",
+    "statename-Designation": "statename Secretary - Operations & Coordination   Tamil Nadu",
+    "Mobile No": {
+      "$numberLong": "9363939310"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4edf"
+    },
+    "statename": "Tamil Nadu",
+    "Committee": "Operations Committee",
+    "name ": "Dharam Chand Surana",
+    "Designation ": "statename Secretary - Technology and Group formation",
+    "statename-Designation": "statename Secretary - Technology and Group formation Tamil Nadu",
+    "Mobile No": {
+      "$numberLong": "8144155555"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ee0"
+    },
+    "statename": "Tamil Nadu",
+    "Committee": "Operations Committee",
+    "name ": "M Dharmendra Srisrimal",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday - Sthanakwasi",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday - Sthanakwasi Tamil Nadu",
+    "Mobile No": {
+      "$numberLong": "9363939310"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ee1"
+    },
+    "statename": "Tamil Nadu",
+    "Committee": "Operations Committee",
+    "name ": "Ramesh Kumar Patawari",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday - Teerapanti",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday - Teerapanti Tamil Nadu",
+    "Mobile No": {
+      "$numberLong": "9442600853"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ee2"
+    },
+    "statename": "Tamil Nadu",
+    "Committee": "Operations Committee",
+    "name ": "Kamal Kishore Jain",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday - Murtipujak",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday - Murtipujak Tamil Nadu",
+    "Mobile No": {
+      "$numberLong": "9443785763"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ee3"
+    },
+    "statename": "Tamil Nadu",
+    "Committee": "Operations Committee",
+    "name ": "Sohanlal Pahadiya",
+    "Designation ": "statename Head Communication - Sadhu, Sadhvi & Sampraday - Digambar",
+    "statename-Designation": "statename Head Communication - Sadhu, Sadhvi & Sampraday - Digambar Tamil Nadu",
+    "Mobile No": {
+      "$numberLong": "9443366392"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ee4"
+    },
+    "statename": "Tamil Nadu",
+    "Committee": "Operations Committee",
+    "name ": "Dhiraj  Dosi",
+    "Designation ": "statename Head Expansion (position as per statename requirement) ",
+    "statename-Designation": "statename Head Expansion (position as per statename requirement)  Tamil Nadu",
+    "Mobile No": {
+      "$numberLong": "9443411732"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ee5"
+    },
+    "statename": "Tamil Nadu",
+    "Committee": "Operations Committee",
+    "name ": "Prajeet  Jain",
+    "Designation ": "statename Head Media, Social Media & Publishing ",
+    "statename-Designation": "statename Head Media, Social Media & Publishing  Tamil Nadu",
+    "Mobile No": {
+      "$numberLong": "9698682303"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ee6"
+    },
+    "statename": "Tamil Nadu",
+    "Committee": "statename Program Heads",
+    "name ": "Sudesh  Anchaliya",
+    "Designation ": "statename Head - Foundation Program",
+    "statename-Designation": "statename Head - Foundation Program Tamil Nadu",
+    "Mobile No": {
+      "$numberLong": "9994350501"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ee7"
+    },
+    "statename": "Tamil Nadu",
+    "Committee": "statename Program Heads",
+    "name ": "Sanjay Kumar Bhansali",
+    "Designation ": "statename Head - Inception Program",
+    "statename-Designation": "statename Head - Inception Program Tamil Nadu",
+    "Mobile No": {
+      "$numberLong": "9840044339"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ee8"
+    },
+    "statename": "Tamil Nadu",
+    "Committee": "statename Program Heads",
+    "name ": "Surabhi Baid",
+    "Designation ": "statename Head - Infusion Program - Student Assessment Program (SAP) + Career",
+    "statename-Designation": "statename Head - Infusion Program - Student Assessment Program (SAP) + Career Tamil Nadu",
+    "Mobile No": {
+      "$numberLong": "9841768147"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4ee9"
+    },
+    "statename": "Tamil Nadu",
+    "Committee": "statename Program Heads",
+    "name ": "Rajkumar M Barmecha",
+    "Designation ": "statename Head - Infusion Programmes - Empowerment of  Couple (EOC)",
+    "statename-Designation": "statename Head - Infusion Programmes - Empowerment of  Couple (EOC) Tamil Nadu",
+    "Mobile No": {
+      "$numberLong": "9443986089"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4eea"
+    },
+    "statename": "Tamil Nadu",
+    "Committee": "statename Program Heads",
+    "name ": "Deepak  Kumar",
+    "Designation ": "statename Head - Infusion Programmes - Smart Girl",
+    "statename-Designation": "statename Head - Infusion Programmes - Smart Girl Tamil Nadu",
+    "Mobile No": {
+      "$numberLong": "9443785764"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4eeb"
+    },
+    "statename": "Tamil Nadu",
+    "Committee": "statename Program Heads",
+    "name ": "Yujwal R Jain",
+    "Designation ": "statename Head - Infusion Programmes - Matrimony ",
+    "statename-Designation": "statename Head - Infusion Programmes - Matrimony  Tamil Nadu",
+    "Mobile No": {
+      "$numberLong": "9443338065"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4eec"
+    },
+    "statename": "Tamil Nadu",
+    "Committee": "statename Program Heads",
+    "name ": "Rahul Uchhat",
+    "Designation ": "statename Head - Infusion Program - Student Scholarship, MSME, Minority ",
+    "statename-Designation": "statename Head - Infusion Program - Student Scholarship, MSME, Minority  Tamil Nadu",
+    "Mobile No": {
+      "$numberLong": "9790299525"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4eed"
+    },
+    "statename": "Tamil Nadu",
+    "Committee": "statename Program Heads",
+    "name ": "Deepak Sancheti",
+    "Designation ": "statename Head - Infusion Programmes - Business Development + Ibud",
+    "statename-Designation": "statename Head - Infusion Programmes - Business Development + Ibud Tamil Nadu",
+    "Mobile No": {
+      "$numberLong": "9600850077"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bec07e01f643192dac4eee"
+    },
+    "statename": "Tamil Nadu",
+    "Committee": "statename Program Heads",
+    "name ": "S Mukunraj Jain",
+    "Designation ": "statename Head - Infusion Programmes - Marriage Counselling",
+    "statename-Designation": "statename Head - Infusion Programmes - Marriage Counselling Tamil Nadu",
+    "Mobile No": {
+      "$numberLong": "9487388109"
+    }
+  }]

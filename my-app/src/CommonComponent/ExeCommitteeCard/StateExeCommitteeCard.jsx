@@ -60,7 +60,7 @@ import './StateExeCommitteeCard.css';
 import { Table, Spin } from 'antd';
 
 const SECCard = ({ title, data, loading, error }) => {
-  // console.log(title,data,loading,error)
+   console.log("sec ", data)
 
   const columns = [
     {
@@ -72,14 +72,14 @@ const SECCard = ({ title, data, loading, error }) => {
       title: 'Position',
       dataIndex: 'occupation',
       key: 'occupation',
-      render: (_, record) => `${record.position || ''}`.trim(),
+      render: (_, record) => `${record.Designation || ''}`.trim(),
 
     },
     {
       title: 'Contact',
       dataIndex: 'mobile',
       key: 'mobile',
-      render: (_, record) => `${record.mobileNo.$numberLong || ''}`.trim(),
+      //render: (_, record) => `${record.mobileNo.$numberLong || ''}`.trim(),
 
     },
   ];
