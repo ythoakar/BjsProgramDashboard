@@ -57,12 +57,14 @@ const Navbar = () => {
       setSelectedOption(selectedState);
     }
   };
-
+useEffect(()=> {
+console.log("selectedOption ", selectedOption.BjsStateName, headingName)
+}, [selectedOption, headingName])
 
   useEffect(() => {
     const path = location.pathname;
     const lastSegment = path.split("/").pop(); // Get last part of the URL
-  
+console.log("last seg ",lastSegment )
     switch (lastSegment) {
       case "SEC":
         setHeadingName("State Executive Committee");
@@ -81,8 +83,8 @@ const Navbar = () => {
         setHeadingName("District Executive Committee");
         break;
       default:
-        setHeadingName(selectedOption.BjsStateName || "");
         setShowDropdown(true);
+        setHeadingName(selectedOption?.BjsStateName);
 
         break;
     }
@@ -90,7 +92,7 @@ const Navbar = () => {
     // Hide dropdown when lastSegment is "NEC"
    
   
-  }, [location.pathname]);
+  }, [location.pathname, selectedOption]);
   
   
 
