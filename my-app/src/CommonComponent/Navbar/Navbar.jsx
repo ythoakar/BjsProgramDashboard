@@ -3,12 +3,13 @@ import { Link } from "react-router-dom";
 import { Select, MenuItem } from "@mui/material";
 import "./Navbar.css";
 import logo from "../../../src/imgs/bjsLogoWhiteBG.png"
-import { useDropdown } from "../../Service/DropdownProvider";
+import { useDropdown, useCommittee } from "../../Service/DropdownProvider";
 import axios from "axios";
 import InputLabel from '@mui/material/InputLabel';
 import FormControl from '@mui/material/FormControl';
 import bjsData from "../../../src/Data/volunteerMTestDb.dashboardData.json";
-import {useLocation} from "react-router-dom"
+import {useLocation} from "react-router-dom";
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +17,7 @@ const Navbar = () => {
   const { selectedOption, setSelectedOption } = useDropdown();
   const [headingName, setHeadingName] = useState("");
   const [showDropdown, setShowDropdown] = useState(false);
-
+  const { committeeData } = useCommittee();
   
   const location = useLocation(); // Hook to get current URL path
 
@@ -96,7 +97,6 @@ console.log("last seg ",lastSegment )
   
   
 
-  
 
 
   return (
@@ -108,6 +108,19 @@ console.log("last seg ",lastSegment )
       </div>
       <div className="nav-heading">{headingName}</div>
       <ul className="nav-links">
+
+
+<li>
+<Download
+            sx={{
+              cursor: "pointer",
+              fontSize: 28,
+              color: "#333",
+            }}
+            onClick={handleDownload} // Function to handle download
+          />
+</li>
+
         <li>
           {showDropdown && 
           

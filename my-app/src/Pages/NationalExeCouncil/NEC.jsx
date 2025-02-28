@@ -4,17 +4,37 @@ import NECCard from "../../CommonComponent/ExeCommitteeCard/NationalExeCommittee
 import { Spinner } from "antd";
 import "./NEC.css";
 import NECCommitteeData from "../../Data/NECCommitteeData.json";
-
+import { useCommittee } from "../../Service/DropdownProvider";
 function NEC() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
+  const { committeeData, setCommitteeData } = useCommittee(); // Use global state
 
   // Function to filter data based on committeeName
+
+
+
+
   const filterCommitteeData = (committeeName) => {
-    return NECCommitteeData.filter(
+    
+    const filteredData = NECCommitteeData.filter(
       (item) => item.committeeName === committeeName
     );
+
+
+
+    return filteredData;
   };
+
+
+
+useEffect(()=> {
+  setCommitteeData(NECCommitteeData);
+
+}, [NECCommitteeData])
+
+
+
 
   return (
     <div className="cardsContainer">

@@ -4,12 +4,17 @@ import { Spinner } from "antd";
 import "./SEC.css";
 import NECCommitteeData from "../../Data/NECCommitteeData.json";
 import SECCommitteeData from "../../Data/SECCommitteeData.json"
-import {useDropdown} from "../../Service/DropdownProvider";
+import {useDropdown, useCommittee} from "../../Service/DropdownProvider";
 
 
 function SEC() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
+  const { committeeData, setCommitteeData } = useCommittee(); // Use global state
+
+
+
+
     const { selectedOption } = useDropdown();
     console.log("selectedOption11  ", selectedOption)
     console.log("dataaaa12 ", SECCommitteeData)
@@ -17,11 +22,32 @@ function SEC() {
   // Function to filter data based on stateName
     const filterCommitteeData = (stateName, committeeName) => {
       console.log("stateName", stateName, committeeName)
-      return SECCommitteeData.filter(
+      const filteredData = SECCommitteeData.filter(
         (item) => item.statename == stateName && item.Committee == committeeName
       );
+
+
+   
+      return filteredData;
+
+
     };
 
+
+useEffect(()=> {
+  const filteredData = SECCommitteeData.filter(
+    (item) => item.statename == selectedOption?.BjsStateName
+  );
+
+  setCommitteeData(filteredData);
+
+
+}, [selectedOption])
+
+   
+  
+  
+  
   return (
     <div className="cardsContainer">
     <SECCard
