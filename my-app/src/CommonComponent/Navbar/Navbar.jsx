@@ -2,15 +2,15 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Select, MenuItem } from "@mui/material";
 import "./Navbar.css";
-import logo from "../../../src/imgs/bjsLogoWhiteBG.png"
+import logo from "../../../src/imgs/bjsLogoWhiteBG.png";
 import { useDropdown, useCommittee } from "../../Service/DropdownProvider";
 import axios from "axios";
-import InputLabel from '@mui/material/InputLabel';
-import FormControl from '@mui/material/FormControl';
+import InputLabel from "@mui/material/InputLabel";
+import FormControl from "@mui/material/FormControl";
 import bjsData from "../../../src/Data/volunteerMTestDb.dashboardData.json";
-import {useLocation} from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import { Download } from "@mui/icons-material";
-
+import { downloadAsExcel } from "../../Service/DownloadAsExcel";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,10 +19,9 @@ const Navbar = () => {
   const [headingName, setHeadingName] = useState("");
   const [showDropdown, setShowDropdown] = useState(false);
   const { committeeData } = useCommittee();
-  
+
   const location = useLocation(); // Hook to get current URL path
 
-  
   useEffect(() => {
     async function getStates() {
       try {
@@ -31,17 +30,15 @@ const Navbar = () => {
         );
         // setStates(response.data);
 
-
-        const bjsStateNames = new Set(bjsData.map(item => item.bjsState));
+        const bjsStateNames = new Set(bjsData.map((item) => item.bjsState));
 
         // Step 2: Filter allStates based on bjsStateNames
-        const filteredStates = response.data.filter(state => bjsStateNames.has(state.BjsStateName));
+        const filteredStates = response.data.filter((state) =>
+          bjsStateNames.has(state.BjsStateName)
+        );
 
         console.log(filteredStates);
-        setStates(filteredStates)
-
-
-
+        setStates(filteredStates);
       } catch (err) {
         console.log("Error fetching states:", err);
       }
@@ -55,18 +52,19 @@ const Navbar = () => {
     if (selectedValue === "select-all") {
       setSelectedOption({ _id: "select-all", BjsStateName: "India" });
     } else {
-      const selectedState = states.find((state) => state._id === selectedValue) || null;
+      const selectedState =
+        states.find((state) => state._id === selectedValue) || null;
       setSelectedOption(selectedState);
     }
   };
-useEffect(()=> {
-console.log("selectedOption ", selectedOption.BjsStateName, headingName)
-}, [selectedOption, headingName])
+  useEffect(() => {
+    console.log("selectedOption ", selectedOption.BjsStateName, headingName);
+  }, [selectedOption, headingName]);
 
   useEffect(() => {
     const path = location.pathname;
     const lastSegment = path.split("/").pop(); // Get last part of the URL
-console.log("last seg ",lastSegment )
+    console.log("last seg ", lastSegment);
     switch (lastSegment) {
       case "SEC":
         setHeadingName("State Executive Committee");
@@ -75,8 +73,8 @@ console.log("last seg ",lastSegment )
         break;
       case "NEC":
         setHeadingName("National Executive Committee");
-          setShowDropdown(false);
-        
+        setShowDropdown(false);
+
         break;
       case "REC":
         setHeadingName("Regional Executive Committee");
@@ -90,15 +88,13 @@ console.log("last seg ",lastSegment )
 
         break;
     }
-  
+
     // Hide dropdown when lastSegment is "NEC"
-   
-  
   }, [location.pathname, selectedOption]);
-  
-  
 
-
+  const handleDownload=()=>{
+    downloadAsExcel(committeeData, 'nec.xlsx')
+  }
 
   return (
     <nav className="navbar">
@@ -109,40 +105,36 @@ console.log("last seg ",lastSegment )
       </div>
       <div className="nav-heading">{headingName}</div>
       <ul className="nav-links">
-
-
-<li>
-<Download
+        <li>
+          <Download
             sx={{
               cursor: "pointer",
               fontSize: 28,
               color: "#333",
             }}
-          //  onClick={handleDownload} // Function to handle download
+             onClick={handleDownload} // Function to handle download
           />
-</li>
+        </li>
 
         <li>
-          {showDropdown && 
-          
-          <FormControl fullWidth>
-          {/* <InputLabel id="demo-simple-select-label">Select State</InputLabel> */}
-          <Select
-            labelId="demo-simple-select-label"
-            value={selectedOption?._id || ""}
-            onChange={handleStateSelection}
-            sx={{ minWidth: 200, backgroundColor: "white" }}
-          >
-            <MenuItem value="select-all">Select All</MenuItem>
-            {states.map((state) => (
-              <MenuItem key={state._id} value={state._id}>
-                {state.BjsStateName}
-              </MenuItem>
-            ))}
-          </Select>
-        </FormControl>
-          }
-         
+          {showDropdown && (
+            <FormControl fullWidth>
+              {/* <InputLabel id="demo-simple-select-label">Select State</InputLabel> */}
+              <Select
+                labelId="demo-simple-select-label"
+                value={selectedOption?._id || ""}
+                onChange={handleStateSelection}
+                sx={{ minWidth: 200, backgroundColor: "white" }}
+              >
+                <MenuItem value="select-all">Select All</MenuItem>
+                {states.map((state) => (
+                  <MenuItem key={state._id} value={state._id}>
+                    {state.BjsStateName}
+                  </MenuItem>
+                ))}
+              </Select>
+            </FormControl>
+          )}
         </li>
       </ul>
     </nav>
