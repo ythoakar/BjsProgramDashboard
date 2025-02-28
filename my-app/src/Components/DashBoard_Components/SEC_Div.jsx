@@ -9,17 +9,35 @@ import {
   Button,
 } from "@mui/material";
 import { useNavigate } from "react-router-dom";
+import { useDropdown } from "../../Service/DropdownProvider";
+import { message } from "antd";
 
 const SEC_Div = ({ data, heading, navigateTo }) => {
-const navigate = useNavigate()
+  const { selectedOption } = useDropdown();
+  console.log("dataaa ", data);
+  const navigate = useNavigate();
 
+  function navigatePage() {
+    if (heading == "National Executive Committee") {
+      navigate("/NEC");
+    }
 
-function navigatePage(){
-if(heading == "State Executive Committee"){
-  navigate("/SEC")
-}
-}
-
+    if (
+      selectedOption.BjsStateName == "India" &&
+      heading == "State Executive Committee"
+    ) {
+      alert("Please select a state.");
+      return;
+    } else if (heading == "State Executive Committee") {
+      navigate("/SEC");
+    }
+    if (
+      heading == "Region Executive Committee" ||
+      heading == "District Executive Committee"
+    ) {
+      return;
+    }
+  }
 
   return (
     <div
@@ -61,10 +79,10 @@ if(heading == "State Executive Committee"){
           <TableBody>
             {data.slice(0, 2).map((user, index) => (
               <TableRow key={index}>
-                <TableCell sx={{ padding: "4px" }}>{`${user.fName} ${
-                  user.mName || ""
-                } ${user.lName}`}</TableCell>
-                <TableCell sx={{ padding: "4px" }}>{user.postion}</TableCell>
+                <TableCell sx={{ padding: "4px" }}>{`${user.name}`}</TableCell>
+                <TableCell sx={{ padding: "4px" }}>
+                  {user.designation}
+                </TableCell>
               </TableRow>
             ))}
           </TableBody>

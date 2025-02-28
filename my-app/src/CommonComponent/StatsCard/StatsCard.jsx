@@ -1,5 +1,4 @@
-import React from "react"
-
+import React from "react";
 
 const StatsCard = ({ heading, number }) => {
     return (
@@ -11,21 +10,20 @@ const StatsCard = ({ heading, number }) => {
             backgroundColor: 'white', 
             boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)', 
             borderRadius: '8px', 
-            width: '33%', 
-            height: '90%',
-            margin:"10px",
+            width: '30%', 
             minWidth: '120px', 
-            minHeight: '80px',
-            textAlign: 'center'
-          }}>
-            <span style={{ fontSize: '2vw', fontWeight: 'bold' }}>{number}</span>
-            <span style={{ fontSize: '1vw', fontWeight: '600', marginTop: '4px' }}>
-              {heading}
+            minHeight: '80px', 
+            padding: '10px',
+            margin: '10px',
+            textAlign: 'center',
+            transition: 'all 0.3s ease-in-out'
+        }}>
+            <span style={{ fontSize: 'clamp(14px, 3vw, 24px)', fontWeight: 'bold' }}>{number}</span>
+            <span style={{ fontSize: 'clamp(12px, 2vw, 18px)', fontWeight: '600', marginTop: '4px' }}>
+                {heading}
             </span>
-          </div>
+        </div>
     );
-  };
-  
+};
 
-
-  export default StatsCard;
+export default StatsCard;

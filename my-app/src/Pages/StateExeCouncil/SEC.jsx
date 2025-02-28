@@ -1,73 +1,48 @@
-// import React from 'react'
-// import SECCard from '../../CommonComponent/Navbar/StateExeCommitteeCard'
-// import "./SEC.css"
+import React, { useState, useEffect } from "react";
+import SECCard from "../../CommonComponent/ExeCommitteeCard/StateExeCommitteeCard";
+import { Spinner } from "antd";
+import "./SEC.css";
+import NECCommitteeData from "../../Data/NECCommitteeData.json";
+import SECCommitteeData from "../../Data/SECCommitteeData.json"
+import {useDropdown} from "../../Service/DropdownProvider";
 
-// function SEC() {
-//   return (
-//     <div className= "cardsContainer">
-//         <SECCard title="Governing Body" />
-//         <SECCard title="Operations Committee"/>
-//         <SECCard title="National Program Heads"/>
-//     </div>
-//   )
-// }
-
-// export default SEC
-
-import React, { useState, useEffect } from 'react';
-import SECCard from '../../CommonComponent/ExeCommitteeCard/StateExeCommitteeCard';
-import { Spinner } from 'antd';
-import './SEC.css';
 
 function SEC() {
-  const [data, setData] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
+    const { selectedOption } = useDropdown();
+    console.log("selectedOption11  ", selectedOption)
+    console.log("dataaaa12 ", SECCommitteeData)
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        setLoading(true);
-        const response = await fetch(`${process.env.REACT_APP_BASE_URL}/misOfficeBearerUserList`);
-        const data = await response.json();
-
-        // Log the data to verify the response structure
-        console.log(data);
-
-        setData(data);  // Set the fetched data to state
-
-        setLoading(false);
-      } catch (error) {
-        setError(error);
-        console.error('Error fetching data:', error);
-        setLoading(false);
-      }
+  // Function to filter data based on stateName
+    const filterCommitteeData = (stateName, committeeName) => {
+      console.log("stateName", stateName, committeeName)
+      return SECCommitteeData.filter(
+        (item) => item.statename == stateName && item.Committee == committeeName
+      );
     };
-
-    fetchData();
-  }, []);
 
   return (
     <div className="cardsContainer">
-      <SECCard
-        title="Governing Body"
-        data={data}
-        loading={loading}
-        error={error}
-      />
-      <SECCard
-        title="Operations Committee"
-        data={data}
-        loading={loading}
-        error={error}
-      />
-      <SECCard
-        title="National Program Heads"
-        data={data}
-        loading={loading}
-        error={error}
-      />
-    </div>
+    <SECCard
+      title="Governing Body"
+      data={filterCommitteeData(selectedOption?.BjsStateName, "Governing Committee")}
+      loading={loading}
+      error={error}
+    />
+    <SECCard
+      title="Operations Committee"
+      data={filterCommitteeData(selectedOption.BjsStateName, "Operations Committee")}
+      loading={loading}
+      error={error}
+    />
+    <SECCard
+      title="National Program Heads"
+      data={filterCommitteeData(selectedOption.BjsStateName, "statename Program Heads")}
+      loading={loading}
+      error={error}
+    />
+  </div>
   );
 }
 

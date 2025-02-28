@@ -31,12 +31,12 @@ const CommitteeCard = ({ data, heading }) => {
             </TableHead>
             <TableBody>
                       {data.slice(0, 2).map((user, index) => (
-                        <TableRow key={index}>
-                          <TableCell>{`${user.fName} ${user.mName || ""} ${
-                            user.lName
-                          }`}</TableCell>
-                          <TableCell>{user.postion}</TableCell>
-                        </TableRow>
+                      <TableRow key={index}>
+                                    <TableCell sx={{ padding: "4px" }}>{`${user.name}`}</TableCell>
+                                    <TableCell sx={{ padding: "4px" }}>
+                                      {user.designation}
+                                    </TableCell>
+                                  </TableRow>
                       ))}
                     </TableBody>
           </Table>
