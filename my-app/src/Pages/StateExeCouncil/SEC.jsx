@@ -32,13 +32,13 @@ function SEC() {
     />
     <SECCard
       title="Operations Committee"
-      data={filterCommitteeData(selectedOption.BjsStateName, "Executive, Operation & Development (EOD) Committee")}
+      data={filterCommitteeData(selectedOption.BjsStateName, "Operations Committee")}
       loading={loading}
       error={error}
     />
     <SECCard
       title="National Program Heads"
-      data={filterCommitteeData(selectedOption.BjsStateName, "National Program Head")}
+      data={filterCommitteeData(selectedOption.BjsStateName, "statename Program Heads")}
       loading={loading}
       error={error}
     />

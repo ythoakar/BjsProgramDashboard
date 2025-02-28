@@ -51,13 +51,18 @@
   height: 20%;
 }
 .child-30 {
-  height: 35%;
+  height: 45%;
+
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center heading */
-  justify-content: flex-start; /* Keep heading at the top */
- 
+
 }
+
+.child-35{
+  height: 25%;
+
+}
+
 
 
 .child-30 h3 {
@@ -113,23 +118,18 @@
 } */
 
 @media (max-width: 768px) {
+
+
   .dashboard-container {
     display: flex;
     flex-direction: column;
   }
+
+ 
   .col {
-    height: 33%;
-  }
-  .col-1,
-  .col-2,
-  .col-3 {
+ 
     width: 100%;
   }
-  .child-50 {
-    height: 30%;
-  }
 
-  .col-2 {
-    position: relative;
-  }
+
 }

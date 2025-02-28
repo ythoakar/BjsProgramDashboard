@@ -14,7 +14,9 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [states, setStates] = useState([]);
   const { selectedOption, setSelectedOption } = useDropdown();
-  const [headingName, setHeadingName] = useState("")
+  const [headingName, setHeadingName] = useState("");
+  const [showDropdown, setShowDropdown] = useState(false);
+
   
   const location = useLocation(); // Hook to get current URL path
 
@@ -57,17 +59,20 @@ const Navbar = () => {
   };
 
 
-
   useEffect(() => {
     const path = location.pathname;
     const lastSegment = path.split("/").pop(); // Get last part of the URL
-
+  
     switch (lastSegment) {
       case "SEC":
         setHeadingName("State Executive Committee");
+        setShowDropdown(true);
+
         break;
       case "NEC":
         setHeadingName("National Executive Committee");
+          setShowDropdown(false);
+        
         break;
       case "REC":
         setHeadingName("Regional Executive Committee");
@@ -77,11 +82,17 @@ const Navbar = () => {
         break;
       default:
         setHeadingName(selectedOption.BjsStateName || "");
+        setShowDropdown(true);
+
         break;
     }
+  
+    // Hide dropdown when lastSegment is "NEC"
+   
+  
   }, [location.pathname]);
-
-
+  
+  
 
   
 
@@ -96,22 +107,26 @@ const Navbar = () => {
       <div className="nav-heading">{headingName}</div>
       <ul className="nav-links">
         <li>
+          {showDropdown && 
+          
           <FormControl fullWidth>
-            {/* <InputLabel id="demo-simple-select-label">Select State</InputLabel> */}
-            <Select
-              labelId="demo-simple-select-label"
-              value={selectedOption?._id || ""}
-              onChange={handleStateSelection}
-              sx={{ minWidth: 200, backgroundColor: "white" }}
-            >
-              <MenuItem value="select-all">Select All</MenuItem>
-              {states.map((state) => (
-                <MenuItem key={state._id} value={state._id}>
-                  {state.BjsStateName}
-                </MenuItem>
-              ))}
-            </Select>
-          </FormControl>
+          {/* <InputLabel id="demo-simple-select-label">Select State</InputLabel> */}
+          <Select
+            labelId="demo-simple-select-label"
+            value={selectedOption?._id || ""}
+            onChange={handleStateSelection}
+            sx={{ minWidth: 200, backgroundColor: "white" }}
+          >
+            <MenuItem value="select-all">Select All</MenuItem>
+            {states.map((state) => (
+              <MenuItem key={state._id} value={state._id}>
+                {state.BjsStateName}
+              </MenuItem>
+            ))}
+          </Select>
+        </FormControl>
+          }
+         
         </li>
       </ul>
     </nav>

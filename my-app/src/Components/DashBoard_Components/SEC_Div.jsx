@@ -18,22 +18,25 @@ const SEC_Div = ({ data, heading, navigateTo }) => {
   const navigate = useNavigate();
 
   function navigatePage() {
-
-   
     if (heading == "National Executive Committee") {
       navigate("/NEC");
     }
 
-    if (selectedOption.BjsStateName == "India" && heading == "State Executive Committee") {
+    if (
+      selectedOption.BjsStateName == "India" &&
+      heading == "State Executive Committee"
+    ) {
       alert("Please select a state.");
       return;
-    } else if( heading == "State Executive Committee"){
+    } else if (heading == "State Executive Committee") {
       navigate("/SEC");
-
     }
-
-
- 
+    if (
+      heading == "Region Executive Committee" ||
+      heading == "District Executive Committee"
+    ) {
+      return;
+    }
   }
 
   return (

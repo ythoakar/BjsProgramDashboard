@@ -22,7 +22,7 @@ const SECCard = ({ title, data, loading, error }) => {
       title: 'Contact',
       dataIndex: 'mobile',
       key: 'mobile',
-      //render: (_, record) => `${record.mobileNo.$numberLong || ''}`.trim(),
+      render: (_, record) => `${record?.mobileNo?.$numberLong || ''}`.trim(),
 
     },
   ];
