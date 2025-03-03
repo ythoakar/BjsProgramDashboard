@@ -320,9 +320,12 @@ import "./Navbar.css";
 import logo from "../../../src/imgs/bjsLogoWhiteBG.png";
 import { useDropdown, useCommittee } from "../../Service/DropdownProvider";
 import axios from "axios";
+import InputLabel from "@mui/material/InputLabel";
 import FormControl from "@mui/material/FormControl";
 import bjsData from "../../../src/Data/volunteerMTestDb.dashboardData.json";
 import { useLocation } from "react-router-dom";
+import { Download } from "@mui/icons-material";
+import { downloadAsExcel } from "../../Service/DownloadAsExcel";
 
 const Navbar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -332,7 +335,8 @@ const Navbar = () => {
   const [headingName, setHeadingName] = useState("");
   const [showDropdown, setShowDropdown] = useState(false);
   const { committeeData } = useCommittee();
-  const location = useLocation();
+
+  const location = useLocation(); // Hook to get current URL path
 
   useEffect(() => {
     async function getStates() {
@@ -340,12 +344,16 @@ const Navbar = () => {
         let response = await axios.get(
           `${process.env.REACT_APP_BASE_URL}/misOfficeBearerStateList`
         );
+        // setStates(response.data);
 
         const bjsStateNames = new Set(bjsData.map((item) => item.bjsState));
+
+        // Step 2: Filter allStates based on bjsStateNames
         const filteredStates = response.data.filter((state) =>
           bjsStateNames.has(state.BjsStateName)
         );
 
+        console.log(filteredStates);
         setStates(filteredStates);
       } catch (err) {
         console.log("Error fetching states:", err);
@@ -392,6 +400,7 @@ const Navbar = () => {
       case "NEC":
         setHeadingName("National Executive Committee");
         setShowDropdown(false);
+
         break;
       case "REC":
         setHeadingName("Regional Executive Committee");
@@ -404,28 +413,33 @@ const Navbar = () => {
         setHeadingName(selectedOption?.BjsStateName);
         break;
     }
+
+    // Hide dropdown when lastSegment is "NEC"
   }, [location.pathname, selectedOption]);
 
-
-
-
+  const handleDownload=()=>{
+    downloadAsExcel(committeeData, 'nec.xlsx')
+  }
 
   return (
-    <>
-      <nav className="navbar">
-        <div className="back-button">
-          <Link to="/">
-            <img src={logo} alt="Bjs Logo" className="navbar-logo" />
-          </Link>
-        </div>
-        <div className="nav-heading">{headingName}</div>
-
-        {/* Desktop View */}
-        <ul className="nav-links">
-
+    <nav className="navbar">
+      <div className="back-button">
+        <Link to="/">
+          <img src={logo} alt="Bjs Logo" style={{ maxWidth: 70 }} />
+        </Link>
+      </div>
+      <div className="nav-heading">{headingName}</div>
+      <ul className="nav-links">
         <li>
-            <Download sx={{ cursor: "pointer", fontSize: 28, color: "white" }}    />
-          </li>
+          <Download
+            sx={{
+              cursor: "pointer",
+              fontSize: 28,
+              color: "#333",
+            }}
+             onClick={handleDownload} // Function to handle download
+          />
+        </li>
 
 
           {showDropdown && (
