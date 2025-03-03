@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2fbda7e7.css",
+    "main.js": "/static/js/main.8db31527.js",
+    "static/media/INDIA.jpg": "/static/media/INDIA.35263df5d6a7c188553c.jpg",
+    "static/media/bjsLogoWhiteBG.png": "/static/media/bjsLogoWhiteBG.4d559df0f7ad8887b0c6.png",
+    "index.html": "/index.html",
+    "main.2fbda7e7.css.map": "/static/css/main.2fbda7e7.css.map",
+    "main.8db31527.js.map": "/static/js/main.8db31527.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2fbda7e7.css",
+    "static/js/main.8db31527.js"
+  ]
+}
