@@ -9,7 +9,7 @@ import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper
 const NECCard = ({ title, data }) => {
   const [open, setOpen] = useState(false);
   const handleClose = () => setOpen(false);
-
+console.log("dtaaaa  ", data)
   const titleColors = {
     "Governing Body": "#c7ebfc",
     "Operations Committee": "#fbe3ff",
@@ -20,7 +20,7 @@ const NECCard = ({ title, data }) => {
   const backgroundColor = titleColors[title] || "#ffffff"; // Default color
 
   return (
-    <div className="table-container" style={{ backgroundColor: "white" }}>
+    <div className="table-container" >
       {/* Title and Expand Icon */}
       <div style={{ display: "flex", alignItems: "center", padding: "10px", backgroundColor: backgroundColor }}>
         <div
@@ -71,7 +71,7 @@ const NECCard = ({ title, data }) => {
               {data.map((row, index) => (
                 <TableRow key={index} style={{ backgroundColor: index % 2 === 0 ? "#f1f1f1" : "#ffffff" }}>
                   <TableCell>{row.name}</TableCell>
-                  <TableCell>{row.designation}</TableCell>
+                  <TableCell>{row.designation|| row.Designation}</TableCell>
                 </TableRow>
               ))}
             </TableBody>

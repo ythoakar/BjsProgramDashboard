@@ -1,10 +1,8 @@
 .cardsContainer{
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
-    position: relative;
-    top: 0;
+ 
 }
 
 @media (max-width: 350px) {
@@ -19,14 +17,14 @@
     }
 }
 
-@media (max-width: 1024) {
-    .cardsContainer{
-        margin:8px; 
-        flex-direction: row;
+@media (max-width: 1024px) {
+    .cardsContainer {
+        display: flex;
+        flex-wrap: wrap;  /* Allows wrapping to new rows */
+        justify-content: center;
+        gap: 16px; /* Space between cards */
     }
-    /* .ant-table .ant-table-cell{
-        padding: 10px !important;
-    } */
+  
 }
 
 

@@ -5,7 +5,7 @@ import "./SEC.css";
 import NECCommitteeData from "../../Data/NECCommitteeData.json";
 import SECCommitteeData from "../../Data/SECCommitteeData.json"
 import {useDropdown, useCommittee} from "../../Service/DropdownProvider";
-
+import NECCard from "../../CommonComponent/ExeCommitteeCard/NationalExeCommitteeCard";
 
 function SEC() {
   const [loading, setLoading] = useState(false);
@@ -48,19 +48,19 @@ useEffect(()=> {
   
   return (
     <div className="cardsContainer">
-    <SECCard
+    <NECCard
       title="Governing Body"
       data={filterCommitteeData(selectedOption?.BjsStateName, "Governing Committee")}
       loading={loading}
       error={error}
     />
-    <SECCard
+    <NECCard
       title="Operations Committee"
       data={filterCommitteeData(selectedOption.BjsStateName, "Operations Committee")}
       loading={loading}
       error={error}
     />
-    <SECCard
+    <NECCard
       title="National Program Heads"
       data={filterCommitteeData(selectedOption.BjsStateName, "statename Program Heads")}
       loading={loading}

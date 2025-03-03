@@ -5,12 +5,12 @@
   overflow: hidden;
   border: #737373 1px solid;
   padding: 10px;
-  min-height: 75vh;
+  height: 70vh;
   width: 30%;
 }
 
 .table-div {
-  height: 70vh;
+  height: 100%;
   overflow: auto;
   display: flex;
   flex-direction: column;
@@ -18,7 +18,7 @@
 
 /* ✅ Ensures the table does not overflow */
 .table-container-scroll {
-  max-height: 100%;
+  height: 100%;
   overflow-y: auto;
 }
 
@@ -33,16 +33,23 @@
   .table-container .MuiTableCell-root {
       padding: 10px !important;
   }
+  
 }
 
-@media (min-width: 1440px) {
+/* @media (min-width: 1440px) {
   .table-container {
-      margin: 25px;
+      margin: 10px;
       border-radius: 15px;
       box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
       border: #5b5b5b 2px solid;
-      height: 700px;
-      max-height: 90vh;
+      height: 450px;
       flex-direction: row;
   }
+} */
+
+@media (max-width: 768px) {
+  .table-container{
+    width: 90%;
+  }
+
 }
