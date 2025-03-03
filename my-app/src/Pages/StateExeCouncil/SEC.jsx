@@ -25,8 +25,6 @@ function SEC() {
       const filteredData = SECCommitteeData.filter(
         (item) => item.statename == stateName && item.Committee == committeeName
       );
-
-
    
       return filteredData;
 

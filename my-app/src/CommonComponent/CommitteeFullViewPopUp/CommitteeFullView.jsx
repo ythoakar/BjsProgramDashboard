@@ -41,9 +41,9 @@ export default function CommitteeFullView({ open, handleClose, data, title }) {
 
   {/* Icons Positioned on the Right */}
   <Box sx={{ position: "absolute", right: 0, display: "flex", alignItems: "center", gap: 1 }}>
-    <IconButton sx={{ color: "blue" }}>
+    {/* <IconButton sx={{ color: "blue" }}>
       <DownloadIcon sx={{ fontSize: "26px" }} />
-    </IconButton>
+    </IconButton> */}
     <IconButton onClick={handleClose} sx={{ color: "red" }}>
       <CloseIcon sx={{ fontSize: "28px" }} />
     </IconButton>
