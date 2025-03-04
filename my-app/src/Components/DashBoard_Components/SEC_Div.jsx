@@ -8,11 +8,12 @@ import {
   Paper,
   Button,
 } from "@mui/material";
+import StateCommitteeData from "../../Data/SECCommitteeData.json"; // Import your state data
 import { useNavigate } from "react-router-dom";
 import { useDropdown } from "../../Service/DropdownProvider";
 import { message } from "antd";
 
-const SEC_Div = ({ data, heading, navigateTo }) => {
+const SEC_Div = ({ stateData, data, heading, navigateTo }) => {
   const { selectedOption } = useDropdown();
   console.log("dataaa ", data);
   const navigate = useNavigate();
@@ -32,11 +33,61 @@ const SEC_Div = ({ data, heading, navigateTo }) => {
       navigate("/SEC");
     }
     if (
-      heading == "Region Executive Committee" ||
+      heading == "Regional Executive Committee" ||
       heading == "District Executive Committee"
     ) {
+      alert("Coming Soon...")
       return;
     }
+  }
+
+  const displayData =
+    heading === "State Executive Committee"
+      ? StateCommitteeData.map((item) => ({
+        name: item["Name "],
+        designation: item["Designation "],
+      }))
+      : data;
+
+  const finalDisplayData =
+    heading === "National Executive Committee"
+      ? displayData.slice(0, 2)
+      : displayData;
+
+  if (heading === "Regional Executive Committee" || heading === "District Executive Committee") {
+    return (<>
+      <Button
+        variant="contained"
+        onClick={navigatePage}
+        sx={{
+          backgroundColor: "#FFC107",
+          color: "black",
+          fontWeight: "bold",
+          marginBottom: "10px",
+          textTransform: "none",
+          alignSelf: "center",
+          padding: "4px 16px",
+          minHeight: "18px",
+          fontSize: "14px",
+        }}
+      >
+        {heading}
+      </Button>
+
+
+      <div
+        style={{
+          height: "100%",
+          width: "100%",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <p>Coming Soon...</p>
+      </div>
+    </>);
   }
 
   return (
@@ -77,7 +128,7 @@ const SEC_Div = ({ data, heading, navigateTo }) => {
       >
         <Table stickyHeader size="small">
           <TableBody>
-            {data.slice(0, 2).map((user, index) => (
+            {finalDisplayData.map((user, index) => (
               <TableRow key={index}>
                 <TableCell sx={{ padding: "4px" }}>{`${user.name}`}</TableCell>
                 <TableCell sx={{ padding: "4px" }}>
