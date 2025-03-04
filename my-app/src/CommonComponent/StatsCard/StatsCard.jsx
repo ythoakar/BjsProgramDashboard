@@ -19,8 +19,8 @@ const StatsCard = ({ heading, number }) => {
             textAlign: 'center',
             transition: 'all 0.3s ease-in-out'
         }}>
-            <span style={{ fontSize: 'clamp(14px, 3vw, 24px)', fontWeight: 'bold' }}>{number}</span>
-            <span style={{ fontSize: 'clamp(12px, 2vw, 18px)', fontWeight: '600', marginTop: '4px' }}>
+            <span style={{ fontSize: 'clamp(12px, 3vw, 14px)', fontWeight: 'bold' }}>{number}</span>
+            <span style={{ fontSize: 'clamp(12px, 2vw, 14px)', fontWeight: '600', marginTop: '4px' }}>
                 {heading}
             </span>
         </div>

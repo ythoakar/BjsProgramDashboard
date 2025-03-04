@@ -46,7 +46,7 @@ useEffect(()=> {
       />
       <NECCard
         title="Operations Committee"
-        data={filterCommitteeData("Executive, Operation & Development (EOD) Committee")}
+        data={filterCommitteeData("Oprational Committee")}
         loading={loading}
         error={error}
       />

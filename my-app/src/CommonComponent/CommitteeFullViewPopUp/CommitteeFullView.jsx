@@ -57,7 +57,7 @@ export default function CommitteeFullView({ open, handleClose, data, title }) {
             <TableHead>
               <TableRow>
                 <TableCell sx={{ fontWeight: "bold", color: "white", backgroundColor: "black" }}>Name</TableCell>
-                <TableCell sx={{ fontWeight: "bold", color: "white", backgroundColor: "black" }}>Committee</TableCell>
+                {/* <TableCell sx={{ fontWeight: "bold", color: "white", backgroundColor: "black" }}>Committee</TableCell> */}
                 <TableCell sx={{ fontWeight: "bold", color: "white", backgroundColor: "black" }}>Designation</TableCell>
                 <TableCell sx={{ fontWeight: "bold", color: "white", backgroundColor: "black" }}>State</TableCell>
                 <TableCell sx={{ fontWeight: "bold", color: "white", backgroundColor: "black" }}>Mobile No</TableCell>
@@ -69,7 +69,7 @@ export default function CommitteeFullView({ open, handleClose, data, title }) {
                 return (
                   <TableRow key={index} hover>
                     <TableCell>{normalizedUser.name}</TableCell>
-                    <TableCell>{normalizedUser.committee}</TableCell>
+                    {/* <TableCell>{normalizedUser.committee}</TableCell> */}
                     <TableCell>{normalizedUser.designation}</TableCell>
                     <TableCell>{normalizedUser.state}</TableCell>
                     <TableCell>{normalizedUser.mobile}</TableCell>

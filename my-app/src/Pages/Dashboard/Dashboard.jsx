@@ -51,6 +51,7 @@ const Dashboard = () => {
 
 
   const getAllStates = async () => {
+    
     try {
       const res = await axios.get(
         `${process.env.REACT_APP_BASE_URL}/misOfficeBearerStateList`
@@ -208,7 +209,7 @@ const Dashboard = () => {
             cancerCrusedersCount: 0,
           };
         }
-        if (item.youWaahDay === "Yes") stateWiseData[state].youWaahDayCount++;
+        if (item.youWaah === "Yes") stateWiseData[state].youWaahDayCount++;
         if (item.cancerCruseders === "Yes")
           stateWiseData[state].cancerCrusedersCount++;
       });
@@ -231,7 +232,7 @@ const Dashboard = () => {
   
       JsonData?.forEach((item) => {
         if (item.bjsState === selectedOption.BjsStateName) {
-          if (item.youWaahDay === "Yes") youWaahDayCount++;
+          if (item.youWaah === "Yes") youWaahDayCount++;
           if (item.cancerCruseders === "Yes") cancerCrusedersCount++;
         }
       });
@@ -282,7 +283,7 @@ const Dashboard = () => {
           {NECCommitteeData && (
             <SEC_Div
               data={NECCommitteeData}
-              heading="Region Executive Committee"
+              heading="Regional Executive Committee"
             />
           )}
         </div>
@@ -302,7 +303,7 @@ const Dashboard = () => {
         <div className="col-2-child child-20">
           <StatsCard heading="Total Chapters" number={chapterStatus.Total} />
           <StatsCard heading="Vibrant Chapters" number={chapterStatus.Active} />
-          <StatsCard    heading="Aspiratinal Chapters" number={chapterStatus.inActive}
+          <StatsCard heading="Aspirational Chapters" number={chapterStatus.inActive}
           />
         </div>
         <div className="col-2-child child-30">
@@ -323,6 +324,7 @@ const Dashboard = () => {
             <h5
               style={{
                 position: "absolute",
+                top:"10px",
                 left: "50%",
                 transform: "translateX(-50%)",
                 margin: 0,
@@ -333,7 +335,7 @@ const Dashboard = () => {
             <div style={{ marginLeft: "auto", paddingRight: 10 }}>
             <Tooltip title="Focus Mode" >
 
-              <FullscreenIcon fontSize="small" onClick={() => setOpen(true)} />
+              <FullscreenIcon fontSize="small" style={{top:"10px", position:"relative"}} onClick={() => setOpen(true)} />
            </Tooltip>
             </div>
           </div>

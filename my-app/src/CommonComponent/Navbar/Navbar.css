@@ -1,7 +1,7 @@
 
 
 .navbar {
-  padding:10px;;
+  /* padding:10px; */
   display: flex;
   align-items: center;
   height: 10vh;
@@ -9,6 +9,8 @@
   background-color: rgb(255, 191, 0);
   color: white;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  /* position: absolute;
+  left: 0; */
 }
 
 .navbar-logo {

@@ -23,6 +23,7 @@ const Navbar = () => {
   const { selectedOption, setSelectedOption } = useDropdown();
   const [headingName, setHeadingName] = useState("");
   const [showDropdown, setShowDropdown] = useState(false);
+  const [showDownloadIcon, setShowDownloadIcon] = useState(false)
   const { committeeData } = useCommittee();
   const location = useLocation();
 
@@ -81,19 +82,26 @@ const Navbar = () => {
       case "SEC":
         setHeadingName("State Executive Committee");
         setShowDropdown(true);
+        setShowDownloadIcon(true);
         break;
       case "NEC":
         setHeadingName("National Executive Committee");
         setShowDropdown(false);
+        setShowDownloadIcon(true);
         break;
       case "REC":
         setHeadingName("Regional Executive Committee");
+        setShowDropdown(true);
+        setShowDownloadIcon(true);
         break;
       case "DEC":
         setHeadingName("District Executive Committee");
+        setShowDropdown(true);
+        setShowDownloadIcon(true);
         break;
       default:
         setShowDropdown(true);
+        setShowDownloadIcon(false);
         setHeadingName(selectedOption?.BjsStateName);
         break;
     }
@@ -108,11 +116,13 @@ const Navbar = () => {
       <nav className="navbar">
         <div className="back-button">
           <Link to="/">
-            <img src={logo} alt="Bjs Logo" style={{ maxWidth: 70 }} />
+            <img src={logo} alt="Bjs Logo" style={{ maxWidth: 70, marginLeft:"10px" }} />
           </Link>
         </div>
         <div className="nav-heading">{headingName}</div>
         <ul className="nav-links"  >
+          
+          {showDownloadIcon && (
           <li>
             <Download
               sx={{
@@ -123,6 +133,7 @@ const Navbar = () => {
               onClick={handleDownload}
             />
           </li>
+          )}
 
           {showDropdown && (
             <li>
