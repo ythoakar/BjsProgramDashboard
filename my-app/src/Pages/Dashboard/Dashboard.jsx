@@ -51,7 +51,6 @@ const Dashboard = () => {
 
 
   const getAllStates = async () => {
-    
     try {
       const res = await axios.get(
         `${process.env.REACT_APP_BASE_URL}/misOfficeBearerStateList`
@@ -189,20 +188,13 @@ const Dashboard = () => {
   // }
 
 
-
-
-
-
-
-
-
-
   function barChartCount() {
     if (selectedOption?.BjsStateName === "India") {
       let stateWiseData = {};
-  
+
       JsonData?.forEach((item) => {
         const state = item.stateShortCode;
+        console.log(item.stateShortCode)
         if (!stateWiseData[state]) {
           stateWiseData[state] = {
             youWaahDayCount: 0,
@@ -213,48 +205,107 @@ const Dashboard = () => {
         if (item.cancerCruseders === "Yes")
           stateWiseData[state].cancerCrusedersCount++;
       });
-  
-      setXAxisData(Object.keys(stateWiseData));
+
+      setXAxisData(Object.keys(stateWiseData)); // Set state codes as xAxisData
       setSeriesData([
         {
           data: Object.values(stateWiseData).map((d) => d.youWaahDayCount),
-          color:"red"
+          color: "red",
         },
         {
           data: Object.values(stateWiseData).map((d) => d.cancerCrusedersCount),
-          color:"green"
-
+          color: "green",
         },
       ]);
     } else if (selectedOption?.BjsStateName) {
       let youWaahDayCount = 0,
         cancerCrusedersCount = 0;
-  
+
       JsonData?.forEach((item) => {
         if (item.bjsState === selectedOption.BjsStateName) {
           if (item.youWaah === "Yes") youWaahDayCount++;
           if (item.cancerCruseders === "Yes") cancerCrusedersCount++;
         }
       });
-  
-      setXAxisData([{data:"YouWaah Day", color:"red"},{data:"Cancer Cruseders", color:"green"}]);
+
+      setXAxisData(["YouWaah Day", "Cancer Cruseders"]);
       setSeriesData([
         {
-          data: [youWaahDayCount], // Wrap single values in an array
+          data: [youWaahDayCount],
           color: "red",
         },
         {
-          data: [cancerCrusedersCount], // Wrap single values in an array
+          data: [cancerCrusedersCount],
           color: "green",
         },
       ]);
-      
     }
   }
-  
 
 
-  
+
+
+
+  // ORIGINAL VVV
+
+  // function barChartCount() {
+  //   if (selectedOption?.BjsStateName === "India") {
+  //     let stateWiseData = {};
+
+  //     JsonData?.forEach((item) => {
+  //       const state = item.stateShortCode;
+  //       if (!stateWiseData[state]) {
+  //         stateWiseData[state] = {
+  //           youWaahDayCount: 0,
+  //           cancerCrusedersCount: 0,
+  //         };
+  //       }
+  //       if (item.youWaah === "Yes") stateWiseData[state].youWaahDayCount++;
+  //       if (item.cancerCruseders === "Yes")
+  //         stateWiseData[state].cancerCrusedersCount++;
+  //     });
+
+  //     setXAxisData(Object.keys(stateWiseData));
+  //     setSeriesData([
+  //       {
+  //         data: Object.values(stateWiseData).map((d) => d.youWaahDayCount),
+  //         color: "red"
+  //       },
+  //       {
+  //         data: Object.values(stateWiseData).map((d) => d.cancerCrusedersCount),
+  //         color: "green"
+
+  //       },
+  //     ]);
+  //   } else if (selectedOption?.BjsStateName) {
+  //     let youWaahDayCount = 0,
+  //       cancerCrusedersCount = 0;
+
+  //     JsonData?.forEach((item) => {
+  //       if (item.bjsState === selectedOption.BjsStateName) {
+  //         if (item.youWaah === "Yes") youWaahDayCount++;
+  //         if (item.cancerCruseders === "Yes") cancerCrusedersCount++;
+  //       }
+  //     });
+
+  //     setXAxisData([{ data: "YouWaah Day", color: "red" }, { data: "Cancer Cruseders", color: "green" }]);
+  //     setSeriesData([
+  //       {
+  //         data: [youWaahDayCount], // Wrap single values in an array
+  //         color: "red",
+  //       },
+  //       {
+  //         data: [cancerCrusedersCount], // Wrap single values in an array
+  //         color: "green",
+  //       },
+  //     ]);
+
+  //   }
+  // }
+
+
+
+
   return (
     <div className="dashboard-container">
       {/* First column: 25% width */}
@@ -281,6 +332,7 @@ const Dashboard = () => {
 
         <div className="col-1-child child-50">
           {NECCommitteeData && (
+            // <p>Coming Soon...</p> gets the entire thing
             <SEC_Div
               data={NECCommitteeData}
               heading="Regional Executive Committee"
@@ -324,7 +376,7 @@ const Dashboard = () => {
             <h5
               style={{
                 position: "absolute",
-                top:"10px",
+                top: "10px",
                 left: "50%",
                 transform: "translateX(-50%)",
                 margin: 0,
@@ -333,10 +385,10 @@ const Dashboard = () => {
               Foundation Program Status
             </h5>
             <div style={{ marginLeft: "auto", paddingRight: 10 }}>
-            <Tooltip title="Focus Mode" >
+              <Tooltip title="Focus Mode" >
 
-              <FullscreenIcon fontSize="small" style={{top:"10px", position:"relative"}} onClick={() => setOpen(true)} />
-           </Tooltip>
+                <FullscreenIcon fontSize="small" style={{ top: "10px", position: "relative" }} onClick={() => setOpen(true)} />
+              </Tooltip>
             </div>
           </div>
 
@@ -386,16 +438,16 @@ const Dashboard = () => {
                 }}
                 onClick={() => setOpen(false)}
               >
-                
-   
-   <Tooltip title="Close">
-                <CloseIcon fontSize="medium" />
+
+
+                <Tooltip title="Close">
+                  <CloseIcon fontSize="medium" />
                 </Tooltip>
               </div>
 
               {/* Bar Chart Inside Modal */}
               <div style={{ width: "100%", flexGrow: 1, display: "flex" }}>
-              <BarChartComponent xAxisData={xAxisData} seriesData={seriesData} showLabels={false} />
+                <BarChartComponent xAxisData={xAxisData} seriesData={seriesData} showLabels={false} />
 
               </div>
             </div>
@@ -403,13 +455,13 @@ const Dashboard = () => {
         </div>
 
         <div className="col-2-child child-35">
-        <BarChartComponent xAxisData={xAxisData} seriesData={seriesData} showLabels={true} showLegendWithColors={true} />
+          <BarChartComponent xAxisData={xAxisData} seriesData={seriesData} showLabels={true} showLegendWithColors={true} />
 
         </div>
         <div className="col-2-child child-10">Instructions</div>
       </div>
 
- 
+
 
       <div className="col col-3">
         <div className="col-3-child child-40">

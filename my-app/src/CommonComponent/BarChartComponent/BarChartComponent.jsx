@@ -51,9 +51,19 @@ const BarChartComponent = ({ xAxisData, seriesData,showLabels, showLegendWithCol
     {!showLabels && 
     
     <BarChart
-      
+    xAxis={[
+      {
+        scaleType: "band",
+        data: xAxisData, // Use xAxisData for x-axis labels
+        tickLabelStyle: {
+          fontSize: 10, // Increase X-axis label font size
+          fontWeight: "bold",
+          fill: "#333", // Optional: Adjust color
+        },
+      },
+    ]}
       yAxis={[
-              {     max: 50,min: 0 } ]}
+              { max: 40,min: 0 } ]}
               series={seriesData?.map((item, index) => ({
                          ...item,
                            label:  item.label ,

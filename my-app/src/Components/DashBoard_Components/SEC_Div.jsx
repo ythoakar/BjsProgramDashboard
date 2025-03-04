@@ -32,11 +32,48 @@ const SEC_Div = ({ data, heading, navigateTo }) => {
       navigate("/SEC");
     }
     if (
-      heading == "Region Executive Committee" ||
+      heading == "Regional Executive Committee" ||
       heading == "District Executive Committee"
     ) {
+      alert("Coming Soon...")
       return;
     }
+  }
+
+  if (heading === "Regional Executive Committee" || heading === "District Executive Committee") {
+    return (<>
+      <Button
+        variant="contained"
+        onClick={navigatePage}
+        sx={{
+          backgroundColor: "#FFC107",
+          color: "black",
+          fontWeight: "bold",
+          marginBottom: "10px",
+          textTransform: "none",
+          alignSelf: "center",
+          padding: "4px 16px",
+          minHeight: "18px",
+          fontSize: "14px",
+        }}
+      >
+        {heading}
+      </Button>
+
+      
+      <div
+        style={{
+          height: "100%",
+          width: "100%",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <p>Coming Soon...</p>
+      </div>
+    </>);
   }
 
   return (
